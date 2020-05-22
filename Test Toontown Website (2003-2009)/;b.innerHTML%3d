@@ -1,0 +1,213 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="EN-US" />
+
+    
+    <title>Disney Toontown Online Test Site</title>
+    
+    <meta name="description" content="This is the Toontown Online Test Server. If you are here by mistake, please go to Toontown.com." />
+    
+    <meta name="keywords" content="disney, toontown test" />
+    
+
+    <meta name="facet1" content="Play|Download|Shop" />
+    <meta name="Play" content="Games|Activities" />
+    <meta name="Download" content="Digital Fun" />
+    <meta name="Shop" content="Disney Products" />
+    <meta name="agerange" content="6-9|10-12|0-5" />
+    <meta name="author" content="Toontown" />
+    <meta http-equiv="PICS-Label" content='(PICS-1.0 "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0))' />
+    <meta name="thumbnail" content="http://cdn.toontown.disney.go.com/toontown-test/en/global/img/thumbnail.gif" />
+
+    
+
+    <link rel="icon" href="http://cdn.toontown.disney.go.com/toontown-test/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://cdn.toontown.disney.go.com/toontown-test/favicon.ico" type="image/x-icon" />
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+
+    var TTOWN = function(){
+      var CDN = "http://cdn.toontown.disney.go.com/toontown-test/";
+      var URL = "http://test.toontown.go.com/";
+      var URL_SSL = "https://test.toontown.go.com/";
+      var ENV = "PROD";
+      var contextPath = "";
+      var backToTT = "http://toontown.go.com/";
+      var backToTTSSL = "https://toontown.go.com/";
+
+      this.getCDN = function(){
+        return CDN;
+      }
+      this.getURL = function(){
+        return URL;
+      }
+      this.getURL_SSL = function(){
+        return URL_SSL;
+      }
+      this.getENV = function(){
+        return ENV;
+      }
+      this.getContextPath = function(){
+        return contextPath;
+      }
+      this.getBackToTT = function(){
+        return backToTT;
+      }
+      this.getBackToTTSSL = function(){
+        return backToTTSSL;
+      }
+
+    };
+    var ttown = new TTOWN();
+    
+    //]]>
+    </script>
+
+    <link rel="stylesheet" href="http://cdn.toontown.disney.go.com/toontown-test/en/global/css/tt.min.1.14.css" type="text/css" media="screen" charset="utf-8" />
+
+    
+    <link rel="stylesheet" href="http://cdn.toontown.disney.go.com/toontown-test/en/home/css/hm.css" type="text/css" media="screen" charset="utf-8" />
+    
+
+		<!--[if lte IE 6]>
+    <style type="text/css">img.transparent-png{visibility: hidden;}</style>
+    <script type="text/javascript" src="http://cdn.toontown.disney.go.com/toontown-test/en/global/js/pngfix.js"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+      window.onload = PNGfix.init;
+      //]]>
+    </script>
+    <noscript><style type="text/css">img.transparent-png{visibility: visible !important;}</style></noscript>
+    
+    <link rel="stylesheet" href="http://cdn.toontown.disney.go.com/toontown-test/en/global/css/ie6.css" />
+    
+		<![endif]-->
+
+    
+    <script type="text/javascript" src="http://cdn.toontown.disney.go.com/toontown-test/en/global/js/jquery.1.6.2.min.js"></script>
+    
+
+    <script type="text/javascript" src="http://cdn.toontown.disney.go.com/toontown-test/en/global/js/tt.min.js"></script>
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+   <!--[if IE]><div id="IE"><![endif]-->
+   <!--[if IE 8]><div id="IE8"><![endif]-->
+   <!--[if IE 7]><div id="IE7"><![endif]-->
+   <!--[if IE 6]><div id="IE6"><![endif]-->
+
+    <noscript><div class="ttNoScript">JavaScript is Required to Play Toontown Online<br /><br />From the Tools menu in Internet Explorer, select Internet Options. Click the Security tab, and then select the Internet icon. Click Custom Level and scroll down to Active Scripting. Select Enable under Active Scripting. Click OK, then click Yes, then click OK.<br /><br />Firefox Users: Click on Tools and then scroll down to select Options. Click the Content tab and check the Enable JavaScript box. Click OK.</div></noscript>
+
+
+
+<div id="ttWelcome">
+	Welcome, Toons! This is the Toontown Test Server. If you are here by mistake, go to <a href="http://toontown.go.com">Toontown.com</a>.
+</div>
+
+
+
+
+      <div class="mainContainer Homepage" id="homepage">
+
+        <div id="header">
+          <a name="&lid=test_logo_toontown_home" href="http://test.toontown.go.com/" id="headerLogo">Disney Toontown Online Test Site</a>
+          <ul id="headerLogin">
+          </ul>
+          <div id="headerNav">
+            <a name="&lid=test_request_access" class="navSprt navReqAccess" href="https://test.toontown.go.com/request-access">Request Access</a>
+            <a name="&lid=test_report_bug" class="navSprt navRepBug" href="http://test.toontown.go.com/report-bug">Report a Bug</a>
+            <a name="&lid=test_release_notes" class="navSprt navRelNotes" href="http://test.toontown.go.com/release-notes">Release Notes</a>
+          </div>
+          <a name="&lid=test_play_now" href="http://test.toontown.go.com/play" id="headerPlayNow">Play Now</a>
+        </div><!--header-->
+
+
+        <!-- BEGIN mainContent -->
+        <div id="mainContent">
+          <div class="boxTop960"></div>
+          <div class="boxMid960">
+          	<div id="hmId">
+          		<a name="&lid=test_welcome_sign" class="welcome" href="http://test.toontown.go.com/welcome">Welcome to Toontown Test</a>
+          		<a name="&lid=test_request_access_sign" class="reqAccess" href="https://test.toontown.go.com/request-access">Request Test Access</a>
+          		<a name="&lid=test_report_bug_sign" class="repBug" href="http://test.toontown.go.com/report-bug">Report a Bug</a>
+          		<a name="&lid=test_release_notes_sign" class="relNotes" href="http://test.toontown.go.com/release-notes">Test Release Notes</a>
+          	</div>
+          </div>
+
+          <div class="boxBot960"></div>
+        </div>
+        <!-- END mainContent -->
+
+        
+        <div id="backTo">
+          <div class="backToSprt backToTop"></div>
+          <div id="backToMid">
+          	Took a wrong turn? Return to the LIVE Toontown Site at <a href="http://toontown.go.com">Toontown.com</a>.          	 
+          </div>
+          <div class="backToSprt backToBot"></div>
+        </div>
+
+      </div>
+      <!-- END mainContainer -->
+
+
+
+	
+	<div id="footer">
+     
+     <div class="clear">
+        <img src="http://cdn.toontown.disney.go.com/toontown-test/en/global/img/esrb-awards.png" width="195" height="160" title="" alt="" usemap="#ttFootImg" />
+        <map name="ttFootImg" id="ttFootImg">
+          <area shape="rect" coords="32,7,164,92" alt="Rated E for Everyone" title="Rated E for Everyone" />
+          <area shape="rect" coords="0,96,195,160" alt="Awards" title="Awards" />
+        </map>
+      </div>
+	
+  
+		  <div id="foot"><script type="text/javascript" src="http://ahome.disney.go.com/globalelements/footer.js?settings=mySettings"></script></div>
+  
+	</div><!--footer-->
+	
+
+
+
+    <!-- BEGIN DOL Web Analytics 1.0 -->
+    <script type="text/javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+      cto=new CTO();
+      cto.genre='us';//country
+      cto.account='toontown';
+      cto.category='dgame';
+      cto.site='tnt';
+      cto.siteSection='website:test_website';
+      cto.pageName='test_home';
+      cto.contentType='regular';
+      cto.property='tnt';
+      cto.track();
+      //]]>
+    </script>
+    <!-- END DOL Web Analytics 1.0 -->
+
+
+  <div id="ttLog"></div>
+
+  <!--[if IE 6]></div><![endif]-->
+  <!--[if IE 7]></div><![endif]-->
+  <!--[if IE 8]></div><![endif]-->
+  <!--[if IE]></div><![endif]-->
+
+  </body>
+</html>

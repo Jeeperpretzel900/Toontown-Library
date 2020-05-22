@@ -1,0 +1,30 @@
+
+<html>
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<title>Toontown Official Player's Guide - Neighborhood Map</title>
+<!--Detection Version 2.1.0--->
+<Script Src = "http://disney.go.com/detect/scripts/master_flash_writer.js" type="text/javascript"></Script>
+<!--End Detection--->
+</head>
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<script type="text/javascript">
+<!--
+  flashObj = new FlashObj(
+    "coreMap.swf?currmap=toontowncentral.swf&v=1", // swf
+    "594", //width
+    "459", // height
+    "#ffffff", // background
+    "", // version
+    "coreMap", // id
+    "menu=false"
+    );
+  flashObj.render();
+-->
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>Report A Problem</title>
+</head>
+<body onload="window_onLoad();">
+<SCRIPT ID="clientEventHandlersJS" LANGUAGE="javascript" src="/shared/include/js/ttLauncherLibv2.php">
+</SCRIPT>
+<script type="text/javascript">
+<!--
+  //
+  // Write out the ActiveX so we have something to init
+  //
+  embedInstaller();
+ 
+
+  //
+  // Callback after the page has been loaded
+  //
+
+  function window_onLoad() {
+    setDeployment('US');
+    setDefaultUSTargetURLs();
+    //alert("Begin performBugReportPageGeneration");
+    performBugReportPageGeneration();
+    //alert("End performBugReportPageGeneration");
+    document.forms['enterBug'].elements['log'].value = getToontownNotes();
+    //userErrorString.innerHTML = getUserErrorString();
+  }
+
+function echeck(str) {
+
+  var at="@"
+  var dot="."
+  var lat=str.indexOf(at)
+  var lstr=str.length
+  var ldot=str.indexOf(dot)
+  var messageText = "The e-mail address provided is not in the form 'xxx@xxx.xxx'";
+  if (str == "xxx@xxx.xxx") {
+     alert(messageText)
+     return false
+  }
+
+  if (str.indexOf(at)==-1){
+     alert(messageText)
+     return false
+  }
+
+  if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+     alert(messageText)
+     return false
+  }
+
+  if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+     alert(messageText)
+     return false
+  }
+
+  if (str.indexOf(at,(lat+1))!=-1){
+    alert(messageText)
+    return false
+  }
+
+  if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+    alert(messageText)
+    return false
+  }
+
+  if (str.indexOf(dot,(lat+2))==-1){
+    alert(messageText)
+    return false
+  }
+
+  if (str.indexOf(" ")!=-1){
+    alert(messageText)
+    return false
+  }
+
+  return true
+}
+
+function ValidateForm(){
+  var emailID=document.forms["enterBug"].elements["userEmail"];
+ 
+  if ((emailID.value==null)||(emailID.value=="")){
+    alert("To submit a problem report to Disney's Toontown Online, you must include your e-mail address in the form 'xxx@xxx.xxx'");
+    emailID.focus()
+    return false
+  }
+  if (echeck(emailID.value)==false){
+    emailID.focus()
+    return false
+  }
+
+  return true;
+}
+
+//-->
+</script>
+
+<table style="font-size:10pt;font-family:Arial" width="80%" border=0 cellpadding=0 cellspacing=0 align=center>
+
+  <tr>
+    <td align="center">
+      <img src="/shared/images/headers/tt_300wide_onwhite.gif" width="300" height="117" border="0" alt="Toontown">
+      <br>
+      <br>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <p>
+      <div style="color:red;font-size:10pt;font-family:Arial; font-weight:bold" id="userErrorString"></div>
+      <p>
+      If you feel Toontown exited due to a bug, please describe the behavior you encountered in as much detail as you can and submit it to us.
+      Please submit a report now rather than running the game again so the logs associated with the crash will not be overwritten. 
+      If you have problems starting or running the game, or any other Toontown-related technical or gameplay issue, please report it here.
+      If you have an account problem, billing problem, or other customer service issue, please click on the following link:
+      <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=toontown/toonhelp.tpl" target=_blank>Toontown Customer Service Form</a>.
+      </p>
+
+      <table border=0 cellpadding=0 bgcolor=#ddeeff>
+        <tr>
+          <td>
+            <i>Before continuing, please check the list of
+            <a href="http://play.test.toontown.com/knownIssues.php"><b>Known Issues</b></a> to see if we already have enough
+            information on this problem.  (You can use the Back button in your browser
+            to come back to this page after checking).</i>
+          </td>
+        </tr>
+      </table>
+
+      <p>
+      <p>
+      In the description area below, describe the problem and the steps needed to reproduce it.  If the problem 
+      is of a graphical nature or is specific to a certain location in the game, press F1 while standing near 
+      the location to display the exact coordinates, and press F9 to save a .jpg screen shot in your <i>\Program Files\Disney\Disney Online\Toontown</i> 
+      directory to send to us. (You can also simply write down the F1 coordinates and enter them below).
+      <p>
+      Description:
+
+
+    <font face="Arial, Helvetica, sans-serif" size="2">
+
+      (<a href="#example">To see an example, click here</a>).
+      <br>
+
+      <form name="enterBug" enctype="multipart/form-data" action="http://play.test.toontown.com/shared/www/remarksThankYou.php" method="post" onsubmit="return ValidateForm()">
+      <textarea name="description" rows=9 cols="48"></textarea>
+      <p>
+
+      E-Mail&nbsp;(required):&nbsp;<input type=text name="userEmail" size=20 value=""/>
+      <p>
+
+      Screen Shot File Location (optional): <i style="font-size:8pt">(e.g. C:\Program Files\Disney\Disney Online\screenshot-Thu-Dec-05-13-12-50-2002-652.jpg)</i><br>
+      <!-- note impossible to change appearance of 'browse' button under IE4/5/6 -->
+      <input name="screenShot" type="file"><font size=1> &nbsp; (only submit .JPG files)</font>
+
+      <br><p>
+      To send your comments, along with Toontown's Notes (mentioned below), click
+      <b>Send Bug Report</b>.
+      <br><br>
+      <input type="submit" value="Send Bug Report">
+      <br>
+      <p>
+      The following are the logs from the last time you ran Disney's Toontown Online.
+      These logs contain some information about the computer that Toontown was
+      running on, along with a history of what Toontown was doing.  These
+      notes are automatically sent when you click the <b>Send Bug Report</b> button.
+      <p>
+      Toontown's Notes:
+      <br>
+      <textarea readonly style="font-size:8pt" name="log" rows=8 cols=48>
+      
+       TEMP INPUT GAME LOG
+       
+       TEMP INPUT INSTALLER LOG
+      </textarea>
+
+      <input name="memberType" type="hidden" value="">
+      <input name="deployment" type="hidden" value="US">
+
+      </form>
+
+      <p>
+      If you haven't sent in any remarks before, the directions can be better understood through
+      an example.  This next section is just an example.  The information in this section
+      will not be sent with your remarks.
+      <a name="example"/>
+      <p>
+      Example Description:
+      <br>
+
+      <textarea readonly style="font-size:8pt" rows=9 cols="48">
+1. Start playing Toontown.
+2. Enter Silly Street.
+3. Walk into Fakebug Frank's shop.
+4. Look at the sign on the wall behind Frank.
+
+It's upside-down.  I think it would be easier to read the sign if it were right-side-up. </textarea><br> <a href="#">To go to the
+description area, click here.</a>
+
+    </font>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td height="25">
+    </td>
+  </tr>
+</table>
+
+
+<img height="1" width="1" src="http://switch.atdmt.com/action/tgmttn_TTATLAS_ERRORREPORTBUG" alt="Atlas">
+
+</body></html>

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML XMLNS:IE>
+<HEAD>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<TITLE>Valentine Art Contest Entry - Disney's Toontown Online</TITLE>    <!--WEBSIDESTORY CODE HBX(Global)(Universal)-->
+    <!--COPYRIGHT 1997-2004 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+    <script src = "http://hb.disney.go.com/stat/hitboxcode.js" type="text/javascript"></script>
+    <script Language = "JavaScript">
+    hitbox = new HB_CreateObject("/toontown/US/PROSPECT/NEWS");
+    hitbox.HB_PlaceAccount("DM53030620EW42EN3","DM510612FMNS38EN3","DM51030813MR38EN3","DM5103083LCA38EN3");
+    hitbox.HB_PlaceName("_popups_valentine_art_2005");
+        hitbox.HB_render();
+    </script>
+    <!--END WEBSIDESTORY CODE-->
+      <SCRIPT language="Javascript">
+    <!--
+        var logs=new Array();
+    var logsi=0;
+
+    function logit(){
+
+        //for (var i=0; i < arguments.length; ++i) {
+        //  logDebug("installerLogit", "arg["  + i + "]: '" + arguments[i] + "'");
+        //}
+
+        var a ="";
+
+        for (var i=0; i<arguments.length; i++) {
+          if (i%2 == 0) {
+            // Name
+            a+=escape(arguments[i]);
+            a+= "=";
+          } else {
+            // Value
+            a+=escape(arguments[i]);
+            a+=((i+1)!=arguments.length)?"&":"";
+          }
+
+        }
+
+      var s="http://play.toontown.com/shared/www/collect.php?rand="+Math.random()+"&"+a;
+      var lognum = ++logsi;
+      logs[lognum%9]=new Image();
+      logs[lognum%9].src=s;
+    }
+        //-->
+    </SCRIPT>
+
+  <SCRIPT language="Javascript">
+<!--
+
+function popWin (name) {
+
+  logit("NAME", "CLICKTHRU-POPUP", "t", name);
+
+  if (name == "WHATISGAMECARD") {
+    window.open("http://play.toontown.com/popups/gameCardWhatIsMain.php","whatisgamecard","width=700,height=450,resizable=0");
+  } else if (name == "GAMECARDHELP") {
+    window.open("http://play.toontown.com/popups/gameCardHelpFrameset.html","gamecardhelp","width=518,height=420,resizable=1");
+  } else if (name == "WHATISCOGBUCKS") {
+    window.open("http://play.toontown.com/popups/cogBucksWhatIsMain.php","whatiscogbucks","width=700,height=450,resizable=0");
+  } else if (name == "WHATISGUESTPASS") {
+    window.open("http://play.toontown.com/popups/guestPassWhatIsMain.php","whatisguestpass","width=700,height=450,resizable=0");
+  } else if (name == "UKINTERSTITIAL") {
+    window.open("http://play.toontown.com/popups/uk_popup.php","ukinterstitial","width=460,height=410,resizable=0");
+  } else if (name == "FINDGAMECARD") {
+    window.open("http://www.usa.att.com/webcents/disneystoontown_home.jsp","findgamecard","resizable=1,scrollbars=1,menubar=1,toolbar=1,location=1,status=1,directories=1");
+  }
+
+
+}
+
+function popNews(url) {
+  _news_popup = window.open("/frontPageArticle.php?articleID=" + url, "news","width=470,height=400,resizable=0,scrollbars=1");
+  _news_popup.focus();
+}
+
+//-->
+</SCRIPT>
+
+  </HEAD>
+<BODY onLoad="" onUnload=""  bgcolor="#FFFFFF" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" >
+
+<!-- And now, some dynamic html! -->
+
+<div id="pic_label" align="center" style="position:absolute; left:208.5; top:419">
+<font face="arial, verdana, helvetica" size="2">
+<b>
+ <br>
+Age  <br>
+,  <br>
+</b>
+</font>
+</div>
+
+<!-- End dynamic html -->
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td align="center">
+      <img src="" width="487" height="469" alt="" border="0">
+    </td>
+  </tr>
+
+  <tr align="left">
+    <td height="10"></td>
+  </tr>
+  
+  <tr align="center">
+    <td colspan="2" align="center"><a href="javascript:window.close()"><img src="http://play.toontown.com/shared/images/button_close.gif" width="127" height="31" alt="" border="0"></a></td>
+  </tr>
+  
+  <tr align="center">
+    <td height="10">
+    <font face="arial,helvetica" size="1">
+    <br>
+    &copy;Disney
+    </font>
+    </td>
+  </tr>
+  
+  
+</table>
+
+</BODY></HTML>

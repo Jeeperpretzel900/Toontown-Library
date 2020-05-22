@@ -1,0 +1,4 @@
+<p>
+ safe_mysql_read("use toontown_com")
+ Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+<p>

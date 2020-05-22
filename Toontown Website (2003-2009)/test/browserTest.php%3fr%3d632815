@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML XMLNS:IE>
+<HEAD>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<TITLE>Platform Detect Problem</TITLE>
+      <SCRIPT LANGUAGE="JavaScript">
+      <!--START BREADCRUMB JAVASCRIPT-->
+      <!--
+      var space = "&nbsp;";
+      var space2 = "&gt;";
+      var breadCrumb = "<font color=#ffffff face=arial,helvetica size=-2>" + space + space + space2 + space + space + "</font><a href='http://disney.go.com/preview/toontown/special_offer/'><font color='#ffffff' face='arial,helvetica' size='-2'>Disney's Toontown Online</font></a>";
+      //-->
+      <!--END BREADCRUMB-->
+      </SCRIPT>
+       <!-- BEGIN WEBSIDESTORY CODE v9.0.1 (11up) -->
+    <!-- COPYRIGHT 1997-2003 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479 B1. Privacy notice at: http://websidestory.com/privacy -->
+    <script language="javascript" id="_hbc">
+    var _acct="DM53030620EW42EN3;DM510612FMNS38EN3;DM51030813MR38EN3;DM5103083LCA38EN3";  //account number(s)
+    var _pn="/test/browserTest.php";
+    var _mlc="toontown/US/PROSPECT/ERROR";
+    var _seg="";   // visitor segmentation
+    var _cmp="";   // campaign id
+    var _gp="";    // campaign goal
+    var _cmpn="";  // campaign id in query
+    var _gpn="";   // campaign goal in query
+    var _fnl="";   // funnels
+    var _pec="";   // error codes
+    var _fv="";    // form validation function name
+    var _dcm

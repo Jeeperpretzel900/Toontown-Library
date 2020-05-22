@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Disney's Toontown Online</title>
+<meta name="robots" content="follow,noindex">
+<meta http-equiv="imagetoolbar" content="no">
+<link type="text/css" rel="stylesheet" href="http://play.test.toontown.com/shared/include/css/global.css">
+<link type="text/css" rel="stylesheet" href="http://play.test.toontown.com/shared/include/css/articles.css">
+    <script type="text/javascript">
+    <!--
+        
+    
+    
+    var logs=new Array();
+    var logsi=0;
+
+    function logit()
+    {
+        
+        var a ="";
+
+        for (var i=0; i<arguments.length; i++) {
+          if (i%2 == 0) {
+            // Name
+            a+=escape(arguments[i]);
+            a+= "=";
+          } else {
+            // Value
+            a+=escape(arguments[i]);
+            a+=((i+1)!=arguments.length)?"&":"";
+          }
+
+        }
+
+      var s="http://play.test.toontown.com/shared/www/collect.php?deployment=US&rand="+Math.random()+"&"+a;
+      var lognum = ++logsi;
+      logs[lognum%9]=new Image();
+      logs[lognum%9].src=s;
+    }
+        //-->
+    </script>
+
+  <script type="text/javascript">
+<!--
+
+function popWin (name) {
+
+  logit("NAME", "CLICKTHRU-POPUP", "t", name);
+  
+  if (name == "WHATISGAMECARD") {
+    window.open("http://play.test.toontown.com/popups/gameCardWhatIsMain.php","whatisgamecard","width=700,height=450,resizable=0");
+  } else if (name == "GAMECARDHELP") {
+    window.open("http://play.test.toontown.com/popups/gameCardHelpFrameset.html","gamecardhelp","width=518,height=420,resizable=1");
+  } else if (name == "WHATISCOGBUCKS") {
+    window.open("http://play.test.toontown.com/popups/cogBucksWhatIsMain.php","whatiscogbucks","width=700,height=450,resizable=0");
+  } else if (name == "WHATISGUESTPASS") {
+    window.open("http://play.test.toontown.com/popups/guestPassWhatIsMain.php","whatisguestpass","width=700,height=450,resizable=0");
+  } else if (name == "WHATISSONYCDROM") {
+    window.open("http://play.test.toontown.com/popups/sonyCDWhatIsMain.php","whatissonycdrom","width=710,height=450,resizable=0");
+  } else if (name == "FINDGAMECARD") {
+    window.open("http://www.usa.att.com/webcents/disneystoontown_home.jsp","findgamecard","resizable=1,scrollbars=1,menubar=1,toolbar=1,location=1,status=1,directories=1");
+  }
+
+
+}
+
+function popNews(url) {
+  _news_popup = window.open("/frontPageArticle.php?articleID=" + url, "news","width=470,height=400,resizable=0,scrollbars=1");
+  _news_popup.focus();
+}
+
+//-->
+</script>
+
+  </head>
+<body id='us' onLoad="" onUnload=""  bgcolor="#ffffff" style="margin-top:0;margin-bottom:0;" >
+
+  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" valign="middle">
+    <tr align="center"><td>
+      <!--Begin 2R News-->
+    <div class="news">
+      <span class="news2RImgBdy"></span>
+      <div class="news2RImgHdr"></div>
+      <div class="news2RTxt"></div>
+    </div>
+    <!--End 2R News-->
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle" align="center"><a href="javascript:window.close()"><img src="/shared/images/button_close.gif" width="127" height="31" alt="" border="0"></a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom" class="copyright">&nbsp;&copy;Disney. All Rights Reserved.<br><br></td>
+  </tr>
+</table>
+</body></html>

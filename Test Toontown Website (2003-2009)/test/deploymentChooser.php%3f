@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Welcome</title>
+<meta name="robots" content="follow,noindex">
+<meta http-equiv="imagetoolbar" content="no">
+<link type="text/css" rel="stylesheet" href="http://play.test.toontown.com/shared/include/css/global.css">
+    <script type="text/javascript">
+    <!--
+        
+    
+    
+    var logs=new Array();
+    var logsi=0;
+
+    function logit()
+    {
+        
+        var a ="";
+
+        for (var i=0; i<arguments.length; i++) {
+          if (i%2 == 0) {
+            // Name
+            a+=escape(arguments[i]);
+            a+= "=";
+          } else {
+            // Value
+            a+=escape(arguments[i]);
+            a+=((i+1)!=arguments.length)?"&":"";
+          }
+
+        }
+
+      var s="http://play.test.toontown.com/shared/www/collect.php?deployment=US&rand="+Math.random()+"&"+a;
+      var lognum = ++logsi;
+      logs[lognum%9]=new Image();
+      logs[lognum%9].src=s;
+    }
+        //-->
+    </script>
+
+  <script type="text/javascript">
+<!--
+
+function popWin (name) {
+
+  logit("NAME", "CLICKTHRU-POPUP", "t", name);
+  
+  if (name == "WHATISGAMECARD") {
+    window.open("http://play.test.toontown.com/popups/gameCardWhatIsMain.php","whatisgamecard","width=700,height=450,resizable=0");
+  } else if (name == "GAMECARDHELP") {
+    window.open("http://play.test.toontown.com/popups/gameCardHelpFrameset.html","gamecardhelp","width=518,height=420,resizable=1");
+  } else if (name == "WHATISCOGBUCKS") {
+    window.open("http://play.test.toontown.com/popups/cogBucksWhatIsMain.php","whatiscogbucks","width=700,height=450,resizable=0");
+  } else if (name == "WHATISGUESTPASS") {
+    window.open("http://play.test.toontown.com/popups/guestPassWhatIsMain.php","whatisguestpass","width=700,height=450,resizable=0");
+  } else if (name == "WHATISSONYCDROM") {
+    window.open("http://play.test.toontown.com/popups/sonyCDWhatIsMain.php","whatissonycdrom","width=710,height=450,resizable=0");
+  } else if (name == "FINDGAMECARD") {
+    window.open("http://www.usa.att.com/webcents/disneystoontown_home.jsp","findgamecard","resizable=1,scrollbars=1,menubar=1,toolbar=1,location=1,status=1,directories=1");
+  }
+
+
+}
+
+function popNews(url) {
+  _news_popup = window.open("/frontPageArticle.php?articleID=" + url, "news","width=470,height=400,resizable=0,scrollbars=1");
+  _news_popup.focus();
+}
+
+//-->
+</script>
+
+      <script type="text/javascript">
+
+        headerPromoRight_Reg = new Image();
+        headerPromoRight_Reg.src = "/shared/images/topnav/hdrPromoRight_reg.gif";
+
+        headerPromoRight_Over = new Image();
+        headerPromoRight_Over.src = "/shared/images/topnav/hdrPromoRight_over.gif";
+
+        function img_over(imgName) {
+          imgOn = eval(imgName + "_Over.src");
+          document [imgName].src = imgOn;
+        }
+
+        function img_reg(imgName) {
+          imgOn = eval(imgName + "_Reg.src");
+          document [imgName].src = imgOn;
+        }
+
+    </script>
+
+    </head>
+<body id='us' onLoad="" onUnload=""  bgcolor="#ffffff" style="margin-top:0;margin-bottom:0;" >
+
+    <table width="770" cellspacing="0" cellpadding="0" border="0" align="center">
+      <tr bgcolor="#FFAA88" height="50">
+        <td colspan="2"><font face="arial,helvetica" size="3"><center><b>This is the Toontown Test Server.</b><br>
+        If you are here by mistake, please <A href="http://play.toontown.com/">Play Toontown Here</a> instead.</font></td>
+      </tr>
+    </table>
+
+
+    
+
+
+      <table align="center" cellspacing="0" cellpadding="0" border="0" width="770" bgcolor="#ffffff">
+      <tr>
+        <td colspan="2">
+    
+<table align="center" cellspacing="0" cellpadding="0" border="0" width="770">
+  <tr align="center">
+    <td height="210" colspan="10"><img src="/shared/images/chooser/welcomeTitle.jpg" width="263" height="154" alt="Welcome!">
+      <p>Versions of Toontown are available for Guests around the world! Please select your location:</p>
+    </td>
+  </tr>
+  <tr align="center">
+    <td height="34" colspan="2" align="center">
+      <img src="/shared/images/chooser/headerNorthAmerica.gif" width="146" height="34" alt="North America">
+    </td>
+    <td height="34" colspan="2" align="center">
+      <img src="/shared/images/chooser/headerSouthAmerica.gif" width="152" height="34" alt="South America">
+    </td>
+    <td height="34" colspan="2">
+      <img src="/shared/images/chooser/headerEurope.gif" width="152" height="34" alt="Europe">
+    </td>
+    <td height="34" colspan="4" align="right">
+      <img src="/shared/images/chooser/headerAsia.gif" width="305" height="34" alt="Asia">
+    </td>
+  </tr>
+  <tr>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=US">United States</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=US"><img border=0 src="/shared/images/chooser/flagUSA.jpg" width="101" height="57" alt="USA"></a>
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=BR">Brazil</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=BR"><img border=0 src="/shared/images/chooser/flagBR.jpg" width="102" height="57" alt="BR"></a>
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=UK">United Kingdom</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=UK"><img border=0 src="/shared/images/chooser/flagUK.jpg" width=102 height=57 alt="UK"></a>
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=JP">Japan</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=JP"><img border=0 src="/shared/images/chooser/flagJP.jpg" width=96 height=57 alt="JP"></a>
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=AP">Singapore</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=AP"><img border=0 src="/shared/images/chooser/flagSG.jpg" width=91 height=57 alt="SG"></a>
+    </td>
+  </tr>
+  <tr>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=US">Canada</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=US"><img border=0 src="/shared/images/chooser/flagCA.jpg" width="101" height="59" alt="CA"></a>
+    </td>
+    <td height="34" align="right">
+      &nbsp;
+    </td>
+    <td height="34" align="left">
+      &nbsp;
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=FR">France</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=FR"><img border="0" src="/shared/images/chooser/flagFR.jpg" width=102 height=60 alt="FR"></a>
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=AP">Philippines</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=AP"><img border=0 src="/shared/images/chooser/flagPH.jpg" width=96 height=59 alt="PH"></a>
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=AP">Vietnam</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=AP"><img border=0 src="/shared/images/chooser/flagVN.jpg" width=91 height=59 alt="VN"></a>
+    </td>
+  </tr>
+  <tr>
+    <td height="34">
+      &nbsp;
+    </td>
+    <td height="34">
+      &nbsp;
+    </td>
+    <td height="34">
+      &nbsp;
+    </td>
+    <td height="34">
+      &nbsp;
+    </td>
+    <td height="34">
+      &nbsp;
+    </td>
+    <td height="34">
+      &nbsp;
+    </td>
+    <td height="34" align="right">
+      <a href="chooseDeployment.php?choose=AP">Malaysia</a>
+    </td>
+    <td height="34" align="left">
+      <a href="chooseDeployment.php?choose=AP"><img border=0 src="/shared/images/chooser/flagMY.jpg" width=96 height=60 alt="MY"></a>
+    </td>
+    <td height="34">
+      &nbsp;
+    </td>
+    <td height="34">
+      &nbsp;
+    </td>
+  </tr>
+  <tr align="center">
+    <td height="35" colspan="10"></td>
+  </tr>
+  <tr>
+    <td colspan="10" align="center"><img src="/shared/images/lines.jpg" width="770" height="12" alt="-">
+    </td>
+  </tr>
+</table>
+
+      </td>
+    </tr>
+
+    <tr><td colspan="5" align="center">
+
+<script type="text/javascript">
+<!--
+var legalFooterColor="#0000ff";
+var legalFtrLine1="<div style='font-weight: bold;'>Disney's Toontown Online</div>";
+var legalFtrOpts=["Member/Guest Services","http://play.test.toontown.com/unavailableOnTestServer.php","Help","http://play.test.toontown.com/faq/","Contact Us","http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=toontown/toonhelp.tpl"]
+var legalFtrCpyRgt='<div style="font: verdana, arial, helvetica, sans-serif 1pt; color:#000000;"><a href="http://play.test.toontown.com/memberAgreement.php">Member Agreements</a>&nbsp;|&nbsp;<a href="http://home.disney.go.com/guestservices/netiquette">House Rules</a><br>&copy; Disney. All rights reserved.</div>';
+-->
+</script>
+<div id="tt_footer" align="center">
+  <script type="text/javascript" src="http://a.disney.go.com/globalmedia/legal_footer/legalfooter.js"></script>
+</div>
+    </td></tr>
+
+  </table>
+  </body></html>

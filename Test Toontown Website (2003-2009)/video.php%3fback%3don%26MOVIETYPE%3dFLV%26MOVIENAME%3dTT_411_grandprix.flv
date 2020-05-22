@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Trailer - Disney's Toontown Online</title>
+<meta name="robots" content="follow,noindex">
+<meta http-equiv="imagetoolbar" content="no">
+</head>
+<body id='us' onLoad="" onUnload="" >
+
+
+<script type="text/javascript" src="http://disney.go.com/javascript/querypal.js"></script>
+<script type="text/javascript">
+<!--
+var movie
+searchParameters = new queryPal();
+var back = searchParameters.checkQueryString('back');
+var movie = searchParameters.checkQueryString('movie');
+// -->
+</script>
+
+
+
+<!--Detection Version 2.1.0-->
+<script type="text/javascript" src = "http://disney.go.com/detect/scripts/master_flash_writer.js"></script>
+<!--End Detection-->
+
+
+  <table border="0" width="500" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center" valign="middle">
+       <script type="text/javascript">
+       <!--
+         flashObj = new FlashObj(
+          "/shared/images/flash/TT_flv_player.swf?baseURL=http://download.test.toontown.com/sv1.0.39.35.test/static/video&videoName=/TT_411_grandprix.flv", // swf
+           "434", //width
+           "326", // height
+           "#ffffff", // background
+           "", // version
+           "TT_flv_player", // id
+           "menu=false"
+           );
+         flashObj.render();
+       -->
+       </script>
+      </td>
+    </tr>
+    <tr>
+      <td valign="center" align="center">
+        <table width="500" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="47%">
+            </td>
+            <td width="*">
+              <a href="javascript:window.close()"><img src="/shared/images/button_close.gif" width="127" height="31" alt="" border="0"></a>
+           </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="bottom">
+        <table width="500" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="42%">
+            </td>
+            <td width="*">
+               <font size=1 face=verdana>&nbsp;&copy;Disney. All Rights Reserved.</font>
+           </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body></html>

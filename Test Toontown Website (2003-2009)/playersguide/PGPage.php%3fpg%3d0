@@ -1,0 +1,810 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Toontown Official Player's Guide - Table Of Contents</title>
+<meta name="robots" content="follow,noindex">
+<meta http-equiv="imagetoolbar" content="no">
+<link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+    <!--
+        
+    
+    
+    var logs=new Array();
+    var logsi=0;
+
+    function logit()
+    {
+        
+        var a ="";
+
+        for (var i=0; i<arguments.length; i++) {
+          if (i%2 == 0) {
+            // Name
+            a+=escape(arguments[i]);
+            a+= "=";
+          } else {
+            // Value
+            a+=escape(arguments[i]);
+            a+=((i+1)!=arguments.length)?"&":"";
+          }
+
+        }
+
+      var s="http://play.test.toontown.com/shared/www/collect.php?deployment=US&rand="+Math.random()+"&"+a;
+      var lognum = ++logsi;
+      logs[lognum%9]=new Image();
+      logs[lognum%9].src=s;
+    }
+        //-->
+    </script>
+
+  <script type="text/javascript">
+<!--
+
+function popWin (name) {
+
+  logit("NAME", "CLICKTHRU-POPUP", "t", name);
+  
+  if (name == "WHATISGAMECARD") {
+    window.open("http://play.test.toontown.com/popups/gameCardWhatIsMain.php","whatisgamecard","width=700,height=450,resizable=0");
+  } else if (name == "GAMECARDHELP") {
+    window.open("http://play.test.toontown.com/popups/gameCardHelpFrameset.html","gamecardhelp","width=518,height=420,resizable=1");
+  } else if (name == "WHATISCOGBUCKS") {
+    window.open("http://play.test.toontown.com/popups/cogBucksWhatIsMain.php","whatiscogbucks","width=700,height=450,resizable=0");
+  } else if (name == "WHATISGUESTPASS") {
+    window.open("http://play.test.toontown.com/popups/guestPassWhatIsMain.php","whatisguestpass","width=700,height=450,resizable=0");
+  } else if (name == "WHATISSONYCDROM") {
+    window.open("http://play.test.toontown.com/popups/sonyCDWhatIsMain.php","whatissonycdrom","width=710,height=450,resizable=0");
+  } else if (name == "FINDGAMECARD") {
+    window.open("http://www.usa.att.com/webcents/disneystoontown_home.jsp","findgamecard","resizable=1,scrollbars=1,menubar=1,toolbar=1,location=1,status=1,directories=1");
+  }
+
+
+}
+
+function popNews(url) {
+  _news_popup = window.open("/frontPageArticle.php?articleID=" + url, "news","width=470,height=400,resizable=0,scrollbars=1");
+  _news_popup.focus();
+}
+
+//-->
+</script>
+
+  <script type="text/javascript" src="http://a.disney.go.com/detect/scripts/master_flash_writer.js"></script>
+    <script type="text/javascript">
+        <!--
+    headerPromoRight_Reg=new Image();
+    headerPromoRight_Reg.src="/shared/images/topnav/hdrPromoRight_reg.gif";
+    headerPromoRight_Over=new Image();
+    headerPromoRight_Over.src="/shared/images/topnav/hdrPromoRight_over.gif";
+    headerSubscribeRight_Reg=new Image();
+    headerSubscribeRight_Reg.src="/shared/images/topnav/hdrSubscribeRight_reg.gif";
+    headerSubscribeRight_Over=new Image();
+    headerSubscribeRight_Over.src="/shared/images/topnav/hdrSubscribeRight_over.gif";
+    headerTrialRight_Reg=new Image();
+    headerTrialRight_Reg.src="/shared/images/topnav/hdrFreeTrial_reg.gif";
+    headerTrialRight_Over=new Image();
+    headerTrialRight_Over.src="/shared/images/topnav/hdrFreeTrial_over.gif";
+    headerDownloadRight_Reg=new Image();
+    headerDownloadRight_Reg.src="/shared/images/topnav/hdrDownloadRight_reg.gif";
+    headerDownloadRight_Over=new Image();
+    headerDownloadRight_Over.src="/shared/images/topnav/hdrDownloadRight_over.gif";
+
+    function img_over(imgName){
+      imgOn=eval(imgName + "_Over.src");
+      document [imgName].src=imgOn;
+    }
+    function img_reg(imgName){
+      imgOn=eval(imgName + "_Reg.src");
+      document [imgName].src=imgOn;
+    }
+    -->
+    </script>
+    </head>
+<body id='us' onLoad="" onUnload=""  bgcolor="#ff6633" style="margin-top:0;margin-bottom:0;" >
+
+    <table width="770" cellspacing="0" cellpadding="0" border="0" align="center">
+      <tr bgcolor="#FFAA88" height="50">
+        <td colspan="2"><font face="arial,helvetica" size="3"><center><b>This is the Toontown Test Server.</b><br>
+        If you are here by mistake, please <A href="http://play.toontown.com/">Play Toontown Here</a> instead.</font></td>
+      </tr>
+    </table>
+
+
+    
+
+
+  
+    <table width="770" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="center">
+      <tr>
+        <td colspan="5">
+        <!--Begin Header-->
+        <table cellspacing="0" cellpadding="0" border="0" align="center">
+          <tr>
+            <td><a href='http://play.test.toontown.com/store/index.php'><img src="/shared/images/topnav/customTshirtPromo.gif" width="133" height="109" alt="Custom T-Shirt Promo" border="0"></a><br></td>
+                      <td><a href="http://play.test.toontown.com/news.php"><img src="/shared/images/topnav/hdrCenterLogo.gif" width="516" height="109" alt="Disney's Toontown Online" border="0"></a></td>
+
+                          <td><a href="https://account.test.toontown.com/webPlay.php"><img name="headerPromoRight" src="/shared/images/topnav/hdrPromoRight_reg.gif" width="121" height="109" alt="Play Now!" border="0" onMouseover="img_over('headerPromoRight');" onMouseout="img_reg('headerPromoRight');"></a></td>
+
+            
+          
+          </tr>
+          <tr>
+            <td colspan="3"><img src="/shared/images/topnav/hdrSepStrip.gif" width="770" height="23" alt="Are You Toon Enough?" border="0"></td>
+          </tr>
+        </table>
+        <!--End Header-->
+        </td>
+      </tr>
+      <tr>
+          <td width="154" valign="top" align="center">
+          <script type="text/javascript">
+          <!--
+            flashObj=new FlashObj(
+              "/shared/images/flash/leftnav.swf?exitSignUpUrl=http://play.test.toontown.com/news.php&amp;navXML=http://play.test.toontown.com/shared/include/xml/nav.xml?v=4b&amp;username=&amp;baseplayurl=http://play.test.toontown.com/&amp;baseaccounturl=https://account.test.toontown.com/&amp;exitSignUpHbx=leftnav_exitsignup&amp;baseHbx=&amp;memberServicesUrl=MEMBERSERVICES&amp;emailPrefUrl=http://play.test.toontown.com/unavailableOnTestServer.php&amp;changePwdUrl=http://play.test.toontown.com/unavailableOnTestServer.php&amp;memberInfoUrl=http://play.test.toontown.com/unavailableOnTestServer.php&amp;billingInfoUrl=http://play.test.toontown.com/unavailableOnTestServer.php&amp;", // swf
+              "154", //width
+              "1050", // height
+              "#ffffff", // background
+              "", // version
+              "tt_nav", // id
+              "menu=false"
+              );
+            flashObj.render();
+          -->
+          </script>
+        </td>
+
+     <td width="14" style="border-left:1px solid #000000;" rowspan="2">&nbsp;</td>
+     <td width="434" rowspan="1" valign="top">
+     <!--End Mid Content-->
+<script type="text/javascript">
+<!--
+if (!document.getElementById) document.getElementById = function() { return null; }
+
+//toggle for Expand and Collapse link
+pgSectionToggle=0;//section links closed
+
+function checkAllSections(){
+// Check if all sections are closed or open
+// if all sections are closed, updated pgOpenCloseSections()
+// if all sections are open, updated pgOpenCloseSections()
+  var SectionBlocks=0;
+  var SectionNone=0;
+
+  for (i=1; i <= 20;i++){
+    tempTocId='';
+    tempTocId='toc_section_'+i;
+    tempSection=document.getElementById(tempTocId);
+    if (tempSection.style.display == "block"){
+      SectionBlocks++;
+    }
+    else if (tempSection.style.display == "none"){
+      SectionNone++;
+    }
+  }
+
+  if (SectionBlocks == 20){
+    //all sections are closed
+    pgSectionToggle=0;//toggle between close and open section links
+    pgOpenCloseSections();
+  } else if (SectionNone == 20){
+    //all sections are open
+    pgSectionToggle=1;//toggle between close and open section links
+    pgOpenCloseSections();
+  }
+  //alert('block: '+SectionBlocks+"\n"+'none: '+SectionNone);
+}
+
+function initTocItem(tocId, actuatorId, imageId) {
+  var section = document.getElementById(tocId);
+  var actuator = document.getElementById(actuatorId);
+  var sect_img = document.getElementById(imageId);
+  section.style.display = "none";
+
+  if (section == null || actuator == null) return;
+
+  actuator.onclick = function() {
+    var display = section.style.display;
+    if (display == "block") {
+      section.style.display = "none";
+      sect_img.src="http://play.test.toontown.com/playersguide/images/arrow_right.gif";
+    } else {
+      section.style.display = "block";
+      sect_img.src="http://play.test.toontown.com/playersguide/images/arrow_down.gif";
+    }
+    checkAllSections();
+    return false;
+  }
+}
+
+window.onload = function() {
+  initTocItem("toc_section_1", "toc_link_1", "toc_sect_img_1");
+  initTocItem("toc_section_2", "toc_link_2", "toc_sect_img_2");
+  initTocItem("toc_section_3", "toc_link_3", "toc_sect_img_3");
+  initTocItem("toc_section_4", "toc_link_4", "toc_sect_img_4");
+  initTocItem("toc_section_5", "toc_link_5", "toc_sect_img_5");
+  initTocItem("toc_section_6", "toc_link_6", "toc_sect_img_6");
+  initTocItem("toc_section_7", "toc_link_7", "toc_sect_img_7");
+  initTocItem("toc_section_8", "toc_link_8", "toc_sect_img_8");
+  initTocItem("toc_section_9", "toc_link_9", "toc_sect_img_9");
+  initTocItem("toc_section_10", "toc_link_10", "toc_sect_img_10");
+  initTocItem("toc_section_11", "toc_link_11", "toc_sect_img_11");
+  initTocItem("toc_section_12", "toc_link_12", "toc_sect_img_12");
+  initTocItem("toc_section_13", "toc_link_13", "toc_sect_img_13");
+  initTocItem("toc_section_14", "toc_link_14", "toc_sect_img_14");
+  initTocItem("toc_section_15", "toc_link_15", "toc_sect_img_15");
+  initTocItem("toc_section_16", "toc_link_16", "toc_sect_img_16");
+  initTocItem("toc_section_17", "toc_link_17", "toc_sect_img_17");
+  initTocItem("toc_section_18", "toc_link_18", "toc_sect_img_18");
+  initTocItem("toc_section_19", "toc_link_19", "toc_sect_img_19");
+  initTocItem("toc_section_20", "toc_link_20", "toc_sect_img_20");
+}
+
+function pgOpenCloseSections(){
+  document.getElementById("pgOpenCloseTopTxt").innerHTML='';
+  document.getElementById("pgOpenCloseBotTxt").innerHTML='';
+  if (pgSectionToggle==0){
+    for (i=1; i <= 20;i++){
+      tempTocId='';
+      tempTocId='toc_section_'+i;
+      tempSection=document.getElementById(tempTocId);
+      tempSection.style.display = "block";
+      tempImageId='toc_sect_img_'+i;
+      sect_img = document.getElementById(tempImageId);
+      sect_img.src="http://play.test.toontown.com/playersguide/images/arrow_down.gif";
+    }
+    pgSectionToggle=1;//toggle between close and open section links
+    document.getElementById("pgOpenCloseTopTxt").innerHTML='Collapse all';
+    document.getElementById("pgOpenCloseBotTxt").innerHTML='Collapse all';
+  }
+  else {
+    for (i=1; i <= 20;i++){
+      tempTocId='';
+      tempTocId='toc_section_'+i;
+      tempSection=document.getElementById(tempTocId);
+      tempSection.style.display = "none";
+      tempImageId='toc_sect_img_'+i;
+      sect_img = document.getElementById(tempImageId);
+      sect_img.src="http://play.test.toontown.com/playersguide/images/arrow_right.gif";
+    }
+    pgSectionToggle=0;//toggle between close and open section links
+    document.getElementById("pgOpenCloseTopTxt").innerHTML='Expand all';
+    document.getElementById("pgOpenCloseBotTxt").innerHTML='Expand all';
+  }
+}
+-->
+</script>
+<div id="ttown_main">
+
+  <div class="pgTocHdr">
+    <img src="images/toc_top.gif" width="434" height="78" alt="Toons of the World UNITE!">
+  </div>
+  <div class="pgTocHdr2">
+    <img src="images/table_of_contents.gif" width="426" height="93" alt="The Official Player's Guide - Table of Contents">
+  </div>
+  <div class="pgTocPrntAll">
+    <script type="text/javascript">
+      <!--
+      flashObj = new FlashObj(
+        "images/toc_print.swf?r=1&printAll=printall.php", // swf
+        "434", //width
+        "30", // height
+        "#ffffff", // background
+        "", // version
+        "toc_print" // id
+        );
+      flashObj.render();
+      -->
+    </script>
+  </div>
+  <div id="pgOpenCloseTop"><a class="pgOpenCloseLink" href="javascript:pgOpenCloseSections();" id="pgOpenCloseTopTxt">Expand all</a></div>
+  <div id="toc">
+		<div id="toc_link_1" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_1" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Getting Started</a>
+		</div>
+		<div id="toc_section_1" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=1"
+      class="sectionlinks">Taking Back Toontown</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=2"
+      class="sectionlinks">Controls</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=3"
+      class="sectionlinks">Laff Points and the Laff meter</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_2" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_2" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Trolley Games</a>
+		</div>
+		<div id="toc_section_2" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=4"
+      class="sectionlinks">Maze Game</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=5"
+      class="sectionlinks">Cannon Game</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=5"
+      class="sectionlinks">Ring Game</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=6"
+      class="sectionlinks">Match Minnie</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=6"
+      class="sectionlinks">Toon Tag</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=7"
+      class="sectionlinks">Race Game</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=7"
+      class="sectionlinks">Tug of War</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=8"
+      class="sectionlinks">Catching Game</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=8"
+      class="sectionlinks">Toon Slingshot Game</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=9"
+      class="sectionlinks">Jungle Vines</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=9"
+      class="sectionlinks">Treasure Dive</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=10"
+      class="sectionlinks">Toon Memory</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=10"
+      class="sectionlinks">Ice Slide</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=11"
+      class="sectionlinks">Photo Fun</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=11"
+      class="sectionlinks">Toon Escape</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=12"
+      class="sectionlinks">Cog Thief </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=12"
+      class="sectionlinks">Trolley Tracks</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_3" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_3" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Gags</a>
+		</div>
+		<div id="toc_section_3" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=13"
+      class="sectionlinks">Gag Shops</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=14"
+      class="sectionlinks">Training for new types of gags</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=15"
+      class="sectionlinks">Toon-Up</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=15"
+      class="sectionlinks">Trap</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=16"
+      class="sectionlinks">Lure</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=16"
+      class="sectionlinks">Sound</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=17"
+      class="sectionlinks">Throw</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=17"
+      class="sectionlinks">Squirt</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=18"
+      class="sectionlinks">Drop</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_4" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_4" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Battling the Cogs</a>
+		</div>
+		<div id="toc_section_4" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=19"
+      class="sectionlinks">Strategy</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=20"
+      class="sectionlinks">Skill Points </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=20"
+      class="sectionlinks">ToonTasks</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=21"
+      class="sectionlinks">Battling with Friends</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=22"
+      class="sectionlinks">The Battle Menu</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=22"
+      class="sectionlinks">SOS</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=23"
+      class="sectionlinks">Pass</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=23"
+      class="sectionlinks">Fire</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_5" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_5" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Friends</a>
+		</div>
+		<div id="toc_section_5" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=24"
+      class="sectionlinks">Making Friends</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=24"
+      class="sectionlinks">Friends List</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=25"
+      class="sectionlinks">About Your Friends</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=25"
+      class="sectionlinks">Chat and Secrets</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=26"
+      class="sectionlinks">SpeedChat</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_6" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_6" name="imgarrow" width="12" height="12" alt="" border="0">
+		  ToonTasks</a>
+		</div>
+		<div id="toc_section_6" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=30"
+      class="sectionlinks">ToonTask Rewards</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=31"
+      class="sectionlinks">Teamwork</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=33"
+      class="sectionlinks">How to get a Task</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=33"
+      class="sectionlinks">Completing a Task</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_7" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_7" name="imgarrow" width="12" height="12" alt="" border="0">
+		  ToonTasks Continued</a>
+		</div>
+		<div id="toc_section_7" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=34"
+      class="sectionlinks">ToonTasks Continued</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=34"
+      class="sectionlinks">Shop Around</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=35"
+      class="sectionlinks">Toontown Central</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=35"
+      class="sectionlinks">Donald's Dock</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=37"
+      class="sectionlinks">Daisy Gardens</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=38"
+      class="sectionlinks">Minnie's Melodyland</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=39"
+      class="sectionlinks">The Brrrgh</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=40"
+      class="sectionlinks">Donald's Dreamland</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_8" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_8" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Cog Guides</a>
+		</div>
+		<div id="toc_section_8" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=41"
+      class="sectionlinks">Meet the Cogs</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=41"
+      class="sectionlinks">Bossbots</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=42"
+      class="sectionlinks">Lawbots</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=42"
+      class="sectionlinks">Cashbots</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=43"
+      class="sectionlinks">Sellbots</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=43"
+      class="sectionlinks">Cogs in HQ</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=43"
+      class="sectionlinks">Cog Radar</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_9" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_9" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Cog Buildings</a>
+		</div>
+		<div id="toc_section_9" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=44"
+      class="sectionlinks">How Tough Is This Building?</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=44"
+      class="sectionlinks">Who's Home?</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=45"
+      class="sectionlinks">Skill Points</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=45"
+      class="sectionlinks">Where Do I Find a Loan Shark</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=45"
+      class="sectionlinks">Stars and the Toon Platoon</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_10" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_10" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Estates & Cattlelogs</a>
+		</div>
+		<div id="toc_section_10" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=47"
+      class="sectionlinks">How do I Get to my Toon's Estate?</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=47"
+      class="sectionlinks">The Jellybean Bank</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=48"
+      class="sectionlinks">The Closet</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=48"
+      class="sectionlinks">Clarabelle's Cattlelog</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=49"
+      class="sectionlinks">Cattlelog Delivery Times</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=50"
+      class="sectionlinks">Decorating Your Toon's House</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=51"
+      class="sectionlinks">Toon Estate Cannons</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=53"
+      class="sectionlinks">Toon Estate Gardening</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_11" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_11" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Fishing</a>
+		</div>
+		<div id="toc_section_11" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=56"
+      class="sectionlinks">Where do I Fish?</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=56"
+      class="sectionlinks">How do I Fish?</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=57"
+      class="sectionlinks">Rods</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=57"
+      class="sectionlinks">Trophies</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=57"
+      class="sectionlinks">Keep Track of your Catch</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=58"
+      class="sectionlinks">Species</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=59"
+      class="sectionlinks">Bingo Wednesdays</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_12" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_12" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Doodles</a>
+		</div>
+		<div id="toc_section_12" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=60"
+      class="sectionlinks">Adopt a Doodle</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=60"
+      class="sectionlinks">Name Your New Friend</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=61"
+      class="sectionlinks">Doodles Have Feelings Too</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=61"
+      class="sectionlinks">Train Your Doodle</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=62"
+      class="sectionlinks">Doodles in Battle</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_13" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_13" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Neighborhoods</a>
+		</div>
+		<div id="toc_section_13" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=63"
+      class="sectionlinks">Toontown Central </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=65"
+      class="sectionlinks">Donald's Dock </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=66"
+      class="sectionlinks">Daisy Gardens </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=67"
+      class="sectionlinks">Minnie's Melodyland </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=68"
+      class="sectionlinks">The Brrrgh </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=69"
+      class="sectionlinks">Donald's Dreamland </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=70"
+      class="sectionlinks">Chip 'n Dale's Acorn Acres </a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_14" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_14" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Sellbot HQ</a>
+		</div>
+		<div id="toc_section_14" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=71"
+      class="sectionlinks">Toons to the Rescue</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=71"
+      class="sectionlinks">Your Cog Disguise</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=71"
+      class="sectionlinks">Merits</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=71"
+      class="sectionlinks">Elevators </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=72"
+      class="sectionlinks">Sellbot Factory</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=73"
+      class="sectionlinks">Sellbot Towers</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=74"
+      class="sectionlinks">Battling the Vice President</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=75"
+      class="sectionlinks">SOS Toons</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=75"
+      class="sectionlinks">Game Options</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=75"
+      class="sectionlinks">Districts</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_15" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_15" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Shticker Book</a>
+		</div>
+		<div id="toc_section_15" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=77"
+      class="sectionlinks">Map</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=77"
+      class="sectionlinks">Gags</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=77"
+      class="sectionlinks">ToonTasks </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=78"
+      class="sectionlinks">Gag Track Training</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=78"
+      class="sectionlinks">Cog Gallery and Radar</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=78"
+      class="sectionlinks">Fishing</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=79"
+      class="sectionlinks">Cog Disguises</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=79"
+      class="sectionlinks">SOS Toons </a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_16" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_16" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Cashbot HQ</a>
+		</div>
+		<div id="toc_section_16" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=80"
+      class="sectionlinks">Your Cashbot Disguise</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=80"
+      class="sectionlinks">The Train Yard and Mints</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=80"
+      class="sectionlinks">Elevators  </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=81"
+      class="sectionlinks">The Vault and C.F.O. Battle</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=82"
+      class="sectionlinks">Toons of the World...</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_17" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_17" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Goofy Speedway</a>
+		</div>
+		<div id="toc_section_17" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=83"
+      class="sectionlinks">Customize Your Kart</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=84"
+      class="sectionlinks">Earning Tickets</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=84"
+      class="sectionlinks">Race Tracks</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=85"
+      class="sectionlinks">Show off your Karts</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=85"
+      class="sectionlinks">Leaderboard</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_18" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_18" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Lawbot HQ</a>
+		</div>
+		<div id="toc_section_18" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=87"
+      class="sectionlinks">Your Lawbot Disguise</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=87"
+      class="sectionlinks">Elevators</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=88"
+      class="sectionlinks">Earning a Promotion </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=88"
+      class="sectionlinks">District Attorney's Office</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=89"
+      class="sectionlinks">The Courthouse and Chief Justice Battle</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=89"
+      class="sectionlinks">Cogs on Demand</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_19" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_19" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Chip 'n Dale's MiniGolf</a>
+		</div>
+		<div id="toc_section_19" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=90"
+      class="sectionlinks">Chip 'n Dale's MiniGolf</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=91"
+      class="sectionlinks">Controls </a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=92"
+      class="sectionlinks">Trophies </a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+		<div id="toc_link_20" class="section"><a href="#pg" class="actuator">
+		  <img src="http://play.test.toontown.com/playersguide/images/arrow_right.gif" id="toc_sect_img_20" name="imgarrow" width="12" height="12" alt="" border="0">
+		  Bossbot HQ</a>
+		</div>
+		<div id="toc_section_20" class="sectionlist">
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=93"
+      class="sectionlinks">Bossbot HQ</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=93"
+      class="sectionlinks">Your Bossbot Disguise</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=93"
+      class="sectionlinks">Golf Karts</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=94"
+      class="sectionlinks">Earning a Promotion</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=94"
+      class="sectionlinks">The Country Club</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=96"
+      class="sectionlinks">Bossbot Club House and C.E.O. Battle</a></div>
+		  <div class="subSectLink"><span class="bullet">&bull;</span><a href="PGPage.php?pg=97"
+      class="sectionlinks">Give a Cog the Slip</a></div>
+  </div>
+  <div class="sectionDiv">&nbsp;</div>
+  </div>
+  <div id="pgOpenCloseBot"><a class="pgOpenCloseLink" href="javascript:pgOpenCloseSections();" id="pgOpenCloseBotTxt">Expand all</a></div>
+  <div id="pgSwfBot">
+    <script type="text/javascript">
+    <!--
+      flashObj = new FlashObj(
+        "images/playersguide_bottom_toc.swf?tocUrl=pg_toc.html&nextButton=PGPage.php?pg=1&hideTocLink=true&printAll=printall.php", // swf
+        "434", //width
+        "55", // height
+        "#ffffff", // background
+        "", // version
+        "playersguide_bottom" // id
+        );
+      flashObj.render(true,"opaque");
+    -->
+    </script>
+  </div>
+</div>
+    <!--End Mid Content-->
+        </td>
+        <td width="14" style="border-right:1px solid #000000;" rowspan="2">&nbsp;</td>
+     <td width="154" rowspan="1" valign="top" align="center">
+       <img src="/shared/images/rightnav/tt_tab_toonsworldunite.gif" width="154" height="15" alt="Toons of the World Unite!">
+       <br>
+       <script type="text/javascript">
+       <!--
+         flashObj=new FlashObj(
+           "/shared/images/flash/topToons.swf?theDate=10182009&amp;topToonURL=/shared/images/dynamic/topToonImages/2009_10_18_small/&amp;imageBaseURL=/shared/images&amp;moreTopToonsURL=http://play.test.toontown.com/topToons.php&amp;imageFileURL=/dynamic/topToonImages/2009_10_18_small/", // swf
+           "154", //width
+           "330", // height
+           "#ffffff", // background
+           "", // version
+           "top_toons", // id
+           "menu=false"
+           );
+         flashObj.render();
+       -->
+       </script>
+       <br>
+       <img src="/shared/images/castyourvote.gif" width="154" height="65" alt="Cast your VOTE!">
+       <br>
+       <script type="text/javascript">
+       <!--
+         flashObj=new FlashObj(
+           "/shared/images/flash/poll_small.swf?basePollPath=/shared/www/&amp;pollId=395&amp;alreadyAnswered=false&amp;pollType=undefined", // swf
+           "154", //width
+           "208", // height
+           "#ffffff", // background
+           "", // version
+           "poll_small", // id
+           "menu=false"
+           );
+         flashObj.render();
+       -->
+       </script>
+       <br>
+
+      </td>
+    </tr>
+    <tr><td colspan="5"><img src="/shared/images/lines.jpg" width="770" height="12" alt="" border="0"></td></tr>
+      <tr><td colspan="5" align="center">
+
+<script type="text/javascript">
+<!--
+var legalFooterColor="#0000ff";
+var legalFtrLine1="<div style='font-weight: bold;'>Disney's Toontown Online</div>";
+var legalFtrOpts=["Member/Guest Services","http://play.test.toontown.com/unavailableOnTestServer.php","Help","http://play.test.toontown.com/faq/","Contact Us","http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=toontown/toonhelp.tpl"]
+var legalFtrCpyRgt='<div style="font: verdana, arial, helvetica, sans-serif 1pt; color:#000000;"><a href="http://play.test.toontown.com/memberAgreement.php">Member Agreements</a>&nbsp;|&nbsp;<a href="http://home.disney.go.com/guestservices/netiquette">House Rules</a><br>&copy; Disney. All rights reserved.</div>';
+-->
+</script>
+<div id="tt_footer" align="center">
+  <script type="text/javascript" src="http://a.disney.go.com/globalmedia/legal_footer/legalfooter.js"></script>
+</div>
+      </td></tr>
+    </table>
+  <!-- BEGIN DOL Web Analytics 1.0 -->
+  <script type="text/javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+  <script type="text/javascript">
+    <!--
+    cto=new CTO();
+    cto.h.mlc='/Toontown/US/Beta/PROSPECT/';
+    cto.h.pageName='_playersguide_PGPage';
+    cto.registrationStatus='prospect';
+    cto.genre='us';//country
+    cto.account='toontown';
+    cto.category='dgame';
+    cto.site='tnt_beta';
+    cto.siteSection='website:playersguide';
+    cto.pageName='home';
+    cto.contentType='regular';
+    cto.property='tnt';
+    cto.track();
+    -->
+  </script>
+  <!-- END DOL Web Analytics 1.0 -->
+</body></html>

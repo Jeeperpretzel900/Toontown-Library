@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Disney’s Toontown Online</title>
+<meta NAME="DESCRIPTION" Content="The best game in the Tooniverse.  Are you Toon enough?">
+<meta NAME="KEYWORDS" Content="Toontown, Toontown.com">
+<meta name="AUTHOR" content="Toontown">
+<script language=JavaScript>
+<!--
+// Read Cookie
+function cookieVal(cookieName) {
+	thisCookie = document.cookie.split("; ")
+	for (i=0; i<thisCookie.length; i++) {
+		if (cookieName == thisCookie[i].split("=")[0]) {
+			return thisCookie[i].split("=")[1]
+		}
+	}
+	return "Direct" //default value
+}
+sourceQuery = cookieVal("SOURCE");
+document.location.replace("http://play.toontown.com/?source=" + sourceQuery);
+// -->
+</script>
+
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" alink="#000000">
+<noscript>
+<table width="770" border="0" align="center">
+	<tr>
+		<td>
+		<font face="Arial,Helvetica,sans-serif" color="#000000" size="2">
+		The ever-changing online world of Toontown continues to grow bigger as more games, more lands and more Toons are added. "People love playing Toons!" said Toontown resident Lil' Old Man. "And we have the biggest, ever-expanding, massively multiplayer, pie-throwin', piano-dropping, totally Toontastic, online game ever! I bet those evil corporate Cogs are shaking in their shiny shoes!"
+		<CENTER><br><br><b><a href="http://play.toontown.com/">Click here</a> for Toontown</b></CENTER>
+		</font>
+		</td>
+	</tr>
+</table>
+</noscript>
+</body>
+</html>
+

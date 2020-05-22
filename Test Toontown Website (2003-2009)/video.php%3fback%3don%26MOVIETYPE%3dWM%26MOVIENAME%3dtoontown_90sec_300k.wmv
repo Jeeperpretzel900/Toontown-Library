@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML XMLNS:IE>
+<HEAD>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<TITLE>Trailer - Disney's Toontown Online</TITLE></HEAD>
+<BODY onLoad="" onUnload="" >
+
+
+<script src="http://disney.go.com/javascript/querypal.js" type="text/javascript" language="JavaScript"></SCRIPT>
+<script type="text/javascript" language="JavaScript">
+<!--
+var movie
+searchParameters = new queryPal();
+var back = searchParameters.checkQueryString('back');
+var movie = searchParameters.checkQueryString('movie');
+
+// -->
+</script>
+
+</HEAD>
+<body BGCOLOR=ffffff TEXT=000000 link=000000 vlink=000000 alink=000000 leftmargin=0 topmargin=0 rightmargin=0 leftmargin=0 bgcolor="#FFFFFF">
+<table border=0 width=400 height=100% cellpadding=0 cellspacing=0>
+<tr>
+  <td align="center" valign="middle">
+
+        <OBJECT ID="MediaPlayer" classid="CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95" CODEBASE="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=5,1,52,701"  standby="Loading Microsoft Windows Media Player components..." TYPE="application/x-oleobject" width="320" height="260">
+       <PARAM NAME="FileName" VALUE="http://download.test.toontown.com/sv1.0.9.12.test/static/video/toontown_90sec_300k.wmv" WIDTH="320" HEIGHT="260">
+       <EMBED TYPE="application/x-mplayer2" pluginspage="http://www.microsoft.com/windows95/downloads/contents/wurecommended/s_wufeatured/mediaplayer/default.asp" SRC="http://download.test.toontown.com/sv1.0.9.12.test/static/video/toontown_90sec_300k.wmv" Name=MediaPlayer ShowControls=1 ShowDisplay=0 ShowStatusBar=0 WIDTH="320" HEIGHT="260" AUTOPLAY=true>
+       </EMBED>
+     </OBJECT>
+   
+</td>
+</tr>
+<tr>
+<td valign="center" align="center"><a href="javascript:window.close()"><img src="http://play.test.toontown.com/shared/images/button_close.gif" width="127" height="31" alt="" border="0"></a></td>
+</tr>
+<tr>
+<td align="center" valign="bottom"><font size=1 face=verdana>&nbsp;&copy;Disney. All Rights Reserved.</font></td>
+</tr>
+</table>
+
+</BODY></HTML>

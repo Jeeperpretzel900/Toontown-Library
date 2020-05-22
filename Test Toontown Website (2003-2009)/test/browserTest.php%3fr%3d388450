@@ -1,0 +1,11 @@
+<br />
+<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server during query in <b>/toontown/web/toontown-1600/common/include/toontownGlobals.php</b> on line <b>296</b><br />
+<br />
+<b>Warning</b>:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in <b>/toontown/web/toontown-1600/common/include/ttMySql.php</b> on line <b>4</b><br />
+<br />
+<b>Warning</b>:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in <b>/toontown/web/toontown-1600/common/include/ttMySql.php</b> on line <b>4</b><br />
+<p>
+ safe_mysql_read("use test_toontown_com")
+ Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)
+<p><br />
+<b>Warning</b>:  fopen(/toontown/web/toontown-1600/logs/ttphp_debug_20070127_0600_log) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Read-only file system in <b>/toontown/web/toontown-1600/common/shared/include/php/log.inc.php</b> on line <b>225</b><br />

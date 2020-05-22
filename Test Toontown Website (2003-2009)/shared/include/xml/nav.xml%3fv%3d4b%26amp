@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config edition='01' useseasonal='false' baseURL='global/swf'>
+    <dgdid>DGD_GamesCafe</dgdid>
+    <ddefaultparameters otype='array' nodename='ddefaultparameters'>
+       <hitboxdefaults seqname='hitboxdefaults' >
+            <basehbx>/toontown/US/PROSPECT/HOME</basehbx>
+       </hitboxdefaults>
+	<playbutton seqname='playbutton' >
+		<clickurl>playUrl</clickurl>
+		<baseurl>baseaccounturl</baseurl>
+		<clickHBX>leftnav_play</clickHBX>
+	</playbutton>
+	<loginbutton seqname='loginbutton' >
+		<clickurl>loginURL</clickurl>
+		<baseurl>baseaccounturl</baseurl>
+		<clickHBX>leftnav_login</clickHBX>
+	</loginbutton>
+	<loginoutbutton seqname='loginoutbutton' >
+		<clickurl>logoutURL</clickurl>
+		<baseurl>baseaccounturl</baseurl>
+		<clickHBX>leftnav_logout</clickHBX>
+	</loginoutbutton>
+	<joinbutton seqname='joinbutton' >
+		<clickurl>joinURL</clickurl>
+		<baseurl>baseaccounturl</baseurl>
+		<clickHBX>leftnav_join</clickHBX>
+	</joinbutton>
+	<pageurls seqname='pageurls' >
+		<!-- special urls -->
+                <playUrl>webLoginDirect.php</playUrl>
+                <loginURL>webLoginOnly.php</loginURL>
+                <logoutURL>webLogout.php</logoutURL>
+                <joinURL>webLogin.php</joinURL>
+		<!-- button 1 urls -->
+		<frontPageUrl>webHome.php</frontPageUrl>
+		<newsArchiveUrl>newsArchive.php</newsArchiveUrl>
+		<topToonsUrl>topToons.php</topToonsUrl>
+		<releaseNotesUrl>news.php</releaseNotesUrl>
+		<!-- button 2 urls -->
+		<contestsURL>contests/index.php</contestsURL>
+		<eventsURL>events/index.php</eventsURL>
+		<downloadsURL>downloads.php</downloadsURL>
+		<asktoontownURL>asktoontown/index.php</asktoontownURL>
+		<recruitUrl>recruit/webRecruit.php</recruitUrl>
+		<tradingcardURL>tradingcards/series3.php</tradingcardURL>
+		<shopURL>store/index.php</shopURL>
+		<memberBenefitsURL>benefits/index.php</memberBenefitsURL>
+		<!-- button 3 urls -->
+		<playersGuideUrl>playersguide/index.php</playersGuideUrl>
+		<faqUrl>faq/faq.php</faqUrl>
+		<!-- button 4 urls -->
+    <whatIsTTUrl>about.php</whatIsTTUrl>
+    <awardsUrl>awards/index.php</awardsUrl>
+		<imagesvideoURL>screenshots.php</imagesvideoURL>
+		<!-- button 5 urls -->
+		<emailPrefUrl>webChangeEmail.php</emailPrefUrl>
+		<chatPrefUrl>webChangeChat.php</chatPrefUrl>
+		<changePwdUrl>webChangePassword.php</changePwdUrl>
+		<memberInfoUrl>webChangeBilling.php</memberInfoUrl>
+		<billingInfoUrl>webPurchase.php</billingInfoUrl>
+		<!-- button 6 urls -->
+		<contactUsURL>http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=toontown/toonhelp.tpl</contactUsURL>
+		<reportProblemUrl>problem.php</reportProblemUrl>
+		<printableUrl>javascript:function popPP(){printable=window.open('/shared/www/parents_printable.php', 'parentsprintable','width=640,height=480,resizable=0,scrollbars=0');printable.focus();}popPP();</printableUrl>
+	</pageurls>
+	<printable seqname='printable' >
+		<clickurl>printableUrl</clickurl>
+		<clickHBX>leftnav_printable</clickHBX>
+	</printable>
+	<gotybutton seqname='gotybutton' >
+		<clickurl>http://www.toontown.com</clickurl>
+		<clickHBX>leftnav_goty</clickHBX>
+	</gotybutton>
+    </ddefaultparameters>
+    <!-- *** BUTTON ELEMENTS ***-->
+    <dbuttonelements otype='array' nodename='dbuttonelements'>
+    <!-- BUTTON 1 -->
+	<dbuttonelement seqname='dbuttonelement1'>
+	    <dbuttonproperties otype='array' nodename='dbuttonproperties'>
+		<dbuttonprops seqname='dbuttonprops'>
+			<buttontext>News</buttontext>
+			<clickHBX>leftnav_news</clickHBX>
+	        </dbuttonprops>
+	    </dbuttonproperties>
+		    <!-- BUTTON 1 SUB BUTTONS -->
+            <dsubbuttons otype='array' nodename='dsubbuttons'>
+                <dsubbutton seqname='dsubbutton1'>
+			<sub_name>Top Stories</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>frontPageUrl</clickurl>
+			<clickHBX>leftnav_news_topstories</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton2'>
+			<sub_name>Top Toons</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>topToonsUrl</clickurl>
+			<clickHBX>leftnav_news_toptoons</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton3'>
+			<sub_name>Release Notes</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>releaseNotesUrl</clickurl>
+			<clickHBX>leftnav_news_releasenotes</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton4'>
+			<sub_name>Archive</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>newsArchiveUrl</clickurl>
+			<clickHBX>leftnav_news_archive</clickHBX>
+                </dsubbutton>
+	   </dsubbuttons>
+        </dbuttonelement>
+	<!-- ************** -->
+	   <!-- BUTTON 2 -->
+	<dbuttonelement seqname='dbuttonelement2'>
+	    <dbuttonproperties otype='array' nodename='dbuttonproperties'>
+		<dbuttonprops seqname='dbuttonprops'>
+			<buttontext>Toon HQ</buttontext>
+			<clickHBX>leftnav_toonHQ</clickHBX>
+	        </dbuttonprops>
+	    </dbuttonproperties>
+		    <!-- BUTTON 2 SUB BUTTONS -->
+            <dsubbuttons otype='array' nodename='dsubbuttons'>
+                <dsubbutton seqname='dsubbutton1'>
+			<sub_name>Contests</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>contestsURL</clickurl>
+			<clickHBX>leftnav_toonHQ_contests</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton2'>
+			<sub_name>Events</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>eventsURL</clickurl>
+			<clickHBX>leftnav_toonHQ_events</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton3'>
+			<sub_name>Recruit-a-Toon</sub_name>
+			<baseurl>baseaccounturl</baseurl>
+			<clickurl>recruitUrl</clickurl>
+			<clickHBX>leftnav_toonHQ_recruit</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton4'>
+			<sub_name>Top Toons</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>topToonsUrl</clickurl>
+			<clickHBX>leftnav_toonHQ_toptoons</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton5'>
+			<sub_name>Trading Card Central</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>tradingcardURL</clickurl>
+			<clickHBX>leftnav_toonHQ_tradingcards</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton6'>
+			<sub_name>Shop</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>shopURL</clickurl>
+			<clickHBX>leftnav_toonHQ_shop</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton7'>
+			<sub_name>Downloads</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>downloadsURL</clickurl>
+			<clickHBX>leftnav_toonHQ_downloads</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton8'>
+			<sub_name>Ask Toontown</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>asktoontownURL</clickurl>
+			<clickHBX>leftnav_toonHQ_asktoontown</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton9'>
+			<sub_name>Member Benefits</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>memberBenefitsURL</clickurl>
+			<clickHBX>leftnav_toonHQ_memberbenefits</clickHBX>
+                </dsubbutton>
+	   </dsubbuttons>
+        </dbuttonelement>
+	<!-- ************** -->
+	   <!-- BUTTON 3 -->
+	<dbuttonelement seqname='dbuttonelement3'>
+	    <dbuttonproperties otype='array' nodename='dbuttonproperties'>
+		<dbuttonprops seqname='dbuttonprops'>
+			<buttontext>Tips & Tricks</buttontext>
+			<clickHBX>leftnav_tipstricks</clickHBX>
+	        </dbuttonprops>
+	    </dbuttonproperties>
+		    <!-- BUTTON 3 SUB BUTTONS -->
+            <dsubbuttons otype='array' nodename='dsubbuttons'>
+                <dsubbutton seqname='dsubbutton1'>
+			<sub_name>Player's Guide</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>playersGuideUrl</clickurl>
+			<clickHBX>leftnav_tipstricks_playersguide</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton2'>
+			<sub_name>FAQ</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>faqUrl</clickurl>
+			<clickHBX>leftnav_tipstricks_faq</clickHBX>
+                </dsubbutton>
+	   </dsubbuttons>
+        </dbuttonelement>
+	<!-- ************** -->
+	 <!-- BUTTON 4 -->
+	<dbuttonelement seqname='dbuttonelement4'>
+	    <dbuttonproperties otype='array' nodename='dbuttonproperties'>
+		<dbuttonprops seqname='dbuttonprops'>
+			<buttontext>About Toontown</buttontext>
+			<clickHBX>leftnav_aboutTT</clickHBX>
+	        </dbuttonprops>
+	    </dbuttonproperties>
+		    <!-- BUTTON 4 SUB BUTTONS -->
+            <dsubbuttons otype='array' nodename='dsubbuttons'>
+                <dsubbutton seqname='dsubbutton1'>
+			<sub_name>What is Toontown?</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>whatIsTTUrl</clickurl>
+			<clickHBX>leftnav_aboutTT_whatis</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton2'>
+			<sub_name>Awards</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>awardsUrl</clickurl>
+			<clickHBX>leftnav_aboutTT_awards</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton3'>
+			<sub_name>Screenshots & Videos</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>imagesvideoURL</clickurl>
+			<clickHBX>leftnav_aboutTT_screensvideos</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton4'>
+			<sub_name>Players's Guide</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>playersGuideUrl</clickurl>
+			<clickHBX>leftnav_aboutTT_playersguide</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton5'>
+			<sub_name>FAQ</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>faqUrl</clickurl>
+			<clickHBX>leftnav_aboutTT_faq</clickHBX>
+                </dsubbutton>
+		<!-- dsubbutton seqname='dsubbutton5'>
+			<sub_name>Member Benefits</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>memberBenefitsURL</clickurl>
+			<clickHBX>leftnav_aboutTT_memberbenefits</clickHBX>
+                </dsubbutton -->
+	   </dsubbuttons>
+        </dbuttonelement>
+	<!-- ************** -->
+	<!-- BUTTON 5 -->
+	<dbuttonelement seqname='dbuttonelement5'>
+	    <dbuttonproperties otype='array' nodename='dbuttonproperties'>
+		<dbuttonprops seqname='dbuttonprops'>
+			<buttontext>Member Services</buttontext>
+			<clickHBX>leftnav_mbrservices</clickHBX>
+	        </dbuttonprops>
+	    </dbuttonproperties>
+		    <!-- BUTTON 5 SUB BUTTONS -->
+            <dsubbuttons otype='array' nodename='dsubbuttons'>
+		<dsubbutton seqname='dsubbutton1'>
+			<sub_name>Member Information</sub_name>
+			<baseurl>baseaccounturl</baseurl>
+			<clickurl>memberInfoUrl</clickurl>
+			<clickHBX>leftnav_mbrservices_mbrinfo</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton2'>
+			<sub_name>Passwords</sub_name>
+			<baseurl>baseaccounturl</baseurl>
+			<clickurl>changePwdUrl</clickurl>
+			<clickHBX>leftnav_mbrservices_passwords</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton3'>
+			<sub_name>Payment Options</sub_name>
+			<baseurl>baseaccounturl</baseurl>
+			<clickurl>billingInfoUrl</clickurl>
+			<clickHBX>leftnav_mbrservices_payopts</clickHBX>
+                </dsubbutton>
+                <dsubbutton seqname='dsubbutton4'>
+			<sub_name>Mail Options</sub_name>
+			<baseurl>baseaccounturl</baseurl>
+			<clickurl>emailPrefUrl</clickurl>
+			<clickHBX>leftnav_mbrservices_mailopts</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton5'>
+			<sub_name>Preferences</sub_name>
+			<baseurl>baseaccounturl</baseurl>
+			<clickurl>chatPrefUrl</clickurl>
+			<clickHBX>leftnav_mbrservices_prefs</clickHBX>
+                </dsubbutton>
+		<!-- dsubbutton seqname='dsubbutton6'>
+			<sub_name>Member Benefits</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>memberBenefitsURL</clickurl>
+			<clickHBX>leftnav_mbrservices_benefits</clickHBX>
+                </dsubbutton -->
+	   </dsubbuttons>
+        </dbuttonelement>
+	<!-- ************** -->
+	<!-- BUTTON 6 -->
+	<dbuttonelement seqname='dbuttonelement6'>
+	    <dbuttonproperties otype='array' nodename='dbuttonproperties'>
+		<dbuttonprops seqname='dbuttonprops'>
+			<buttontext>Help</buttontext>
+			<clickHBX>leftnav_help</clickHBX>
+	        </dbuttonprops>
+	    </dbuttonproperties>
+		    <!-- BUTTON 6 SUB BUTTONS -->
+            <dsubbuttons otype='array' nodename='dsubbuttons'>
+                <dsubbutton seqname='dsubbutton1'>
+			<sub_name>FAQ</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>faqUrl</clickurl>
+			<clickHBX>leftnav_help_faq</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton2'>
+			<sub_name>Player's Guide</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>playersGuideUrl</clickurl>
+			<clickHBX>leftnav_help_playersguide</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton3'>
+			<sub_name>Report a bug</sub_name>
+			<baseurl>baseplayurl</baseurl>
+			<clickurl>reportProblemUrl</clickurl>
+			<clickHBX>leftnav_help_reportabug</clickHBX>
+                </dsubbutton>
+		<dsubbutton seqname='dsubbutton4'>
+			<sub_name>Contact Us</sub_name>
+			<!-- baseurl>baseplayurl</baseurl -->
+			<clickurl>contactUsURL</clickurl>
+			<clickHBX>leftnav_help_contactus</clickHBX>
+                </dsubbutton>
+	   </dsubbuttons>
+        </dbuttonelement>
+	<!-- ************** -->
+    </dbuttonelements>
+</config>

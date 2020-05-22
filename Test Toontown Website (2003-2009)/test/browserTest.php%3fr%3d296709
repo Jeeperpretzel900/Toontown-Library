@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Browser Test</title>
+<meta name="robots" content="follow,noindex">
+<meta http-equiv="imagetoolbar" content="no">
+<script type="text/javascript" src="http://disney.go.com/detect/scripts/master_flash_full.js"></script>
+
+<script type="text/javascript">
+  browser_object = new SuperObj(); 
+</script>
+
+<script type="text/javascript" src="/shared/include/js/brwsniff.js"></script>
+<script type="text/javascript" src="/shared/include/js/utilities.js"></script>
+<script type="text/javascript" src="/shared/include/js/mac.js"></script>
+    <script type="text/javascript">
+    <!--
+        
+    
+    
+    var logs=new Array();
+    var logsi=0;
+
+    function logit()
+    {
+        
+        var a ="";
+
+        for (var i=0; i<arguments.length; i++) {
+          if (i%2 == 0) {
+            // Name
+            a+=escape(arguments[i]);
+            a+= "=";
+          } else {
+            // Value
+            a+=escape(arguments[i]);
+            a+=((i+1)!=arguments.length)?"&":"";
+          }
+
+        }
+
+      var s="http://play.test.toontown.com/shared/www/collect.php?deployment=US&rand="+Math.random()+"&"+a;
+      var lognum = ++logsi;
+      logs[lognum%9]=new Image();
+      logs[lognum%9].src=s;
+    }
+        //-->
+    </script>
+
+  <script type="text/javascript">
+<!--
+
+function popWin (name) {
+
+  logit("NAME", "CLICKTHRU-POPUP", "t", name);
+  
+  if (name == "WHATISGAMECARD") {
+    window.open("http://play.test.toontown.com/popups/gameCardWhatIsMain.php","whatisgamecard","width=700,height=450,resizable=0");
+  } else if (name == "GAMECARDHELP") {
+    window.open("http://play.test.toontown.com/popups/gameCardHelpFrameset.html","gamecardhelp","width=518,height=420,resizable=1");
+  } else if (name == "WHATISCOGBUCKS") {
+    window.open("http://play.test.toontown.com/popups/cogBucksWhatIsMain.php","whatiscogbucks","width=700,height=450,resizable=0");
+  } else if (name == "WHATISGUESTPASS") {
+    window.open("http://play.test.toontown.com/popups/guestPassWhatIsMain.php","whatisguestpass","width=700,height=450,resizable=0");
+  } else if (name == "WHATISSONYCDROM") {
+    window.open("http://play.test.toontown.com/popups/sonyCDWhatIsMain.php","whatissonycdrom","width=710,height=450,resizable=0");
+  } else if (name == "FINDGAMECARD") {
+    window.open("http://www.usa.att.com/webcents/disneystoontown_home.jsp","findgamecard","resizable=1,scrollbars=1,menubar=1,toolbar=1,location=1,status=1,directories=1");
+  }
+
+
+}
+
+function popNews(url) {
+  _news_popup = window.open("/frontPageArticle.php?articleID=" + url, "news","width=470,height=400,resizable=0,scrollbars=1");
+  _news_popup.focus();
+}
+
+//-->
+</script>
+
+      <script type="text/javascript">
+
+        headerPromoRight_Reg = new Image();
+        headerPromoRight_Reg.src = "/shared/images/topnav/hdrPromoRight_reg.gif";
+
+        headerPromoRight_Over = new Image();
+        headerPromoRight_Over.src = "/shared/images/topnav/hdrPromoRight_over.gif";
+
+        function img_over(imgName) {
+          imgOn = eval(imgName + "_Over.src");
+          document [imgName].src = imgOn;
+        }
+
+        function img_reg(imgName) {
+          imgOn = eval(imgName + "_Reg.src");
+          document [imgName].src = imgOn;
+        }
+
+    </script>
+
+    </head>
+<body id='us' onLoad="" onUnload=""  bgcolor="#ffffff" style="margin-top:0;margin-bottom:0;" >
+
+    <table width="770" cellspacing="0" cellpadding="0" border="0" align="center">
+      <tr bgcolor="#FFAA88" height="50">
+        <td colspan="2"><font face="arial,helvetica" size="3"><center><b>This is the Toontown Test Server.</b><br>
+        If you are here by mistake, please <A href="http://play.toontown.com/">Play Toontown Here</a> instead.</font></td>
+      </tr>
+    </table>
+
+
+    
+
+
+      <table align="center" cellspacing="0" cellpadding="0" border="0" width="770" bgcolor="#ffffff">
+      <tr>
+        <td colspan="2">
+    
+
+<script type="text/javascript">
+<!--
+
+  // Init browser and version vars
+  browser = "other";
+  strippedAppVersion = -2;
+
+      
+  flashVersion = browser_object.GetFlashVersion();
+  if (flashVersion){
+    flashVersion = parseFloat(flashVersion);          
+  }
+
+  var br=new Array(4);
+  var os=new Array(2);
+  br=getBrowser();
+  os=getOS();
+  var appleWebKit = -1;//unknown
+
+  if ( (navigator.platform == 'MacIntel') || (navigator.platform == 'MacPPC') ){
+    var appleWebKit = getAppleWebKit(); 	
+    if (appleWebKit >= 412){
+      os[1] = getOsFromWebKit(appleWebKit);
+      strippedAppVersion  = getSafariFromWebKit(appleWebKit);
+    }
+    else{
+     os[1]=navigator.platform;
+    }		
+  } 
+  else{
+   //getOS for Windows
+   os[0];
+   os[1]; 
+  }
+
+
+    function br_params(qp,dflt){
+    dflt=(dflt==null)?-1:dflt;
+    try{
+      r=unescape(navigator.userAgent.match(new RegExp(qp+"( |\:|\/)+([^&;\) ]*)"))[2]);
+    } catch(qp) { r=dflt; }
+    return r;
+  }
+
+  msieBool = br_params("MSIE",0);
+  operaBool = br_params("Opera",0);
+  intelMac = br_params("intelMac",0);
+  firefox = br_params("Firefox",0);
+  netscapeBool = br_params("Netscape",0);
+  safariDetection = br_params("Safari",0);
+
+
+  if(msieBool){
+    browser = "msie"
+    strippedAppVersion=br_params("MSIE");
+  }
+  else if(operaBool){
+    browser = "opera";
+    strippedAppVersion= br_params("Opera");
+  }
+  else if(firefox){
+    browser = "Firefox";
+    strippedAppVersion= br_params("Firefox");
+  }
+  else if(netscapeBool){
+    strippedAppVersion = br_params("Netscape");
+    browser = "Netscape";
+  }
+  else if(safariDetection){
+    browser = "Safari";
+    strippedAppVersion = br_params("Safari");
+  }
+
+
+  document.write('<form action="browserTestResult.php" method="post" name="webclientspecs" >');
+  document.write('<input type="hidden" name="platform" value="'+ navigator.platform +'" >');
+  document.write('<input type="hidden" name="browser" value="'+ browser +'" >');
+  document.write('<input type="hidden" name="browserVersion" value="'+ strippedAppVersion+'" >');
+  document.write('<input type="hidden" name="flashVersion" value="'+ flashVersion+'" >');
+  document.write('<input type="hidden" name="OS" value="'+ os[1]+'" >');
+  document.write('<input type="hidden" name="appleWebKit" value="'+appleWebKit +'" >'); 
+  document.write('</form>');
+  document.webclientspecs.submit();
+-->
+</script>
+
+
+      </td>
+    </tr>
+
+    <tr><td colspan="5" align="center">
+
+<script type="text/javascript">
+<!--
+var legalFooterColor="#0000ff";
+var legalFtrLine1="<div style='font-weight: bold;'>Disney's Toontown Online</div>";
+var legalFtrOpts=["Member/Guest Services","http://play.test.toontown.com/unavailableOnTestServer.php","Help","http://play.test.toontown.com/faq/","Contact Us","http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=toontown/toonhelp.tpl"]
+var legalFtrCpyRgt='<div style="font: verdana, arial, helvetica, sans-serif 1pt; color:#000000;"><a href="http://play.test.toontown.com/memberAgreement.php">Member Agreements</a>&nbsp;|&nbsp;<a href="http://home.disney.go.com/guestservices/netiquette">House Rules</a><br>&copy; Disney. All rights reserved.</div>';
+-->
+</script>
+<div id="tt_footer" align="center">
+  <script type="text/javascript" src="http://a.disney.go.com/globalmedia/legal_footer/legalfooter.js"></script>
+</div>
+    </td></tr>
+
+  </table>
+  </body></html>

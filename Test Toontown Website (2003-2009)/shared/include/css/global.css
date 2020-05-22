@@ -1,0 +1,121 @@
+body, table, tr, td, p, select, option, textarea, input {
+  font-family:arial, helvetica;
+  font-size:10pt;
+  color:#000000;
+}
+
+h1 {
+  font-family:impact;
+  font-size:30pt;
+  font-weight:bold;  
+}
+
+h2 {
+  font-family:impact;
+  font-size:26pt;
+  font-weight:bold;  
+}
+
+h3 {
+  font-family:impact;
+  font-size:22pt;
+  font-weight:bold;  
+}
+
+h4 {
+  font-family:impact;
+  font-size:20pt;
+  font-weight:bold;  
+}
+
+h5 {
+  font-family:impact;
+  font-size:18pt;
+  font-weight:bold;  
+}
+.font9pt {
+  font-size:9pt;
+}
+
+.font8pt {
+  font-size:8pt;
+}
+
+.error {
+  color:#ff0000;
+  font-weight:bold;  
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.underline {
+  text-decoration:underline;       
+}
+
+.subtitle {
+  color:#cc0000;
+  font-weight:bold;
+}
+
+.copyright {
+  font-size:8pt;
+  font-family:verdana;
+}
+
+.asktoontown {
+  color:#0000ff;
+  font-weight:bold;
+}
+
+.txtSmall {
+  font-size:8pt;
+}
+
+.txtSmallB {
+  font-size:8pt;
+  font-weight:bold;
+}
+
+.txtSmallI {
+  font-size:8pt;
+  font-style:italic;
+}
+.txtSmallU {
+  font-size:8pt;
+  text-decoration:underline;
+}
+
+.txtSmallBU {
+  font-size:8pt;
+  font-weight:bold;
+  text-decoration:underline;  
+}
+
+.txtLg {
+  font-size:12pt;
+}
+
+.txtLgB {
+  font-size:12pt;
+  font-weight:bold;
+}
+
+.txtLgBU {
+  font-size:12pt;
+  font-weight:bold;
+  text-decoration:underline;  
+}
+
+.faq {
+  font-size:12pt;
+  font-weight:bold;
+  color:#0000ff;
+}
+
+.faqQA {
+  font-size:10pt;
+  font-weight:bold;
+  color:#0000ff;
+}

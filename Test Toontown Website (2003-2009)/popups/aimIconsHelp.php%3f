@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Instructions - Desktop Icons</title>
+<meta name="robots" content="follow,noindex">
+<meta http-equiv="imagetoolbar" content="no">
+<link type="text/css" rel="stylesheet" href="http://play.test.toontown.com/shared/include/css/global.css">
+    <script type="text/javascript">
+    <!--
+        
+    
+    
+    var logs=new Array();
+    var logsi=0;
+
+    function logit()
+    {
+        
+        var a ="";
+
+        for (var i=0; i<arguments.length; i++) {
+          if (i%2 == 0) {
+            // Name
+            a+=escape(arguments[i]);
+            a+= "=";
+          } else {
+            // Value
+            a+=escape(arguments[i]);
+            a+=((i+1)!=arguments.length)?"&":"";
+          }
+
+        }
+
+      var s="http://play.test.toontown.com/shared/www/collect.php?deployment=US&rand="+Math.random()+"&"+a;
+      var lognum = ++logsi;
+      logs[lognum%9]=new Image();
+      logs[lognum%9].src=s;
+    }
+        //-->
+    </script>
+
+  <script type="text/javascript">
+<!--
+
+function popWin (name) {
+
+  logit("NAME", "CLICKTHRU-POPUP", "t", name);
+  
+  if (name == "WHATISGAMECARD") {
+    window.open("http://play.test.toontown.com/popups/gameCardWhatIsMain.php","whatisgamecard","width=700,height=450,resizable=0");
+  } else if (name == "GAMECARDHELP") {
+    window.open("http://play.test.toontown.com/popups/gameCardHelpFrameset.html","gamecardhelp","width=518,height=420,resizable=1");
+  } else if (name == "WHATISCOGBUCKS") {
+    window.open("http://play.test.toontown.com/popups/cogBucksWhatIsMain.php","whatiscogbucks","width=700,height=450,resizable=0");
+  } else if (name == "WHATISGUESTPASS") {
+    window.open("http://play.test.toontown.com/popups/guestPassWhatIsMain.php","whatisguestpass","width=700,height=450,resizable=0");
+  } else if (name == "WHATISSONYCDROM") {
+    window.open("http://play.test.toontown.com/popups/sonyCDWhatIsMain.php","whatissonycdrom","width=710,height=450,resizable=0");
+  } else if (name == "FINDGAMECARD") {
+    window.open("http://www.usa.att.com/webcents/disneystoontown_home.jsp","findgamecard","resizable=1,scrollbars=1,menubar=1,toolbar=1,location=1,status=1,directories=1");
+  }
+
+
+}
+
+function popNews(url) {
+  _news_popup = window.open("/frontPageArticle.php?articleID=" + url, "news","width=470,height=400,resizable=0,scrollbars=1");
+  _news_popup.focus();
+}
+
+//-->
+</script>
+
+  </head>
+<body id='us' onLoad="" onUnload=""  bgcolor="#ffffff" style="margin-top:0;margin-bottom:0;" >
+
+<table width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffcc; margin-left:0; margin-top:0;">
+  <tr>
+    <td align="center">
+      <img src="http://play.test.toontown.com/images/buddy_icons/buddy_icons_subhd.gif" width="400" height="23" alt="Buddy Icons" border="0">
+    </td>
+  </tr>
+  <tr>    
+    <td align="right">      
+      <a href="aim:BuddyIcon?src=/images/animated_buddy_icons/" border="0">
+      <img src="http://play.test.toontown.com/images/animated_buddy_icons/" border="0" alt="" height="48" width="48"></a>      
+    </td>    
+  </tr>
+  <tr>
+    <td style="padding-left:10px; padding-right:10px;">     
+      Instructions        
+      <ol class="txtSmall">
+        <li>Log on to AIM.</li>
+        <li>Click on the icon image to the right.</li>
+        <li>Click OK.</li>
+      </ol>      
+      If that doesn't work: <br>      
+      <ol class="txtSmall">
+        <li>Right-click on the icon at the top right and pick 'Save Picture As ...'</li>
+        <li>Save the image to your computer's desktop.</li>
+        <li>Log on to AIM.</li>
+        <li>In your buddy list window menu go to 'My AIM' > 'Edit Options' > 'Edit Preferences...'</li>
+        <li>Click on 'Buddy Icons' or 'Expressions', depending on what version of AIM you are using.</li>
+        <li>Click 'Browse PC'.</li>
+        <li>Navigate to where you saved the icon on your hard disk, pick it and click 'OK'.</li>
+      </ol>     
+      <span class="txtSmall">
+      NOTE: You'll only be able to use Buddy Icons for AOL Instant Messenger if your browser is Internet Explorer, and your computer uses Windows.
+      </span>
+      <br>             
+    </td>    
+  </tr>
+  <tr>
+    <td align="center" height="15">&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <td align="center"><a href="javascript:window.close()"><img src="/shared/images/buttons/close_clear.gif" width="130" height="33" alt="Close" border="0"></a></td>
+  </tr>
+  <tr>
+    <td align="center" class="txtSmall">    
+    &copy; Disney. All Rights Reserved.    
+    </td>
+  </tr>  
+  <tr>
+    <td align="center" height="40">&nbsp;</td>
+  </tr>  
+</table>
+
+</body></html>

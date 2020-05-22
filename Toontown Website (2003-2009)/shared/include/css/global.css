@@ -1,0 +1,57 @@
+body,table,tr,td,p {
+  font-family:arial, helvetica;
+  font-size:10pt;
+  color:#000000;
+}
+
+h1 {
+  font-family:impact;
+  font-size:30pt;
+  font-weight:bold;  
+}
+
+h2 {
+  font-family:impact;
+  font-size:26pt;
+  font-weight:bold;  
+}
+
+h3 {
+  font-family:impact;
+  font-size:22pt;
+  font-weight:bold;  
+}
+
+
+h4 {
+  font-family:impact;
+  font-size:20pt;
+  font-weight:bold;  
+}
+
+h5 {
+  font-family:impact;
+  font-size:18pt;
+  font-weight:bold;  
+}
+.font9pt {
+  font-size:9pt;
+}
+
+.font8pt {
+  font-size:8pt;
+}
+
+.error {
+  color:#ff0000;
+  font-weight:bold;  
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.subtitle {
+  color:#cc0000;
+  font-weight:bold;
+}
