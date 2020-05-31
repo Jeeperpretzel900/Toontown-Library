@@ -1,0 +1,298 @@
+<?
+include_once("include/ttoConfig.inc.php");
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<title>トゥーンタウン・オンライン</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="/common/AC_RunActiveContent.js" language="javascript"></script>
+<script language="javascript" src="common/gnavi.js"></script>
+<script language="JavaScript">
+<!--
+if ((navigator.appVersion.indexOf("Mac") != -1)) {
+document.write("<LINK REL=stylesheet HREF=\"common/stylemac.css\" TYPE=\"text/css\">"); }
+else {
+document.write("<LINK REL=stylesheet HREF=\"common/stylewin.css\" TYPE=\"text/css\">"); }
+//-->
+</script>
+<style type="text/css">
+<!--
+img{
+	font-size: 0;
+	border: none;
+}
+td,th {
+	font-size: 13px;
+	line-height: 16px;
+	color: #333333;
+}
+#chart {
+	border-top: 2px #8E8D6B solid;
+	border-right: 2px #8E8D6B solid;
+	border-bottom: 2px #8E8D6B solid;
+	border-left: 2px #8E8D6B solid;
+	width: 641px;
+}
+#chart table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#chart .index {
+	background: #FFE08B;
+	font-weight: bold;
+	text-align: center;
+	color: #ff0000;
+	font-size: 14px;
+}
+#chart th {
+	padding: 6px 5px;
+	border: #8E8D6B solid;
+	border-width: 0 1px 1px 0;
+	background: #F0EFBF;
+	font-weight: bold;
+	text-align: left;
+}
+#chart td {
+	padding: 6px 5px;
+	border: #8E8D6B solid;
+	border-width: 0 1px 1px 0;
+	text-align: left;
+}
+#chart .rightTd {
+	border-right: 0px #8E8D6B solid;
+}
+#chart .bottomTd {
+	border-bottom: 0px #8E8D6B solid;
+}
+#chart .rightDotTd {
+	border-right: 1px #8E8D6B dotted;
+}
+#chart .bottomDotTd {
+	border-bottom: 1px #8E8D6B dotted;
+}
+#chart p{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: bottom;
+	margin: 6px 0 0 0;
+	padding: 0;
+}
+a {
+	color: #ff6600;
+	background: url(images/chart/arrow.gif) no-repeat 0 2px;
+	padding: 0 0 0 14px;
+}
+-->
+</style>
+</head>
+<body bgcolor="#ffffff" link="#000000" vlink="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div align="center">
+
+<table width="860" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" valign="top">
+
+<table width="860" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3"><img src="images/chart/top.jpg" alt="比較チャート" width="860" height="124" border="0" usemap="#Map"><map name="Map" id="Map"><area shape="rect" coords="781,76,824,123" href="javascript:window.close();" alt="とじる" /></map></td>
+	</tr>
+	<tr>
+		<td colspan="3"><img src="images/chart/lead.gif" width="860" height="76" alt="フルアクセス・プランは機能が充実！フリー・プランとの違いをチェックしてみよう"></td>
+	</tr>
+	<tr>
+		<td background="images/chart/left.gif" width="107"></td>
+		<td bgcolor="#FFFECB" width="645">
+<!-- chart table start -->
+<div id="chart">
+<table>
+	<tr>
+		<th class="index" width="34%">機能</th>
+		<th class="index" width="33%">フリー・プラン</th>
+		<th class="index rightTd" width="33%">フルアクセス・プラン</th>
+	</tr>
+	<tr>
+		<th valign="top">持てるトゥーンの数と利用可能のスロット</th>
+		<td valign="top">2つ（リスト中央の2つのみ）<p><img src="images/chart/pic1_1.gif" width="117" height="88" alt=""></p></td>
+		<td valign="top" class="rightTd">6つ<p><img src="images/chart/pic1_2.gif" width="117" height="88" alt=""></p></td>
+	</tr>
+	<tr>
+		<th valign="top">トゥーンの種類</th>
+		<td valign="top">全て</td>
+		<td valign="top" class="rightTd">全て</td>
+	</tr>
+	<tr>
+		<th valign="top">トゥーンの名前変更</th>
+		<td valign="top">できません</td>
+		<td valign="top" class="rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top">スピードチャット</th>
+		<td valign="top">できます</td>
+		<td valign="top" class="rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top">ひみつの友だち(フリー・チャット)</th>
+		<td valign="top">できません</td>
+		<td valign="top" class="rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top">ゲラゲラポイント</th>
+		<td valign="top">28まで</td>
+		<td valign="top" class="rightTd">制限なし</td>
+	</tr>
+	<tr>
+		<th valign="top">ギャグの種類</th>
+		<td valign="top">はじめのタスクでもらった2種類と、ユーザーが選んだ計3種類のみ<p><img src="images/chart/pic2_1.gif" width="195" height="68" alt=""></p></td>
+		<td valign="top" class="rightTd">制限なし<p><img src="images/chart/pic2_2.gif" width="202" height="90" alt=""></p></td>
+	</tr>
+	<tr>
+		<th valign="top">持てるギャグの数</th>
+		<td valign="top">25まで</td>
+		<td valign="top" class="rightTd">80まで</td>
+	</tr>
+	<tr>
+		<th valign="top">ジェリービーンの袋</th>
+		<td valign="top">40個まで</td>
+		<td valign="top" class="rightTd">250個まで</td>
+	</tr>
+	<tr>
+		<th valign="top">一度に持てるトゥーンタスク</th>
+		<td valign="top">2つまで</td>
+		<td valign="top" class="rightTd">４つまで</td>
+	</tr>
+	<tr>
+		<th valign="top">コグHQ</th>
+		<td valign="top">利用できません</td>
+		<td valign="top" class="rightTd">利用できます</td>
+	</tr>
+	<tr>
+		<th valign="top">トロリーゲーム</th>
+		<td valign="top">トゥーンタウンセントラルのみ</td>
+		<td valign="top" class="rightTd">制限なし</td>
+	</tr>
+	<tr>
+		<th valign="top">トゥーンタスクとエリア</th>
+		<td valign="top">トゥーンタウンセントラルのみ</td>
+		<td valign="top" class="rightTd">制限なし　<a href="http://toontown.disney.co.jp/guide/beginner/15.html" target="_blank" class="area">全エリアを見る</a></td>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomDotTd rightTd" colspan="3">ショッピングカタログ</th>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomDotTd rightDotTd">- 洋服の購入</th>
+		<td valign="top" class="bottomDotTd rightDotTd">できます</td>
+		<td valign="top" class="bottomDotTd rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomDotTd rightDotTd">- 家具の購入</th>
+		<td valign="top" class="bottomDotTd rightDotTd">できません</td>
+		<td valign="top" class="bottomDotTd rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomDotTd rightDotTd">- クローゼットの購入</th>
+		<td valign="top" class="bottomDotTd rightDotTd">できません</td>
+		<td valign="top" class="bottomDotTd rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomDotTd rightDotTd">- 貯ビーン箱の購入</th>
+		<td valign="top" class="bottomDotTd rightDotTd">できません（ゲーム開始時にもらえる貯ビーン箱しか使えません）<p><img src="images/chart/pic3_1.gif" width="38" height="61" alt=""></p></td>
+		<td valign="top" class="bottomDotTd rightTd"><img src="images/chart/pic3_2.gif" width="61" height="132" alt="" align="right" style="margin:0 0 0 5px;">できます（2500個、5000個、7500個、10000個の貯ビーン箱が購入できて、沢山のジェリーンビーンを持つ事ができるよ)</td>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomDotTd rightDotTd">- ドゥードゥルの一芸の購入</th>
+		<td valign="top" class="bottomDotTd rightDotTd">できません</td>
+		<td valign="top" class="bottomDotTd rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomDotTd rightDotTd">- スピードチャットの台詞の購入</th>
+		<td valign="top" class="bottomDotTd rightDotTd">できません</td>
+		<td valign="top" class="bottomDotTd rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top" class=" rightDotTd">- スペシャルアイテムの購入</th>
+		<td valign="top" class=" rightDotTd">できません</td>
+		<td valign="top" class=" rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top">ドゥードゥル</th>
+		<td valign="top">2匹まで（トゥーンタウンセントラルのショップのみ使用できます）</td>
+		<td valign="top" class="rightTd">6匹まで</td>
+	</tr>
+	<tr>
+		<th valign="top">釣り</th>
+		<td valign="top">小枝のさおのみ<p><img src="images/chart/pic4_1.gif" width="195" height="64" alt=""></p></td>
+		<td valign="top" class="rightTd">制限なし(「小枝のさお」の他に、「竹のさお」「鉄のさお」「金のさお」が購入できて、色々な魚を釣る事ができるよ)<p><img src="images/chart/pic4_2.gif" width="190" height="64" alt=""></p></td>
+	</tr>
+	<tr>
+		<th valign="top">ギフト</th>
+		<td valign="top">利用できません</td>
+		<td valign="top" class="rightTd">制限なし</td>
+	</tr>
+	<tr>
+		<th valign="top">ガーデニング</th>
+		<td valign="top">できません</td>
+		<td valign="top" class="rightTd">できます</td>
+	</tr>
+	<tr>
+		<th valign="top">グーフィースピードウェイ</th>
+		<td valign="top">練習走行のみ</td>
+		<td valign="top" class="rightTd">制限なし</td>
+	</tr>
+	<tr>
+		<th valign="top">カートのパーツ購入</th>
+		<td valign="top">できません<p><img src="images/chart/pic5_1.gif" width="153" height="91" alt=""></p></td>
+		<td valign="top" class="rightTd">できます<p><img src="images/chart/pic5_2.gif" width="153" height="91" alt=""></p></td>
+	</tr>
+	<tr>
+		<th valign="top" class="bottomTD">マジックポイント・クラブ</th>
+		<td valign="top" class="bottomTD">ポイントはつきません</td>
+		<td valign="top" class="rightTd bottomTD">ウェルカムポイントと毎月継続ポイントがつきます</td>
+	</tr>
+</table>
+</div>
+<!-- chart table end -->
+		</td>
+		<td background="images/chart/right.gif" width="108"></td>
+	</tr>
+	<tr>
+		<td colspan="3"><img src="images/chart/bottom.gif" width="860" height="106" alt=""></td>
+	</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+</body>
+<!-- BEGIN WDIG Web Analytics 1.0 -->
+<script type="text/javascript" src="//analytics.disneyinternational.com/analytics/wdigWebAnalytics.js"></script>
+<script type="text/javascript">
+cto=new CTO();
+
+cto.siteSection = "toontown";
+cto.pageName = "chart.html";
+cto.property = "tnt";
+
+cto.track();
+</script>
+<!-- END WDIG Web Analytics 1.0 -->
+
+<script type="text/javascript">
+    // Support for legacy Hitbox Functions hard-coded into old Flash Files
+    // These functions will now record to both Hitbox and Omniture
+    function _hbflash(p,m,x,d,s,c,f,g){cto.hbflash(p,m,x,d,s,c,f,g);}
+    function _hbPageView(p,m){cto.hbflash(p,m,"n","n","n","n","n","n");}
+    function _hbExitLink(n){cto.hbflash(_pn,_mlc,n,"n","n","n","n","n");}
+    function _hbDownload(n){cto.hbflash(_pn,_mlc,"n",n,"n","n","n","n");}
+    function _hbVisitorSeg(n,p,m){cto.hbflash(p,m,"n","n",n,"n","n","n");}
+    function _hbCampaign(n,p,m){cto.hbflash(p,m,"n","n","n",n,"n","n");}
+    function _hbFunnel(n,p,m){cto.hbflash(p,m,"n","n","n","n",n,"n");}
+    function _hbGoalPage(n,p,m){cto.hbflash(p,m,"n","n","n","n","n",n);}
+</script>
+</html>

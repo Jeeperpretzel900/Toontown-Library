@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<title>トゥーンタウン・オンライン</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script language="javascript" src="/common/environment.js"></script>
+<script src="/common/AC_RunActiveContent_for1st.js" language="javascript"></script>
+<script language="javascript" src="common/gnavi.js"></script>
+<script language="JavaScript">
+<!--
+if ((navigator.appVersion.indexOf("Mac") != -1)) {
+document.write("<LINK REL=stylesheet HREF=\"common/stylemac.css\" TYPE=\"text/css\">"); }
+else {
+document.write("<LINK REL=stylesheet HREF=\"common/stylewin.css\" TYPE=\"text/css\">"); }
+//-->
+</script>
+<script language="JavaScript">
+<!--
+function openLetter(){
+  subWin = window.open("http://toontown.disney.co.jp/parents_printable/","newWindow","toolbar=no,location=no,scrollbars=yes,status=no,menubar=no,resizable=yes,width=640,height=480");
+}
+//-->
+</script>
+
+</head>
+<body bgcolor="#ffffff" link="#000000" vlink="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="wrapper">
+<!-- nav bar start-->
+<table height="66" width="860" border="0" cellspacing="0" cellpadding="0">
+<tr><td><script language="JavaScript" type="text/javascript" src="http://navbar.disneyinternational.com/jp/synbar860.js"></script></td></tr>
+</table>
+<!-- nav bar end-->
+<!-- globalnavi pulldownmenu start-->
+<script language="javascript" type="text/javascript" src="/common/gnavi4.js"></script>
+<!-- globalnavi pulldownmenu end-->
+<table width="860" border="0" cellspacing="0" cellpadding="0">
+<!-- main start-->
+<tr>
+	<td width="860" height="602"><script language="javascript" type="text/javascript">
+
+
+
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0','width','860','height','602','id','form','align','middle','src','form','loop','false','menu','false','quality','high','pluginspage','http://www.macromedia.com/go/getflashplayer','allowscriptaccess','sameDomain','movie','form' ); //end AC code
+//,'wmode','opaque'
+</script>
+<noscript>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="860" height="602" id="form" align="middle">
+<param name="movie" value="form.swf" />
+  <param name="quality" value="high" />
+  <param name="allowScriptAccess" value="sameDomain" />
+  <param name="loop" value="false" />
+  <param name="menu" value="false" />
+  <param name="quality" value="high" />
+  <!--<param name="wmode" value="opaque" />-->
+  <embed src="form.swf" width="860" height="602" loop="false" menu="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowScriptAccess="sameDomain" wmode="opaque"></embed>
+</object>
+</noscript>
+
+
+
+	</td>
+</tr>
+<!--main end -->
+</td></tr>
+<!-- footer start-->
+<table width="860" height="30" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle" nowrap bgcolor="#FFFFFF" class="font0"><a href="http://www.disney.co.jp/legal.html">サイトの使用条件 </a>| <a href="http://www.disney.co.jp/privacy.html">プライバシーポリシー</a> | <a href="/tou.html">会員規約</a> | <a href="https://bbcommon.disney.co.jp/info/security.html">セキュリティについて</a> | <a href="/houserule.html">ハウスルール</a>      | <a href="/cmdeal.html">特定商取引法に基づく表示</a> | <a href="/query.php">お問い合わせ</a>　　&copy; Disney. All rights reserved.</td>
+  </tr>
+</table>
+<!--footer end -->
+</div>
+</body>
+<!-- BEGIN WDIG Web Analytics 1.0 -->
+<script type="text/javascript" src="//analytics.disneyinternational.com/analytics/wdigWebAnalytics.js"></script>
+<script type="text/javascript">
+cto=new CTO();
+
+cto.h.account = "DM510528KKFV38JA3;DM5105282OZE38EN3;DM5103083LCA38EN3";
+cto.h.mlc = "/Toontown;/JP/Toontown;/ASIAPAC/JP/Toontown";
+cto.h.pageName = "1st_regist.html";
+cto.siteSection = "Toontown";//階層2
+cto.pageName = "1st_regist.html";//ファイル名
+cto.property = "tnt";
+
+cto.track();
+</script>
+<!-- END WDIG Web Analytics 1.0 -->
+
+<script type="text/javascript">
+    // Support for legacy Hitbox Functions hard-coded into old Flash Files
+    // These functions will now record to both Hitbox and Omniture
+    function _hbflash(p,m,x,d,s,c,f,g){cto.hbflash(p,m,x,d,s,c,f,g);}
+    function _hbPageView(p,m){cto.hbflash(p,m,"n","n","n","n","n","n");}
+    function _hbExitLink(n){cto.hbflash(_pn,_mlc,n,"n","n","n","n","n");}
+    function _hbDownload(n){cto.hbflash(_pn,_mlc,"n",n,"n","n","n","n");}
+    function _hbVisitorSeg(n,p,m){cto.hbflash(p,m,"n","n",n,"n","n","n");}
+    function _hbCampaign(n,p,m){cto.hbflash(p,m,"n","n","n",n,"n","n");}
+    function _hbFunnel(n,p,m){cto.hbflash(p,m,"n","n","n","n",n,"n");}
+    function _hbGoalPage(n,p,m){cto.hbflash(p,m,"n","n","n","n","n",n);}
+</script>
+
+
+</html>

@@ -1,0 +1,445 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<title>トゥーンタウン・オンライン</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="/common/AC_RunActiveContent.js" language="javascript"></script>
+<script language="javascript" src="../common/gnavi.js"></script>
+<script language="JavaScript">
+<!--
+if ((navigator.appVersion.indexOf("Mac") != -1)) {
+document.write("<LINK REL=stylesheet HREF=\"../common/stylemac.css\" TYPE=\"text/css\">"); }
+else {
+document.write("<LINK REL=stylesheet HREF=\"../common/stylewin.css\" TYPE=\"text/css\">"); }
+//-->
+</script>
+</head>
+<body bgcolor="#ffffff" link="#000000" vlink="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-114634-3";
+urchinTracker();
+</script>
+<div align="center">
+<!-- nav bar start-->
+<table height="66" width="860" border="0" cellspacing="0" cellpadding="0">
+<tr><td><script language="JavaScript" type="text/javascript" src="http://navbar.disneyinternational.com/jp/synbar860.js"></script></td></tr>
+</table>
+<!--nav bar end -->
+<!-- globalnavi start -->
+<table height="50" width="860" border="0" cellspacing="0" cellpadding="0">
+<tr><td><script language="javascript" type="text/javascript" src="/common/gnavi2.js"></script></td></tr>
+</table>
+<!-- globalnavi end -->
+<!-- maincontent start-->
+<table bgcolor="#0c97d4" border="0" cellpadding="0" cellspacing="0" width="860">
+<tbody>
+<tr>
+<td colspan="3"><img src="images/background_top.gif" alt="" border="0" height="55" width="860"></td>
+</tr>
+<tr>
+<td valign="top" background="images/background_left_repeat.gif"><img src="images/background_left_top.gif" alt=" " width="105" height="358"></td>
+<td rowspan="2" valign="top" background="images/background_center_repeat.gif"><table border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody>
+<tr>
+<td width="290"><img src="images/a2.gif" alt="FAQ よくある質問と回答" border="0" height="40" width="290"></td>
+<td width="358"><img src="images/a3.gif" alt="" border="0" height="40" width="80"></td>
+<td width="2"><br></td>
+</tr>
+<tr>
+<td colspan="3"><img src="images/a6.gif" alt="トゥーンタウン・オンラインについてみなさまから寄せられる「よくある質問」と、その回答を掲載！ゲームについておかしいと思ったら、こちらをご覧ください。" border="0" height="31" width="650"><br>
+<img src="images/a7.gif" alt="" border="0" height="15" width="650"></td>
+</tr>
+</tbody>
+</table>
+<a name="faq_list"></a>
+<div id="faq_index"><img src="images/faq_title_trouble.gif" alt="ダウンロード、インストール、ゲームの起動に関するトラブル" width="646" height="30">
+<div class="font1" id="faq_list">
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q1">トゥーンタウンで遊ぶための料金はいくらかかるの？</a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/faq_list_border.gif" alt=" " width="631" height="2" class="border"></td>
+</tr>
+</table>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q8">フレッツ利用者は無料って本当？</a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/faq_list_border.gif" alt=" " width="631" height="2" class="border"></td>
+</tr>
+</table>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q2">『WebMoney』の使い方を教えて！</a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/faq_list_border.gif" alt=" " width="631" height="2" class="border"></td>
+</tr>
+</table>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q3">1つのアカウントで、トゥーンを何人までつくれるの？</a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/faq_list_border.gif" alt=" " width="631" height="2" class="border"></td>
+</tr>
+</table>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q4">トゥーンタウンの利用料金は、どうやって支払えばいいの？</a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/faq_list_border.gif" alt=" " width="631" height="2" class="border"></td>
+</tr>
+</table>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q5">アカウントをたくさん取ると、トゥーンタウンの利用料金も増えるの？</a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/faq_list_border.gif" alt=" " width="631" height="2" class="border"></td>
+</tr>
+</table>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q6">家族で遊びたいんだけど、何人まであそべるの？</a></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/faq_list_border.gif" alt=" " width="631" height="2" class="border"></td>
+</tr>
+</table>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" valign="top"><img src="images/icn_q.gif" alt=" " width="17" height="17" class="icon"></td>
+<td width="606" class="font1"><a href="#q7">トゥーンタウンを退会したいときはどうすればいいの？</a></td>
+</tr>
+</table>
+</div>
+
+</div>
+<div id="faq_back"><a href="index.html"><img src="images/faq_back_to_index.gif" alt="FAQ目次へ戻る" border="0"></a></div>
+<div class="faq_qa">
+<h3><a name="q1" id="q1"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> トゥーンタウンで遊ぶための料金はいくらかかるの？</h3>
+<table width="." border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605">最初にサインアップした後は、無料でトゥーンタウンの世界を体験できるトライアル期間が３日間あります。トライアル期間が終わって正式に登録すると、毎月の利用料として月額840円（税込）が必要になります。料金の支払い方法は現在以下になります。<br>
+・クレジットカード（VISA / MASTER / JCB）<br>
+・プリペイドサービス『WebMoney』（詳しくは、<a href="#q2">こちら</a>をご覧ください。）
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+<div class="faq_qa">
+<h3><a name="q8" id="q8"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> フレッツ利用者は無料って本当？</h3>
+<table width="." border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605">本当です。<br><br>NTT東日本・NTT西日本のBフレッツ、またはフレッツADSL、NTT西日本のフレッツ・光プレミアムをご利用のお客様は、トゥーンタウン・オンラインが無料で遊べます。ただしフレッツ回線からのみ遊ぶことができます。詳しい料金と利用制限は<a href="#">こちら</a>から確認ください。
+
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+<div class="faq_qa">
+<h3><a name="q2" id="q2"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> 『WebMoney』はどうやって入手するの？</h3>
+<table width="." border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605"><strong>1.コンビニエンスストア等で取扱いしています。</strong><br>
+<br>
+<table width="." border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="images/webmoney_01.gif" alt="　" width="208" height="127" style="margin-right: 10px;"></td>
+<td valign="top" class="font1">WebMoneyは左にある主なコンビニエンスストアやショップ等で<br>
+取扱いをしています。WebMoneyには<br>
+「カードタイプ」のものと「シートタイプ」のものがあります。<br>
+左側のコンビニエンスストアでは「カードタイプ」、<br>
+右側はマルチメディア端末で「シートタイプ」のものを<br>
+購入いただけます。&#13;<br>
+取り扱いショップの詳しいいちらんは<a href="http://www.webmoney.jp/guide/buy.html" target="_blank">こちら</a>
+<div></div></td>
+</tr>
+</table>
+<br>
+<img src="images/faq_qa_border.gif" alt=" " width="605" height="2" class="border"><br>
+<strong>2.購入方法<br>
+</strong><br>
+<table border="0" cellpadding="0" cellspacing="0" width="605">
+<!-- fwtable fwsrc="名称未設定" fwbase="webmoney_buy.gif" fwstyle="Dreamweaver" fwdocid = "1425336026" fwnested="0" -->
+<tr>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="9" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="210" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="27" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="204" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="139" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="16" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+</tr>
+<tr>
+<td colspan="6"><img name="webmoney_buy_01" src="images/webmoney_buy_01.gif" width="605" height="46" border="0" id="webmoney_buy_01" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="1" height="46" border="0" /></td>
+</tr>
+<tr>
+<td rowspan="2" colspan="3"><img name="webmoney_buy_02" src="images/webmoney_buy_02.gif" width="246" height="156" border="0" id="webmoney_buy_02" alt="" /></td>
+<td valign="top" background="images/webmoney_buy_03.gif" class="font0">Loppiなどのマルチメディア端末で買おう。<br>
+操作方法がわからない場合は、店員さんに聞こうね。</td>
+<td colspan="2"><img name="webmoney_buy_04" src="images/webmoney_buy_04.gif" width="155" height="123" border="0" id="webmoney_buy_04" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="1" height="123" border="0" /></td>
+</tr>
+<tr>
+<td colspan="2" rowspan="2" valign="top" bgcolor="#FFFFF7" class="font0"><div>
+<div>各コンビニエンスストアの詳しい購入方法はこちら<br>
+●ローソンの場合<br>
+　（<a href="http://www.webmoney.jp/guide/lawson/loppi.html" target="_blank">http://www.webmoney.jp/guide/lawson/loppi.html</a>）<br>
+●ファミリーマートの場合<br>
+　（<a href="http://www.webmoney.jp/guide/familymart/famiport.html" target="_blank">http://www.webmoney.jp/guide/familymart/famiport.html</a>）<br>
+●スリ－エフの場合<br>
+　（<a href="http://www.webmoney.jp/guide/threef/etower.html" target="_blank">http://www.webmoney.jp/guide/threef/etower.html</a>）&#13;</div>
+<div></div>
+</div></td>
+<td rowspan="3"><img name="webmoney_buy_06" src="images/webmoney_buy_06.gif" width="16" height="135" border="0" id="webmoney_buy_06" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="1" height="33" border="0" /></td>
+</tr>
+<tr>
+<td rowspan="2"><img name="webmoney_buy_07" src="images/webmoney_buy_07.gif" width="9" height="102" border="0" id="webmoney_buy_07" alt="" /></td>
+<td valign="middle" bgcolor="#FFFFF7" class="font0"> お店の人に「WebMoney」ください！<br>
+と元気良く言ってね。<br>
+<br>
+Am/pmでは2000円と5000円<br>
+サークルK、サンクスでは<br>
+1000円～10000円のカードがあるよ。&#13;<div></div></td>
+<td rowspan="2"><img name="webmoney_buy_09" src="images/webmoney_buy_09.gif" width="27" height="102" border="0" id="webmoney_buy_09" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="1" height="92" border="0" /></td>
+</tr>
+<tr>
+<td><img name="webmoney_buy_10" src="images/webmoney_buy_10.gif" width="210" height="10" border="0" id="webmoney_buy_10" alt="" /></td>
+<td colspan="2"><img name="webmoney_buy_11" src="images/webmoney_buy_11.gif" width="343" height="10" border="0" id="webmoney_buy_11" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_2" width="1" height="10" border="0" /></td>
+</tr>
+</table>
+<br>
+<img src="images/faq_qa_border.gif" alt=" " width="605" height="2" class="border"><br>
+<strong>3.WebMoney　PREMIUMへの会員登録（無料）</strong><br>
+WebMoneyで支払う場合、WebMoney PREMIUMへの会員登録</a>（無料）が必要になります。<br>
+まだ会員登録がお済でない方は<a href="http://www.webmoney.jp/service/premium.html" target="_blank">こちら</a>のサイトから登録をすませて下さい。
+<br>
+<br>
+<img src="images/faq_qa_border.gif" alt=" " width="605" height="2" class="border"><br>
+<strong>4.WebMoneyプリペイド番号の確認</strong>
+<table border="0" cellpadding="0" cellspacing="0" width="605">
+<!-- fwtable fwsrc="名称未設定" fwbase="webmoney_number.gif" fwstyle="Dreamweaver" fwdocid = "2064664395" fwnested="0" -->
+<tr>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="24" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="267" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="39" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="266" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="9" height="1" border="0" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="1" height="1" border="0" /></td>
+</tr>
+<tr>
+<td colspan="5"><img name="webmoney_number_01_2" src="images/webmoney_number_01.gif" width="605" height="222" border="0" id="webmoney_number_01" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="1" height="222" border="0" /></td>
+</tr>
+<tr>
+<td rowspan="2"><img name="webmoney_number_02_2" src="images/webmoney_number_02.gif" width="24" height="51" border="0" id="webmoney_number_02" alt="" /></td>
+<td valign="middle" bgcolor="#FFFFF7" class="font0">「カードタイプ」の場合は裏面にある銀色の部分を<br>
+削ると、16桁の番号が出てくるよ。</td>
+<td rowspan="2"><img name="webmoney_number_04_2" src="images/webmoney_number_04.gif" width="39" height="51" border="0" id="webmoney_number_04" alt="" /></td>
+<td valign="middle" bgcolor="#FFFFF7" class="font0">シートタイプ」の場合は紙に印刷されている<br>
+16桁の番号を確認してね。</td>
+<td rowspan="2"><img name="webmoney_number_06_2" src="images/webmoney_number_06.gif" width="9" height="51" border="0" id="webmoney_number_06" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="1" height="37" border="0" /></td>
+</tr>
+<tr>
+<td><img name="webmoney_number_07_2" src="images/webmoney_number_07.gif" width="267" height="14" border="0" id="webmoney_number_07" alt="" /></td>
+<td><img name="webmoney_number_08_2" src="images/webmoney_number_08.gif" width="266" height="14" border="0" id="webmoney_number_08" alt="" /></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_5" width="1" height="14" border="0" /></td>
+</tr>
+</table>
+<strong><br>
+</strong><img src="images/faq_qa_border.gif" alt=" " width="605" height="2" class="border"><br>
+<strong>5.WebMoneyのチャージ方法</strong><br>
+<br>
+1.WebMoneyでお支払いをするには、WebMoney PREMIUMへの会員登録（無料）が必要です。<br>
+まだ登録されていない方は、<a href="https://member.webmoney.ne.jp/premium/Regist.do?WMS_SERVICEID=31&WMS_RESLTURL=MemberTop.do&WMS_RETMETH=0" target="_blank">こちら</a>から登録してね。
+<br>
+<br>
+2. WebMoney PREMIUMの登録が終わったら、購入したWebMoneyの番号を入力しよう。<br>
+WebMoney PREMIUMへ<a href="https://member.webmoney.ne.jp/premium/Login.do?WMS_RESLTURL=MemberTop.do" target="_blank">ログイン</a>して「プリペイド番号フォルダ」から購入した16桁のプリペイド番号を<br>
+入力しよう<br>
+<br>
+3.「プリペイド番号フォルダ」に登録されたポイントの下にある「チャージ」ボタンを押してWebMoney<br>
+ウォレットへチャージしてね。 詳しくは<a href="https://member.webmoney.ne.jp/about/prepaid.html#a" target="_blank">こちら</a>を見てね。
+ <br>
+<br>
+毎月トゥーンタウンの利用料金はWebMoneyウォレットから自動で引き落しされるので、残高などの確認を<br>
+したいときはWebMoney PREMIUMで確認しよう。
+<br>
+<br>
+<img src="images/faq_qa_border.gif" alt=" " width="605" height="2" class="border"><br>
+<strong>6.支払方法</strong><br>
+<br>
+<table border="0" cellpadding="0" cellspacing="0" width="573">
+<!-- fwtable fwsrc="名称未設定" fwbase="webmoney_pay.gif" fwstyle="Dreamweaver" fwdocid = "1497526668" fwnested="0" -->
+<tr>
+<td width="171"><img src="images/spacer.gif" alt="" name="undefined_4" width="171" height="1" border="0"></td>
+<td colspan="2"><img src="images/spacer.gif" alt="" name="undefined_4" width="402" height="1" border="0"></td>
+<td width="1"><img src="images/spacer.gif" alt="" name="undefined_4" width="1" height="1" border="0"></td>
+</tr>
+<tr>
+<td><img name="webmoney_pay_01" src="images/webmoney_pay_01.gif" width="171" height="103" border="0" alt=""></td>
+<td colspan="2" valign="top" class="font1">1.トゥーンタウン・オンラインの体験プレイ後に出る画面の「購入する」<br>
+ボタンを押して会員規約に同意して、住所や生年月日を入力した後、<br>
+「料金プラン選択」の画面で「WebMoney」を選択してね。</td>
+<td><img src="images/spacer.gif" alt="" name="undefined_4" width="1" height="103" border="0"></td>
+</tr>
+<tr>
+<td><img name="webmoney_pay_03" src="images/webmoney_pay_03.gif" width="171" height="104" border="0" alt=""></td>
+<td colspan="2" valign="top" class="font1">2.「決定」ボタンを押すと「WebMoney決済のご案内」ページが出る<br>
+ので、内容を確認して、 「WebMoney　PREMIUM」にまだ登録して<br>
+ない方は、さきに登録をすませて下さい。<br>
+（※5.WebMoneyのチャージ方法を確認してね。）<br>
+登録が済んでいる方は、「次へ」ボタンを押して次へすすもう。<br></td>
+<td><img src="images/spacer.gif" alt="" name="undefined_4" width="1" height="104" border="0"></td>
+</tr>
+<tr>
+<td><img name="webmoney_pay_05" src="images/webmoney_pay_05.gif" width="171" height="147" border="0" alt=""></td>
+<td colspan="2" valign="top" class="font1"> 3.ボタンを押すと「WebMoney　PREMIUM」サイトのログイン画面に<br>
+移動するので、WebMoney PREMIUMの会員IDとパスワードを入力して<br>
+ログインしてね。</td>
+<td><img src="images/spacer.gif" alt="" name="undefined_4" width="1" height="147" border="0"></td>
+</tr>
+<tr>
+<td><img name="webmoney_pay_07" src="images/webmoney_pay_07.gif" width="171" height="138" border="0" alt=""></td>
+<td colspan="2" valign="top" class="font1">4.自動引落申し込み内容を確認して、「お申し込み確定」ボタンを押そう。</td>
+<td><img src="images/spacer.gif" alt="" name="undefined_4" width="1" height="138" border="0"></td>
+</tr>
+<tr>
+<td><img name="webmoney_pay_09" src="images/webmoney_pay_09.gif" width="171" height="138" border="0" alt=""></td>
+<td colspan="2" valign="top" class="font1">5.申込が完了したのを確認したら、<br>
+「加盟店サイトへ戻る」ボタンを押してトゥーンタウンサイトへ戻ろう。<br>
+これでWebMoneyでの支払いはおわりだよ。簡単だね！</td>
+<td><img src="images/spacer.gif" alt="" name="undefined_4" width="1" height="138" border="0"></td>
+</tr>
+<tr>
+<td><img name="webmoney_pay_11" src="images/webmoney_pay_11.gif" width="171" height="104" border="0" alt=""></td>
+<td width="50" valign="bottom" class="font1"><img src="images/webmoney_logo.gif" alt=" " width="39" height="40" align="absbottom"></td>
+<td width="352" valign="bottom" class="font1">Webmoneyに関するお問い合わせは<a href="https://member.webmoney.ne.jp/about/inquiry.html" target="_blank">こちら</a>まで。</td>
+<td><img src="images/spacer.gif" alt="" name="undefined_4" width="1" height="104" border="0"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+<div class="faq_qa">
+<h3><a name="q3" id="q3"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> 1つのアカウントで、トゥーンを何人までつくれるの？</h3>
+<table width="." border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605">一つのログインアカウントに対して6つまでキャラクターが作れます。</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+<div class="faq_qa">
+<h3><a name="q4" id="q4"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> トゥーンタウンの利用料金は、どうやって支払えばいいの？</h3>
+<table width="630" border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605">VISA、Master、JCBのクレジットカードがご利用いただけます。</td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+<div class="faq_qa">
+<h3><a name="q5" id="q5"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> アカウントをたくさん取ると、トゥーンタウンの利用料金も増えるの？</h3>
+<table width="630" border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605">クレジットカードの１契約につき、１つのアカウントが用意されます。１つのアカウントで最大６人のトゥーンを作成することができます。ただし、同じアカウントの２つのトゥーンが同時に遊ぶことはできませんのでご了承ください。</td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+<div class="faq_qa">
+<h3><a name="q6" id="q6"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> 家族で遊びたいんだけど、何人まであそべるの？</h3>
+<table width="630" border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605">家族で同時に遊びたい場合には２つのアカウント（２つの契約）と２台のインターネットに接続したＰＣが必要となります。</td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+<div class="faq_qa">
+<h3><a name="q7" id="q7"></a><img src="images/icn_q2.gif" alt="Q" width="17" height="17" align="absmiddle"> トゥーンタウンを退会したいときはどうすればいいの？</h3>
+<table width="630" border="0" cellpadding="0" cellspacing="0" class="a">
+<tr>
+<td width="25" valign="top"><img src="images/icn_a.gif" alt="A" width="17" height="17" class="icon"></td>
+<td width="605">ウェブサイトよりトゥーンタウン・オンラインのサイトにログインしていただき、「会員向けサービス」より「解約のお申し込み」を選択してください。</td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td align="right"><a href="#faq_list"><img src="images/faq_back_to_list.gif" alt="質問いちらんへ" width="118" height="25" border="0" class="button"></a></td>
+</tr>
+</table>
+</div>
+</td>
+<td valign="top" background="images/background_right_repeat.gif"><img src="images/background_right_top.gif" alt=" " width="105" height="358"></td>
+</tr>
+<tr>
+<td valign="bottom" background="images/background_left_repeat.gif"><img src="images/background_left_bottom.gif" alt=" " width="105" height="8"></td>
+<td valign="bottom" background="images/background_right_repeat.gif"><img src="images/background_right_bottom.gif" alt=" " width="105" height="8"></td>
+</tr>
+<tr>
+<td colspan="3"><img src="images/background_bottom.gif" alt="" border="0" height="105" width="860"></td>
+</tr>
+</tbody>
+</table>
+<!-- maincontent end-->
+<!-- footer start-->
+<table width="860" height="30" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle" nowrap bgcolor="#68E70C" class="font0"><a href="http://www.disney.co.jp/legal.html">サイトの使用条件 </a>| <a href="http://www.disney.co.jp/privacy.html">プライバシーポリシー</a> | <a href="http://toontown.disney.co.jp/tou.html">会員規約</a> | <a href="https://bbcommon.disney.co.jp/info/security.html">セキュリティについて</a> | <a href="http://toontown.disney.co.jp/houserule.html">ハウスルール</a>      | <a href="http://toontown.disney.co.jp/cmdeal.html">特定商取引法に基づく表示</a> | <a href="http://toontown.disney.co.jp/query.php">お問い合わせ</a>　　&copy; Disney. All rights reserved.</td>
+  </tr>
+</table>
+<!--footer end -->
+</div>
+</body>
+</html>

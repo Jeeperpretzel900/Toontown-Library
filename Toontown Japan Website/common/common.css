@@ -1,0 +1,71 @@
+.font0 {
+  color: #000000;
+}
+
+.font1{
+  color: #000000;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+/* -- STR HOME -------------------------------- */
+div#login-home form {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#login-home input#us {
+	margin: 2px 0px 0px;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #38140C;
+	width: 115px;
+	border: 0px;
+	padding: 2px 3px;
+}
+
+div#login-home input#p {
+	margin: 2px 0px 0px;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #38140C;
+	width: 103px;
+	border: none;
+	padding: 2px 3px;
+}
+
+div#login-home input.btn{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+/* -- END HOME -------------------------------- */
+
+/* -- STR commodity type page -------------------------------- */
+.section{
+margin:0px 30px;
+text-align:left;
+}
+
+.paragraph{
+margin:10px 40px;
+text-align:left;
+}
+/* -- END commodity type page -------------------------------- */
+
+/* -- STR form page -------------------------------- */
+.form01{
+width:220px;
+height:20px;
+}
+
+.radiotxt{
+margin-right: 20px;
+}
+/* -- END form page -------------------------------- */

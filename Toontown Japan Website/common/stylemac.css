@@ -1,0 +1,27 @@
+@import "common.css";
+@import "faq.css";
+
+.font0 {
+  font: 10px 'Lucida Grande','Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+.font1 {
+  font: 12px 'Lucida Grande','Hiragino Kaku Gothic Pro', sans-serif;
+  line-height:16px;
+}
+
+.font-ranking {
+  font: 10px 'Lucida Grande','Hiragino Kaku Gothic Pro', sans-serif;
+  line-height:16px;
+  color: #ffffff;
+}
+
+/* -- STR HOME -------------------------------- */
+div#login-home input#us {
+/*	height: 19px; */
+}
+
+div#login-home input#p {
+/*	height: 19px; */
+}
+/* -- END HOME -------------------------------- */

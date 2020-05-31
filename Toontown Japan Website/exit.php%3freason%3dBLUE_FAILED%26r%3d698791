@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+
+<title>トゥーンタウン・オンライン </title>
+
+<script language="JavaScript">
+<!--
+function openInquiry(url){
+  subWin = window.open(url,"newWindow","toolbar=no,location=no,scrollbars=yes,status=no,menubar=no,resizable=yes,width=630,height=600");
+}
+//-->
+</script>
+
+
+
+</head>
+<body bgcolor="#ffffff" text="#324f93" link="#81017e" vlink="#81017e" alink="#59b224" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" background="images/bg.jpg">
+<form>
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">
+<!-- nav bar start-->
+<table height="66" width="860" border="0" cellspacing="0" cellpadding="0">
+<tr><td><embed src="http://www.disney.co.jp/dtopfile/swf/synergy_bar.swf" quality="high" bgcolor="#ffffff" width="860" height="66" name="synergy_bar" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></embed></td></tr>
+</table>
+<!--nav bar end -->
+</td>
+</tr>
+</table>
+<!-- contents start-->
+<table width="860" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="images/logo_s.jpg" width="330" height="91"></td>
+<td background="images/error/waku01.gif"><img src="images/0.gif" width="293" height="1"></td>
+<td><img src="images/error/title01.gif" width="237" height="91" alt="Oooops!"></td>
+</tr>
+</table>
+
+<table width="860" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="14"><img src="images/waku_lt.gif" width="23" height="14"></td>
+<td width="804"><img src="images/error/image01.gif" width="804" height="14"></td>
+<td height="14"><img src="images/waku_rrt.gif" width="33" height="14"></td>
+</tr>
+</table>
+<table width="860" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td background="images/waku_l.gif" width="23"><img src="images/0.gif" width="23" height="364" alt=""></td>
+<td width="804" bgcolor="#ffffff" valign="top">
+
+<table width="804" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="images/error/image02.jpg" width="804" height="78"></td>
+</tr>
+</table>
+<table width="804" border="0" cellspacing="0" cellpadding="0" height="285">
+<tr>
+<td><img src="images/error/image03.jpg" width="98" height="285" alt="" border="0"></td>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" height="285">
+<tr>
+<td colspan="3" height="20"><img src="images/error/waku02.gif" width="350" height="20" alt=""></td>
+</tr>
+<tr>
+<td background="images/error/waku03_l.gif" valign="top" height="214"><img src="images/error/waku02_l.gif" width="17" height="15"></td>
+<td valign="top">
+<table width="316" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3"><img src="images/0.gif" width="316" height="2"></td>
+</tr>
+<tr>
+<td><img src="images/0.gif" width="5" height="1"></td>
+<td width="306"><font size="2" color="#000000">
+<p align="center"><b>トゥーンタウン・オンラインの起動に失敗しました</b></p>
+ゲームを起動する際に問題が発生しました。スタートページに戻ってもう一度ゲームを起動するか、またはトップページからログインし直してください。
+</font></td>
+<td><img src="images/0.gif" width="5" height="1"></td>
+</tr>
+</table>
+</td>
+<td background="images/error/waku03_r.gif" valign="top"><img src="images/error/waku02_r.gif" width="17" height="15"></td>
+</tr>
+<tr>
+<td height="31"><img src="images/error/waku04_l.gif" width="17" height="31"></td>
+<td width="316" align="center"><a href="accountInfo.php?f=a&res=0"><img src="images/error/button01.gif" width="154" height="31" alt="戻る" border="0"></a></td>
+<td><img src="images/error/waku04_r.gif" width="17" height="31"></td>
+</tr>
+<tr>
+<td colspan="3" height="20"><img src="images/error/waku05.gif" width="350" height="20"></td>
+</tr>
+</table>
+</td>
+<td><img src="images/error/image04.jpg" width="356" height="285"></td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="images/error/image05_02.gif" width="804" height="1"></td>
+</tr>
+</table>
+</td>
+<td background="images/waku_r.gif" align="right" valign="top" width="33"><img src="images/waku_rbg.jpg" width="10" height="364" alt=""></td>
+</tr>
+</table>
+<table width="860" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="14"><img src="images/waku_llb.gif" width="23" height="14"></td>
+<td width="804"><img src="images/error/image05.gif" width="804" height="14"></td>
+<td height="14"><img src="images/waku_rrb.gif" width="33" height="14"></td>
+</tr>
+</table>
+<table width="860" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="images/waku_lb.gif" width="23" height="33"></td>
+<td background="images/waku_b.gif"><img src="images/waku_lbb.gif" width="14" height="33"></td>
+<td background="images/waku_b.gif"><img src="images/0.gif" width="776" height="1" alt=""></td>
+<td align="right" background="images/waku_b.gif"><img src="images/waku_rbb.gif" width="14" height="33"></td>
+<td><img src="images/waku_rb.gif" width="33" height="33"></td>
+</tr>
+</table>
+<!-- footer start-->
+<table wodth="860" cellspacing="0" cellpadding="5" border="0">
+<tr>
+<td align="center">
+<font size="2" style="font-family:Verdana">
+<a href="http://www.disney.co.jp/legal.html" style="text-decoration:none">サイトの使用条件</a> |
+<a href="http://www.disney.co.jp/privacy.html" style="text-decoration:none">プライバシーポリシー</a> |
+<a href="/tou.html" style="text-decoration:none">会員規約</a> |
+<a href="https://bbcommon.disney.co.jp/info/security.html" style="text-decoration:none">セキュリティについて</a> |
+<a href="/houserule.html" style="text-decoration:none">ハウスルール</a> |
+<a href="/cmdeal.html" style="text-decoration:none">特定商取引法に基づく表示</a> |
+<a href="/query.php" style="text-decoration:none">お問い合わせ</a>
+</font>
+<br><br>
+<font size="2" style="font-family:Verdana">&copy; Disney. All rights reserved.</font>
+</td>
+</tr>
+</table>
+<!-- footer end -->
+<!-- contents end -->
+</div>
+</form>
+</body>
+</html>

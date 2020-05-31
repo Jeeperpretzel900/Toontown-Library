@@ -1,0 +1,83 @@
+#faq_index {
+	border: 2px solid #FF6666;
+	background-color: #FEF2F8;
+}
+
+#faq_index #faq_list {
+	padding-top: 12px;
+	padding-left: 7px;
+	padding-bottom: 12px;
+}
+
+#faq_index #faq_list a{
+	text-decoration: none;
+}
+
+#faq_index #faq_list a:hover{
+	color: #FF3366;
+}
+
+.icon{
+	margin-right: 8px;
+}
+
+.border {
+	margin-top: 4px;
+	margin-bottom: 10px;
+}
+
+#faq_back {
+	text-align: right;
+	padding-top: 6px;
+	padding-bottom: 16px;
+}
+
+.faq_qa {
+	border: 2px solid #0190BF;
+	background-color: #E6F6F9;
+	margin-bottom: 6px;
+}
+
+.faq_qa h3 {
+	background-color: #0190BF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 11px;
+	padding-left: 8px;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+.faq_qa .a a {
+	color: #0033CC;
+}
+
+.faq_qa .a a:visited {
+	color: #9933FF;
+}
+
+.faq_qa .a a:hover {
+	color: #0099CC;
+	text-decoration: underline;
+}
+
+.faq_qa .a {
+	margin: 7px;
+	font-size: 13px;
+}
+
+.faq_qa .a .button {
+	margin-bottom: 5px;
+}
+
+
+.faq_qa .a .specTbl table{
+	border: 1px solid #0190BF;
+	border-collapse: collapse;
+}
+
+.faq_qa .a .specTbl td{
+	font-size: 13px;
+	border: 1px solid #0190BF;
+	border-collapse: collapse;
+}

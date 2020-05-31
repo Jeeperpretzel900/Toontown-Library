@@ -1,0 +1,242 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<title>トゥーンタウン・オンライン</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="/common/AC_RunActiveContent.js" language="javascript"></script>
+<script language="javascript" src="common/gnavi.js"></script>
+<script language="JavaScript">
+<!--
+if ((navigator.appVersion.indexOf("Mac") != -1)) {
+document.write("<LINK REL=stylesheet HREF=\"common/stylemac.css\" TYPE=\"text/css\">"); }
+else {
+document.write("<LINK REL=stylesheet HREF=\"common/stylewin.css\" TYPE=\"text/css\">"); }
+//-->
+</script>
+<script language="JavaScript">
+<!--
+function openInquiry(url){
+  subWin = window.open(url,"newWindow","toolbar=no,location=no,scrollbars=yes,status=no,menubar=no,resizable=yes,width=630,height=600");
+}
+
+//chat情報取得処理	
+function getChatInfo() {
+  document.form1.action = document.form1.getul.value;
+  if (document.form1.action) {
+  	document.form1.submit();
+  }
+}
+
+//chat情報更新処理	
+function updateChatInfo() {
+  document.form1.action = document.form1.upul.value;
+  if (document.form1.action) {
+  	document.form1.submit();
+  }
+}
+//-->
+</script>
+
+</head>
+<body bgcolor="#ffffff" link="#000000" vlink="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="initRollovers();getChatInfo();">
+<div id="wrapper">
+<!-- nav bar start-->
+<table height="66" width="860" border="0" cellspacing="0" cellpadding="0">
+<tr><td><script language="JavaScript" type="text/javascript" src="http://navbar.disneyinternational.com/jp/synbar860.js"></script></td></tr>
+</table>
+<!-- nav bar end-->
+<!-- globalnavi pulldownmenu start-->
+<script language="javascript" type="text/javascript" src="/common/gnavi3.js"></script>
+<!-- globalnavi pulldownmenu end-->
+<!-- globalnavi start -->
+<table height="50" width="860" border="0" cellspacing="0" cellpadding="0">
+<tr><td><script language="javascript" type="text/javascript" src="/common/gnavi2.js"></script></td></tr>
+</table>
+<!-- globalnavi end -->
+<!-- maincontent start-->
+<table width="860" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" bgcolor="#0C97D4" valign="top">
+<table width="860" height="207" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td rowspan="3"><img src="imgs/private.gif" width="395" height="207" alt="会員向けサービス"></td>
+		<td><img src="common/imgs/paper_head_02.gif" width="465" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td><img src="common/imgs/paper_head_03.gif" width="465" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td><img src="common/imgs/paper_head_04.gif" width="465" height="69" alt=""></td>
+	</tr>
+</table>
+<table width="860" cellpadding="0" cellspacing="0" border="0" background="common/imgs/paper_bg.gif">
+	<tr>
+		<td align="center">
+			<table width="754" cellpadding="0" cellspacing="0" border="0" background="common/imgs/paper_bg2.gif">
+				<tr>
+					<td align="center"><table cellpadding="0" cellspacing="0" border="0" width="688">
+							<tr>
+								<td class="font1">
+<table cellpadding="0" cellspacing="0" border="0" width="688">
+							<tr>
+								<td class="font1" align="center">
+									<table cellpadding="0" cellspacing="0" border="0" width="669">
+										<tr>
+											<td colspan="7"><img src="common/imgs_first/form_head.gif" width="669" height="31" alt=""></td>
+										</tr>
+										<tr>
+											<td width="20" bgcolor="#FF9000"><img src="common/imgs/spacer.gif" width="20" height="1"></td>
+											<td width="3" bgcolor="#FFA800"><img src="common/imgs/spacer.gif" width="3" height="1"></td>
+											<td width="20" bgcolor="#FFFFCC"><img src="common/imgs/spacer.gif" width="20" height="1"></td>
+
+											<td width="583"><!-- form SRT -->
+											  <table cellpadding="0" cellspacing="0" border="0" width="583">
+													<!-- Q01 -->
+													<tr>
+														<td colspan="3" align="center"><div><img src="imgs/spacer.gif" width="1" height="15" border="0"></div>
+														<!--　コンテンツ内容  -->
+														<table border="0" cellspacing="0" cellpadding="0" width="390">
+														<form name="form1" method=post onSubmit="JavaScript:updateChatInfo()">
+														<input type="hidden" name="getul" value="https://bbcommon.disney.co.jp/dbb/webChat.jsp?f=get&s=TTO&us=&ul=http://toontown.disney.co.jp/accountInfo.php">
+														<input type="hidden" name="upul" value="">
+														<tr>
+														<td><img src="imgs/text02.gif" width="117" height="24" alt="チャット機能"></td>
+														<td width="152" align="center"> 
+														<table border="0" cellspacing="0" cellpadding="0">
+														<tr>
+														<td><input type="radio" name="chat" value="1" ><font size="3" color="#000000">On</font></td>
+														<td><img src="imgs/0.gif" width="20" height="1" alt=""></td>
+														<td><input type="radio" name="chat" value="0" ><font size="3" color="#000000">Off</font></td>
+														</tr>
+														</table>
+														</td>
+														<td align="right"><input type="submit" value="送信"></td>
+														</tr>
+														<tr height="45"><td colspan="3"><font color="#000000" size = "2">【ご注意下さい！】<br>
+														◆18歳未満のユーザには保護者の承認がない限り、
+安全の為にスピードチャットのみの利用を推奨しています。チャット機能を"On"にすると、ひみつの友だち登録をする事で定型文以外のフリーワードでのチャットが許可されます。<br>
+														◆チャット機能をOffにした状態でゲームを起動すると過去に設定した「ひみつのともだち」は削除されます。「ひみつのともだち」を保存する場合、その後も"On"を維持する必要があります。</font></td></tr>
+														</form>
+														</table>
+														<table border="0" cellspacing="0" cellpadding="0" width="390">
+														<tr>
+														<td height="12"><img src="imgs/private/dotline.gif" width="390" height="2"></td>
+														</tr>
+														</table>
+														<table width="390" border="0" cellspacing="0" cellpadding="0" height="204">
+														<tr>
+														<td height="24"><img src="imgs/text03.gif" width="187" height="30" alt="登録情報の変更はこちらから"></td>
+														<form name="form2" action="https://bbcommon.disney.co.jp/dbb/webUserModify.jsp" method=post>
+														<input type="hidden" name="f" value="m">
+														<input type="hidden" name="s" value="TTO">
+														<input type="hidden" name="ul" value="http://toontown.disney.co.jp/accountInfo.php">
+														<td align="right"><input type=image src="imgs/touroku_henkou.gif" width="145" height="45" alt="登録情報変更" border="0"></td>
+														</form>
+														<tr>
+														<td colspan="2" height="12"><img src="imgs/private/dotline.gif" width="390" height="2"></td>
+														</tr>
+														<tr>
+														<td height="24">
+														<img src="imgs/text04.gif" width="210" height="30" alt="解約のお申し込みはこちらから" border="0">
+														</td>
+														<form name="form3" action="https://bbcommon.disney.co.jp/dbb/webCommonCancel.jsp" method=post>
+														<input type="hidden" name="functionid" value="cancelform">
+														<input type="hidden" name="userid" value="">
+														<input type="hidden" name="serviceid" value="TTO">
+														<input type="hidden" name="contentid" value="">
+														<input type="hidden" name="url" value="http://toontown.disney.co.jp/accountInfo.php">
+														<input type="hidden" name="clientcenter" value="">
+														<input type="hidden" name="purchasedivision" value="">
+														<td align="right"><input type=image src="imgs/kaiyaku.gif" width="145" height="45" alt="解約申し込み" border="0"></td>
+														</form>
+														</tr>
+														<tr>
+														<td colspan="2" height="12"><img src="imgs/private/dotline.gif" width="390" height="2"></td>
+														</tr>
+														<tr>
+														<td height="24"><img src="imgs/text05.gif" width="210" height="30" alt="お問い合わせはこちらから"></td>
+														<td align="right"><a href="query.php"><img src="imgs/toiawase.gif" width="145" height="45" alt="お問い合わせ" border="0"></a></td>
+														</tr>
+														<tr>
+														<td colspan="2" height="12"><img src="imgs/dotline.gif" width="390" height="2"></td>
+														</tr>
+																												<tr>
+														<td colspan="2" height="5"></td>
+														</tr>
+														<tr>
+														<td colspan="2" align="center" valign="top"><a href="http://toontown.disney.co.jp/accountInfo.php?f=a&res=0"><img src="imgs/back.gif" width="145" height="45" alt="トップに戻る" border="0"></a></td>
+														</tr>
+														</table>
+														<!--　コンテンツ内容  -->
+														</td>
+													</tr>
+											</table>
+											</td>
+											<td width="20" bgcolor="#FFFFCC"><img src="common/imgs/spacer.gif" width="20" height="1"></td>
+											<td width="3" bgcolor="#FFA800"><img src="common/imgs/spacer.gif" width="3" height="1"></td>
+
+											<td width="20" bgcolor="#FF9000"><img src="common/imgs/spacer.gif" width="20" height="1"></td>
+										</tr>
+										<tr>
+											<td colspan="7"><img src="common/imgs_first/form_foot.gif" width="669" height="31" alt=""></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+								</td>
+							</tr>
+						</table></td>
+				</tr>
+			</table>
+			<table width="754" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td><img src="common/imgs/paper_foot.gif" width="754" height="49" alt="" style="margin-bottom:15px;"></td>
+				</tr>
+			</table></td>
+	</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- maincontent end-->
+<!-- footer start -->
+<table width="860" height="30" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle" nowrap bgcolor="#68E70C" class="font0"><a href="http://www.disney.co.jp/legal.html">サイトの使用条件 </a>| <a href="http://www.disney.co.jp/privacy.html">プライバシーポリシー</a> | <a href="/tou.html">会員規約</a> | <a href="https://bbcommon.disney.co.jp/info/security.html">セキュリティについて</a> | <a href="/houserule.html">ハウスルール</a>      | <a href="/cmdeal.html">特定商取引法に基づく表示</a> | <a href="/query.php">お問い合わせ</a>　　&copy; Disney. All rights reserved.</td>
+  </tr>
+</table>
+<!-- footer end -->
+
+
+</div>
+</body>
+<!-- BEGIN WDIG Web Analytics 1.0 -->
+<script type="text/javascript" src="//analytics.disneyinternational.com/analytics/wdigWebAnalytics.js"></script>
+<script type="text/javascript">
+cto=new CTO();
+
+cto.siteSection = "toontown";
+cto.pageName = "private.php";
+cto.property = "tnt";
+
+cto.track();
+</script>
+<!-- END WDIG Web Analytics 1.0 -->
+
+<script type="text/javascript">
+    // Support for legacy Hitbox Functions hard-coded into old Flash Files
+    // These functions will now record to both Hitbox and Omniture
+    function _hbflash(p,m,x,d,s,c,f,g){cto.hbflash(p,m,x,d,s,c,f,g);}
+    function _hbPageView(p,m){cto.hbflash(p,m,"n","n","n","n","n","n");}
+    function _hbExitLink(n){cto.hbflash(_pn,_mlc,n,"n","n","n","n","n");}
+    function _hbDownload(n){cto.hbflash(_pn,_mlc,"n",n,"n","n","n","n");}
+    function _hbVisitorSeg(n,p,m){cto.hbflash(p,m,"n","n",n,"n","n","n");}
+    function _hbCampaign(n,p,m){cto.hbflash(p,m,"n","n","n",n,"n","n");}
+    function _hbFunnel(n,p,m){cto.hbflash(p,m,"n","n","n","n",n,"n");}
+    function _hbGoalPage(n,p,m){cto.hbflash(p,m,"n","n","n","n","n",n);}
+</script>
+</html>
