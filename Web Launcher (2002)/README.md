@@ -7,8 +7,9 @@ Right now it only properly works with client number 1.0.6.9(2003): the game does
 
 One major issue is the ActiveX control is supposed to open up an exe to install the game for the first time, as of right now this issue is not solved and is being looked into.
 
-## Credits
+###### Credits
 
 Jeeperpretzel
+
 
 Danii
