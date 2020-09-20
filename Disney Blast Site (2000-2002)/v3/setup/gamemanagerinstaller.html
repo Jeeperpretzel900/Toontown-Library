@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Game Manager Installer</title>
+<SCRIPT LANGUAGE="VBScript">
+<!--
+Function vbChkActiveXInstall()
+	on error resume next
+	writeInstallObj = IsObject(CreateObject("DIGGameManager.GameManagerCtrl.1"))
+	If writeInstallObj Then
+		vbChkActiveXInstall = true
+	Else
+		vbChkActiveXInstall = false
+	End If
+End Function
+
+-->
+</SCRIPT>
+
+<script language="javascript" src="http://www.disneyblast.go.com/v3/global/javascript/contentFunctions.js"></script>
+<script language="javascript" src="http://www.disneyblast.go.com/v3/global/javascript/cdn.js"></script>
+<script language="javascript">
+
+var setupString = window.location.toString();
+if (setupString.indexOf("?returl=")!=-1){
+	var startLoc = setupString.indexOf("?returl=")+8
+	var endLoc = setupString.indexOf("&gAppName=");
+	returl = setupString.substring(startLoc, endLoc)
+	startLoc = setupString.indexOf("&gAppName=")+10
+	endLoc = setupString.indexOf("&gTarget=");
+	gAppName = setupString.substring(startLoc, endLoc)
+	startLoc = setupString.indexOf("&gTarget=")+9
+	endLoc = setupString.indexOf("&gCoins=")
+	gTarget = setupString.substring(startLoc, endLoc)
+	startLoc =  setupString.indexOf("&gCoins=")+8
+	endLoc = setupString.length;
+	gCoins = setupString.substring(startLoc, endLoc)
+}
+
+/**/
+var incs = 0
+var objStatus
+function chkActiveXInstall(){
+	incs++
+	if(vbChkActiveXInstall()){
+		clearInterval(activeXTimer);
+		incs = 0;
+		window.location = setupString
+		window.location = returl + "?gAppName=" + gAppName + "&gTarget=" + gTarget + "&gCoins=" + gCoins
+	}else if(incs > 9){
+		incs = 0;
+		clearInterval(activeXTimer);
+	}
+}
+
+function startActiveXTimer(){
+	activeXTimer = setInterval('chkActiveXInstall()', 3000);
+}
+
+</script>
+
+</head>
+
+<body onLoad="startActiveXTimer()" bgcolor="#003399" scroll=no>
+<table width="100%" height="100%">
+	<tr>
+		<td align=center>
+			<TABLE WIDTH=744 BORDER=0 CELLPADDING=0 CELLSPACING=0 align=center>
+				<TR>
+					<TD COLSPAN=3>
+						<IMG SRC="images/gamemanagerinstaller_01.jpg" WIDTH=744 HEIGHT=84 border=0></TD>
+				</TR>
+				<TR>
+					<TD>
+						<IMG SRC="images/gamemanagerinstaller_02.jpg" WIDTH=100 HEIGHT=210 border=0></TD>
+					<TD background="images/gamemanagerinstaller_03.jpg" WIDTH=544 HEIGHT=210 align=center>
+						<table>
+							<tr>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+								<td align=center>
+									<font style="font-family: arial, verdana; font-size: 22px; font-weight: bold; color: #C7AB4A">Remember, click "Open" on the first box, and then "Yes" on the second box.<p>If you do not see the dialog box,<br>please <a href="javascript:popTheDL();">click here</a> to try again.</font>
+								</td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							</tr>
+						</table>
+					</TD>
+					<TD>
+						<IMG SRC="images/gamemanagerinstaller_04.jpg" WIDTH=100 HEIGHT=210 border=0></TD>
+				</TR>
+				<TR>
+					<TD COLSPAN=3>
+						<IMG SRC="images/gamemanagerinstaller_05.jpg" WIDTH=744 HEIGHT=192 usemap="#gamemanagerinstaller_05_Map" border=0></TD>
+				</TR>
+			</TABLE>
+		</td>
+	</tr>
+</table>
+<MAP NAME="gamemanagerinstaller_05_Map">
+<AREA SHAPE="rect" ALT="" COORDS="323,20,419,59" HREF="javascript:backMe();">
+</MAP>
+<script language="javascript">
+function popTheDL() {
+	popDL=window.open("http://www.disneyblast.go.com/v3/global/gamemanager/diggamemanager.exe","popDL","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=1,height=1,top=2000,left=2000,screenX=2000,screenY=2000");
+}
+popTheDL();
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<TITLE>Sebastian’s Bubble Trouble</TITLE>
+<META name="Description" content="Sebastian’s lost in a sea of bubbles- help him escape in this fast-paced underwater Little Mermaid game!”>
+<META name="Character" content="true, Sebastian, movie characters"> 
+<META name="ContentTitle" content="Sebastian’s Bubble Trouble”> 
+<META name="ContentType" content="true, game, dome"> 
+<META name="Skillset" content="true, brainbuster, just plain fun"> 
+<META name="Age" content="true, 5, 6, 7, 8, 9"> 
+<META name="url" content="http://www.disneyblast.go.com/features/bubble_trouble/index.html">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function evRetPan() {
+var panString = parent.window.location.search;
+var startOfSource = panString.indexOf("curPanel=");
+if (startOfSource != -1) {
+retPanel = panString.substring(startOfSource+9);
+} else {
+retPanel = 0;
+}
+}
+
+evRetPan();
+
+function retLagoon () {
+if(parent.window.location.search.indexOf("curPanel=") != -1){
+parent.window.location = "http://www.disneyblast.go.com/features/mermaid_lagoon?curPanel=" + retPanel;
+} else {
+blatMe();
+}
+}
+
+</SCRIPT>
+<script src="http://www.disneyblast.go.com/wrapper/javascript/detect.js"></script>
+<script src="http://www.disneyblast.go.com/wrapper/javascript/hitbox_warpper.js"></script>
+
+
+</HEAD>
+<BODY bgcolor=003366 text='996600' link='FFFFFF' vlink='FFFFFF' alink='FFFFFF' TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+
+<!--
+<table width="100%" height="100%" border=0 cellpadding=0 cellspacing=0 align="center">
+<tr>
+<td width="100%" height="100%" align="center">
+<table width="780" height="510" border="0" cellspacing=0 cellpadding=0>
+<tr>
+<td width="780" height="510" bgcolor=#003366>
+-->
+
+<!-- start content-->
+<center>
+<object classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=8,0,0,0"
+ ID=bubbletrouble width="780" height="510" align=center>
+<param name="SRC" value="../swloader.dcr">
+<param name=bgcolor value=#000000>
+<param name="sw6" value="d,780,510">
+<param name="sw7" value="bubble_trouble/bubbletrouble.dcr">
+<embed src="../swloader.dcr" bgcolor=#000000 pluginspage="http://www.macromedia.com/shockwave/download/" width="780" height="510" sw6="d,780,510" sw7="bubble_trouble/bubbletrouble.dcr" align="center"></embed>
+</object>
+<!-- end content-->
+<br>
+<a href="javascript:retLagoon()"><img name="klose" src="../mermaid_lagoon/global/back_button.gif" width=137 height=67 border=0></a></td>
+</center>
+
+<!--
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+-->
+
+<!-- BEGIN WEBSIDESTORY CODE v7.2-->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<Script Language = "JavaScript" id="_hbc">
+//*****************
+//start perl script(2)
+var my_mlc = "/registered/content/games/mermaid+lagoon ";	 //multi-level content category
+var my_pn  = "sebastian+bubble+trouble ";	 //page name(s)
+
+//end perl script
+//*****************
+</Script>
+<script src="http://www.disneyblast.go.com/wrapper/javascript/blastHitbox.js"></script>
+<!-- END WEBSIDESTORY CODE  -->
+
+</BODY>
+</HTML>

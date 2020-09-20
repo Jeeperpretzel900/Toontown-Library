@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Thank You | Pixie Hollow | Disney Fairies</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="PICS-Label" content='(PICS-1.0 "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0))' />
+<meta name="robots" content="none">
+<meta name="description" content="Find answers to your questions and get help for Disney Fairies Pixie Hollow in the Support Center." />
+<meta name="keywords" content="pixie hollow support, support center, help, fairy game, Disney Fairies, Fairy, Pixie Hollow" />
+<meta name="facet1" content="Play|Download">
+<meta name="Play" content="Games|Activities">
+<meta name="Download" content="Digital Fun">
+<meta name="agerange" content="13-17|10-12|6-9">
+<meta name="author" content="DOL Premium Products">
+<meta name="thumbnail" content=" http://disney.go.com/pirates/online/images/icon_pirate_54.gif">
+<meta name="fields" content="Category_Message,subject,evening_phone,weekend_phone,connection_speed,amount_memory,E-Mail,processor_type,browser_software,OS,Name,last_name,member,day_phone,comments_or_questions">
+<!-- This tag defines the location a template file that contains the error text that is inserted at the top of the original email template. -->
+<meta name="error_copy" content="pixiehollow/error.tpl">
+<link rel="icon" href="http://a.disney.go.com/fairies/wings.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://a.disney.go.com/fairies/wings.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="http://a.disney.go.com/fairies/pixiehollow/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="http://a.disney.go.com/fairies/pixiehollow/css/basic.css" />
+<link rel="stylesheet" type="text/css" href="http://a.disney.go.com/fairies/css/global.css" />
+<script type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/registration/js/utils.js"></script>
+<script type="text/javascript" src="http://disney.go.com/javascript/querypal.js"></script>
+<script type="text/javascript">
+  <!--
+  
+  function win(URL) {
+     win1 = window.open(URL, "frame1","scrollbars=no,resizable=no,width=640,height=460");
+  }
+
+  function put() 
+  {
+    var mylist=document.getElementById("Category_Message")      
+    document.getElementById("subject").value = "Pixie Hollow - " + mylist.options[mylist.selectedIndex].text;    
+  }
+
+
+
+function setDisplayText()
+{
+    searchParameters = new queryPal()
+    checkFormId = searchParameters.checkQueryString("id")
+
+	var varReturn = "Thanks!  We appreciate your help making Pixie Hollow more magical."
+	
+	switch (checkFormId){
+	
+		case "questions":
+			varReturn = "Thanks!  We appreciate your help making Pixie Hollow more magical."
+		
+		break;
+	
+		case "nevercouncil":
+			varReturn = "Thanks for leaving us a note!  We always love to hear from a Fairy friend."
+		
+		break;
+	
+		case "feebackPixieHollow":
+			varReturn = "Thanks for your feedback! We appreciate your help making Pixie Hollow more magical."
+		
+		break;
+		
+		
+		case "account":
+			varReturn = "Thank you Fairy much! We will respond to your account question very soon.  Fly with you!"
+		
+		break;
+		
+		case "flashupgrade":
+			varReturn = "Thanks!  We will respond to your issue soon.  If you need additional help, please contact Pixie Hollow Customer Support at (877) 78-PIXIE between the hours of 6 a.m. and 7 p.m PST every day of the week."
+				
+		break;
+		
+		
+		case "badName":
+			varReturn = "Thanks!  We appreciate your help making Pixie Hollow a Fairy-friendly place."
+		
+		break;
+		
+		case "misbehavingPlayers":
+			varReturn = "Thanks!  We appreciate your help making Pixie Hollow a fun, safe, and Fairy-friendly place."
+		
+		break;
+		
+		case "chat":
+			varReturn = "Thanks for your suggestion!  We appreciate your help making Pixie Hollow even more flitterific."
+		
+		break;
+				
+		case "billingProblems":
+			varReturn = "Thanks!  We will respond to your issue soon.  If you need additional help, please contact Pixie Hollow Customer Support at (877) 78-PIXIE between the hours of 6 a.m. and 7 p.m PST every day of the week."
+		
+		break;
+		
+						
+		case "suggestName":
+			varReturn = "Thanks for your flitterific idea!  We appreciate your help making Pixie Hollow more magical."
+		
+		break;
+	}
+	
+	return varReturn;
+}
+
+
+
+
+  function display_form()
+  {
+    //by camartin
+    //use querypal.js to get grab formId string and select value from dropdown menu
+
+    var mylist=document.getElementById("Category_Message")
+
+    searchParameters = new queryPal()
+    checkFormId = searchParameters.checkQueryString("formId")
+
+
+    document.write('<select name="Category_Message" id="Category_Message" onChange="put()">')
+
+      document.write('<option name="questions" id="questions" value="Question/Comment/Suggestion" selected>Question/Comment/Suggestion</option>')
+      document.write('<option name="badName" id="badName" value="Report Bad Name">Report Bad Name</option>')
+
+      if (checkFormId == "misbehavior")
+      {
+        document.write('<option name="misbehavingPlayers" id="misbehavingPlayers" value="Report Misbehaving Players" selected="selected">Report Misbehaving Players</option>')
+      }
+      else
+      {
+        document.write('<option name="misbehavingPlayers" id="misbehavingPlayers" value="Report Misbehaving Players">Report Misbehaving Players</option>')
+      }
+
+      if (checkFormId == "billing")
+      {
+        document.write('<option name="billingProblems" id="billingProblems" value="Billing Problem" selected="selected">Billing Problem</option>')
+      }
+      else
+      {
+        document.write('<option name="billingProblems" id="billingProblems" value="Billing Problem">Billing Problem</option>')
+      }
+
+      if (checkFormId == "feedback")
+      {
+        document.write('<option name="feebackPixieHollow" id="feebackPixieHollow" value="Feedback from Pixie Hollow" selected="selected">Feedback from Pixie Hollow</option>')
+      }
+      else
+      {
+        document.write('<option name="feebackPixieHollow" id="feebackPixieHollow" value="Feedback from Pixie Hollow">Feedback from Pixie Hollow</option>')
+      }
+
+      if (checkFormId == "chat")
+      {
+        document.write('<option name="chat" id="chat" value="Chat Dictionary Suggestions" selected="selected">Chat Dictionary Suggestions</option>')
+      }
+      else {
+        document.write('<option name="chat" id="chat" value="Chat Dictionary Suggestions">Chat Dictionary Suggestions</option>')
+      }
+
+    document.write('</select>')
+
+    check_referer()
+
+  }
+  
+  function  check_referer()
+  {
+    var mylist=document.getElementById("Category_Message")
+
+    searchParameters = new queryPal()
+    checkFormId = searchParameters.checkQueryString("formId")
+
+    if (checkFormId == "feedback"){
+      document.getElementById("subject").value = "Pixie Hollow - " + mylist.options[4].text;
+    }
+    else {
+      document.getElementById("subject").value = "Pixie Hollow - " + mylist.options[mylist.selectedIndex].text;
+    }
+  }
+-->
+</script>
+
+
+
+
+<script language="javascript" type="text/javascript">
+    var onImgArray = new Array()
+  var offImgArray = new Array()
+  for (i=1;i<15;i++){
+    onImgArray[i] = new Image
+    offImgArray[i] = new Image
+  }
+
+function imageOn(i) {
+  document.images["btn" + i].src = onImgArray[i].src
+}
+function imageOff(i) {
+  document.images["btn" + i].src = offImgArray[i].src
+}
+
+if (document.images) {
+
+    onImgArray[1].src  = "http://a.disney.go.com/fairies/pixiehollow/images/PH_Button_okay.jpg"
+    offImgArray[1].src = "http://a.disney.go.com/fairies/pixiehollow/images/PH_Button_okay.jpg"
+
+}
+
+function parentLoadContent(xURL, xHeader){
+  parent.loadContent(xURL, xHeader)
+}
+
+function button_Back(){
+  history.back(-1)
+}	
+
+
+
+  </script>
+
+<style type="http://a.disney.go.com/fairies/text/css">
+* {
+border:0;
+padding:0;
+margin:0;
+background:url(jpg/background_long.jpg);
+}
+</style>
+
+<!-- START CHROME BREADCRUMB -->
+<script language="javascript" src="http://disney.go.com/fairies/pixiehollow/js/breadcrumb.js"></script>
+<!-- END CHROME BREADCRUMB -->
+
+
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/js/pngfix.js"></script>
+<![endif]-->
+
+</head>
+  <body>
+    <center>
+      <div id="wrapper">
+        <div id="contentwrapper">
+          <div id="chrome">
+            <script type="text/javascript" src="http://a.disney.go.com/globalmedia/chrome/chrome.js"></script>
+          </div>
+          <div id="maincontent">
+            <div id="MainHeader">
+              <img id="hdr" src="http://a.disney.go.com/fairies/pixiehollow/images/Template/Green/forum_header.jpg" width="995" height="196" alt="Pixie Hollow" usemap="#ph_logo"/>
+              <a href="http://pixiehollow.go.com/"><img id="btnBck" src="http://a.disney.go.com/fairies/pixiehollow/images/Template/Green/forum_back_button.jpg" width="241" height="30" alt="Back" /></a>
+              <img id="tinkerbell" src="http://a.disney.go.com/fairies/pixiehollow/images/Template/Green/forum_tinkerbell.jpg" width="241" height="458" alt="Pixie Hollow" />
+            </div>
+            <div id="nav">
+              <div id="navCol1">
+                <div><img src="http://a.disney.go.com/fairies/pixiehollow/images/Template/Green/forum_below_header.jpg" width="241" height="92" alt="Pixie Hollow" /></div>
+              </div>
+              <div id="navCol2a">
+		<div id="mainOffset"></div>
+		<div id="mainOuter">
+		<div id="main">
+
+			<center>
+			<img id="title" src="http://a.disney.go.com/fairies/pixiehollow/images/headers/Thank_You.jpg" width="404" height="60" alt="Thank You" />
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<script type="text/javascript">
+			document.write("<p><font face=\"Verdana,Geneva,Arial,Helvetica,sans-serif\" size=\"2\" color=\"#FFFFFF\">"+setDisplayText()+"</font></p>")
+			</script>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<a href="http://pixiehollow.com/index.html"><img src="http://a.disney.go.com/fairies/pixiehollow/images/PH_Button_okay.jpg" width="118" height="32" alt="Okay" border="0"></a>
+			</center>
+
+
+		</div><!--main-->
+		</div><!--mainOuter-->
+		</div><!--navCol2-->
+		<div id="navCol3">
+                <img id="navR" src="http://a.disney.go.com/fairies/pixiehollow/images/Template/Green/forum_right_border.jpg" width="23" height="570" alt="Pixie Hollow" />
+              </div>
+              <div id="navBtm"><img src="http://a.disney.go.com/fairies/pixiehollow/images/Template/Green/forum_bottom.jpg" width="731" height="51" alt="Pixie Hollow" /></div>
+            </div><!--nav-->
+          </div><!--maincontent-->
+          <div id="footer">
+            <script type="text/javascript" src="http://a.disney.go.com/globalmedia/legal_footer/legalfooter.js"></script>
+          </div>
+        </div><!--contentwrapper-->
+      </div><!--wrapper-->
+    </center>
+    <map name="ph_logo" id="ph_logo"><area href="http://pixiehollow.go.com/" shape="rect" coords="0,0,260,145" /></map>
+</body>
+
+</html>

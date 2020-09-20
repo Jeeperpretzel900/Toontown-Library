@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<TITLE>alreadycoinsEarned</TITLE>
+<Script Language = "JavaScript">
+
+//function findLocation(){
+//winLoc = window.location
+//winLoc = "http://www.disneyblast.go.com/nocache/alereadyCoinsEarned1.html?features/spykids/index.html"
+//winLoc = winLoc.toString()
+//newLoc = winLoc.substr(winLoc.indexOf("?") + 1)
+//locVar = newLoc.split("&")
+//ourLoc = "games/hockey/index.html"
+//for(i=0;i<locVar.length;i++){
+//if(locVar[i].indexOf("content=") != -1){
+//	contentVar = locVar[i].split("=")
+//	ourLoc = contentVar[1]
+//	break;
+//}
+//}
+//return ourLoc
+//}
+function findLocation(){
+winLoc = window.location
+winLoc = winLoc.toString()
+newLoc = winLoc.substr(winLoc.indexOf("?") + 1)
+ourLoc = newLoc
+newLocAr = newLoc.split("&")
+
+for(i=0;i<newLocAr.length;i++){
+	if(newLocAr[i].indexOf("content") != -1){
+
+	ourLocAr = newLocAr[i].split("=")
+	ourLoc = ourLocAr[1]
+
+	break
+	}
+
+}
+
+
+return unescape(ourLoc)
+}
+
+function redirectUrl(){
+
+window.location = "http://www.disneyblast.go.com/" + findLocation()
+}
+
+</script>
+
+</HEAD>
+<Body bgcolor="#660000">
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" WIDTH=100% HEIGHT=100%>
+<PARAM NAME=movie VALUE="http://www.disneyblast.go.com/blastXp/media/alreadycoinsEarned.swf">
+<PARAM NAME=menu VALUE=false> <PARAM NAME=quality VALUE=autohigh> <PARAM NAME=bgcolor VALUE=#660000>
+<EMBED src="http://www.disneyblast.go.com/blastXp/media/alreadycoinsEarned.swf" menu=false quality=autohigh bgcolor=#660000  WIDTH=100% HEIGHT=100% TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>

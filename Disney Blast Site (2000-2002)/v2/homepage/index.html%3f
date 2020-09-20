@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>Disney's Blast Home Page</title>
+<meta name="Description" content="null">
+<meta name="url" content="http://www.disneyblast.go.com/v2/homepage/index.html">
+<meta name="ContentTitle" content="Disney's Blast Home Page">
+<meta name="ContentType" content="environment">
+
+
+
+
+<script language=JavaScript>
+  <!--
+    document.cookie = "insideBlast=true;path=/;domain=.go.com";
+
+	clickArray = new Array();
+
+	function hbxReportEarlyEntries(){
+		if(clickArray.length > 0){
+			hitbox.Set_hbSet('lid',clickArray[0][1]);
+			hitbox.Set_hbSet('lpos',clickArray[0][0]);
+			hitbox.Set_hbSend();
+			clickArray.splice(0, 1);
+		}else{
+			clearInterval(hbxEarlyReportCycle);
+		}
+	}
+
+	function hbxChkLoad(){
+		if(clickArray.length > 0){
+			hbxEarlyReportCycle = setInterval('hbxReportEarlyEntries()', 3000);
+		}
+	}
+
+	function hbxReportClick(lpos,lid)
+	{
+	alert("click\n" + "lid: " + lid + "\n" + "lpos: " + lpos)
+		try{
+			hitbox.Set_hbSet('lid',lid);
+			hitbox.Set_hbSet('lpos',lpos);
+			hitbox.Set_hbSend();
+		}catch(e){
+			clickArray.push([lpos, lid]);
+		}
+	}
+
+// -->
+</script>
+
+<!-- START Hitbox / Breadcrumb Variables -->
+<script language="javascript" type="text/javascript">
+var bCrumbLevel_1 = "Disney Blast";
+var bCrumbLevel_2 = "V2";
+</script>
+<script src="http://disney.go.com/detect/scripts/master_flash_writer.js"></script>
+<script src="http://www.disneyblast.go.com/v2/global/javascript/environmentFunctions.js"></script>
+<!-- END Hitbox / Breadcrumb Variables -->
+
+<!--WEBSIDESTORY CODE HBX(Global)(Universal)-->
+<!--COPYRIGHT 1997-2004 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+<script language="javascript" type="text/javascript">
+//*****************
+//start perl script(2)
+
+
+
+teststring = cookieVal("hbx_isp").toLowerCase();
+tempa = teststring.substring(0,1).toUpperCase();
+tempb = teststring.substring(1, teststring.length);
+ispstring = tempa + tempb;
+    if(cookieVal("blast_connection") == "bb") {
+        var my_mlc = "/registered/v2/"+ispstring+"/navigation/broadband/mhjr/homepage";     //multi-level content category
+    }else{
+        var my_mlc = "/registered/v2/"+ispstring+"/navigation/narrowband/mhjr/homepage";    //multi-level content category
+    }
+    var my_pn  = "homepage";   //page name(s)
+
+
+//end perl script
+//*****************
+</script>
+
+<script src="http://www.disneyblast.go.com/v2/global/javascript/environmentFunctions.js"></script>
+
+</head>
+<body onload="javascript:hbxChkLoad()" bgcolor="#330099" scroll=no>
+
+<!-- START CONTENT -->
+
+
+	<script language="javascript">
+	flashObj = new FlashObj("/v2/global/swf/environment/environment.swf", "100%", "100%", "#330099", "6", "movie","textloc=/v2/text/homepage/today.txt&preloc=/v2/global/swf/preloaders/pre_mickey.swf");
+	flashObj.render(true,"opaque");
+	</script>
+
+
+<!-- BEGIN DOL Web Analytics 1.0 DO NOT EDIT OR REMOVE THIS LINE-->
+<script language="javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+<script language="javascript">
+cto=new CTO();
+cto.account="gamekingdom";
+cto.category="dgame";
+cto.site="dgk";
+cto.siteSection="disney_blast";
+cto.pageName="home";
+cto.contentType="regular";
+cto.property="dgk";
+cto.track();//Required. Do not remove.
+</script>
+<!-- END DOL Web Analytics 1.0 -->
+
+
+</body>
+</html>

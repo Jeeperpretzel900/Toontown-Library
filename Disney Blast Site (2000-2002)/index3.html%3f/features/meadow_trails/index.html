@@ -1,0 +1,162 @@
+<HTML>
+<HEAD>
+
+<TITLE>Disney's Blast</TITLE>
+<Script Language = "JavaScript">
+<!--
+vis = window.location
+vis = vis.toString()
+
+vinNew = "homepage/index"
+var appVersion = navigator.appVersion
+var appName = navigator.appName
+var checkAol = navigator.appVersion.indexOf("AOL")
+var myScreen = screen.width
+var myOther = screen.height
+if(appName.indexOf("Micro") != -1){
+appThis = "ie"
+}
+else{
+appThis = "netscape"
+}
+vanGogu = ".html"
+
+
+if (parseFloat(navigator.appVersion) >= 4.05 && navigator.appName == "Netscape")
+{
+var appThis = "netscape";
+vanGogu = "2.html"
+}
+else if (navigator.userAgent.indexOf("MSIE")!=-1)
+{
+var appThis = "ie";
+vanGogu = ".html"
+}
+else
+{
+appThis = "netscape"
+vanGogu = "2.html"
+}
+
+//code word vinNew
+
+//detect for ?
+
+if(vis.indexOf("?") != -1){
+vis = vis.substr(vis.indexOf("?") + 1)
+
+
+	if(vis.indexOf(".html") != -1){
+		if(vis.indexOf("features") != -1){
+		vinNew = vis
+		}
+		else{
+		vinNew = vinNew + vanGogu + "?pop=" + vis
+		}
+
+	}
+}
+else{
+
+vinNew = vinNew + vanGogu
+}
+//Pocket Blast Insert Begins
+if(vis.toLowerCase().indexOf("pocketblast") != -1){
+var win = window.open("http://www.disneyblast.go.com/homepage/pocketblast/pba.html","pocketBlast", "width=427,height=245,scrollbar=no")
+}
+else{
+
+if (appThis == "netscape")
+{
+var win = window.open("http://www.disneyblast.go.com/" + vinNew , 'Clubblast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+}
+else if (appThis == "ie")
+{
+var win = window.open(vinNew, "Blast", "fullscreen=yes, scrollbars=yes");
+}
+
+else{
+var win = window.open(vinNew, 'Clubblast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+}
+
+
+}
+
+
+
+
+
+// new code
+
+function fullWin()
+{
+
+if (appThis == "netscape")
+{
+var win = window.open('http://www.disneyblast.go.com/homepage/index2.html', 'Blast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+}
+else if (appThis == "ie")
+{
+var win = window.open("http://www.disneyblast.go.com/homepage/index.html", "Blast", "fullscreen=yes, scrollbars=yes");
+}
+
+else
+{
+var win = window.open('http://www.disneyblast.go.com/homepage/index2.html', 'Clubblast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+}
+  }
+//function setGuest()
+
+function checkOut(){
+if(document.cookie.indexOf("{D1251054-CB15-4812-B968-F29C3B296A29}") != -1){
+kiss = window.open("http://register.go.com/go/logout?appredirect=http://www.disneyblast.go.com/blastExit.html","exit","width=1,height=1")
+kiss.blur()
+}
+else{
+
+}
+}
+//-->
+
+</Script>
+
+</HEAD>
+<!-- CHROME NONE -->
+
+
+
+<body bgcolor="#330099" Text="#FFFFFF" vlink="#FFFFFF"  link="#FFFFFF" alink="#FFFFFF" onUnload=checkOut()>
+<Script Language  = "JavaScript">
+<!--
+//document.write(vinNew)
+//-->
+</Script>
+<BR>
+<P align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="100%" height="100%">
+    <param name=movie value="http://www.disneyblast.go.com/images/goodbye_browser.swf">
+    <param name=quality value=high>
+    <PARAM NAME=menu VALUE=false>
+    <embed src="http://www.disneyblast.go.com/images/goodbye_browser.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="100%" height="100%" MENU=false>
+    </embed>
+  </object>
+<div align="center">
+<TABLE WIDTH=500 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR>
+  	<TD ALIGN="center" VALIGN="middle">
+  		<div align="CENTER" style="font-family:verdana, arial, helvetica, sans-serif;";>
+  		 <font face="verdana, arial, helvetica, sans-serif" size="1">
+  			<div align="CENTER" style="margin-top:3px; font-size:10pt;"><a href="http://disney.go.com/guestservices/disney_blast.html" target="_top">Guest Services</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dig.com/legal/wdig_privacy.html" target="_top"><b>Privacy Policy</b></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://disney.go.com/legal/privacy_policy.html">Internet Safety</a></div>
+
+  			<div align="CENTER" style="margin-top:5px; font-size:8pt;">Use of this site signifies your agreement to the <a href="http://disney.go.com/legal/conditions_of_use.html">terms of use</a>.</div>
+  			<div align="CENTER" style="margin-top:3px; font-size:8pt;">&copy; Disney. All rights reserved.</div>
+  		 </font>
+  		</div>
+  	</TD>
+  </TR>
+  </TABLE></div>
+
+
+
+
+</Body>
+</HTML>

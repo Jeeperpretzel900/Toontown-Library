@@ -1,0 +1,188 @@
+<HEAD>
+<TITLE>Disney's Blast</TITLE>
+<Script Language = "JavaScript">
+function openVin(name)
+{
+launch = window.open(name,'launch','height=550,width=750,scrollbars=yes,resizable=yes,toolbars=no')
+if (parseInt(navigator.appVersion) >= 4) { launch.window.focus(); }
+}
+
+
+// stop browsers from crashing on errors
+function stopError() {
+        return true;
+}
+
+function writeFooter(fontColor,fontSize){
+//color = "#ffffff"
+if(fontColor != false){
+color = fontColor
+size = fontSize
+}
+else {
+size = "1"
+color = "#ffffff"
+}
+if(parseInt(size) <= 0){
+size = "1"
+}
+// Tags Start
+tags = new Array()
+tags[0]=''
+tags[1]='<center>'
+tags[2]=''
+tags[3]=''
+
+tags[4]='<font color="' + color + '"size="' + size + '">'
+
+tags[5]='<a href="http://disney.go.com/guestservices/disney_blast.html" target="_top"><font color = "' + color + '">Guest Services</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dig.com/legal/wdig_privacy.html" target="_top"><font color = "' + color + '"><b>Privacy Policy</b></font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://disney.go.com/legal/internet_safety.html"><font color = "' + color + '">Internet Safety</font></a><br>'
+tags[6]=''
+tags[7]=''
+tags[8]='Use of this site signifies your agreement to the <a href="http://disney.go.com/investors/wdig/legal/terms.html"><font color = "' + color + '">terms of use</font></a>.'
+tags[9]=''
+tags[10]='<br>'
+tags[11]=' &copy;Disney. All rights reserved.'
+tags[12]=''
+tags[13]=''
+tags[14]='</font>'
+tags[15]='</center>'
+// Tags End
+
+for(i=0;i<tags.length;i++){
+document.write(tags[i])
+}
+document.write("<BR>")
+}
+
+</Script>
+<script language="vbscript">
+<!--
+// updated by Vincent Clark 6/20/2002
+function LaunchIE(url)
+	on error resume next
+	//foo.debug = true
+	foo.Launch(url)
+	if err.number <> 0 then
+		MsgBox ("The Disney's Blast AOL Launcher has not been installed. In order for this page to function properly, please refresh this page and say Yes when asked to install the control.")
+	end if
+End function
+//-->
+</Script>
+</HEAD>
+<body bgcolor="#330099" Text="#FFFFFF" vlink="#FFFFFF" link="#FFFFFF" alink="#FFFFFF" LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 TOPMARGIN="0">
+
+
+
+
+<table width="646" border="0" align="left">
+<tr>
+      <td>
+        <div align="center">
+
+        <p><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="4">The
+          Disney's Blast AOL Launcher is being installed. </font></b></p>
+          <p><object id = "foo"
+classid = "clsid:5D66B431-8A5B-4ECA-AED6-6F4F411E1773"
+codebase="http://www.disneyblast.go.com/setup/activex/AOLLauncher.cab#version=1,0,0,1"
+width = "0"
+height = "0">
+            </object></p>
+        </div>
+      </td>
+    </tr>
+</table>
+<font face="Verdana" size="2">
+<p><font face="Verdana" size="2"> </font>
+  <!--//-->
+  <br>
+  <br>
+</p>
+<p>&nbsp; </p>
+<table width="646" border="0" align="left">
+    <tr>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>
+        <div align="center">
+          <table border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+            <tr>
+
+            <td height="474">
+              <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Please
+                click the Disney's Blast logo below to launch Blast in an external
+                Internet Explorer browser window. Note: Disney's Blast will only
+                run with the General Access web control setting on Child Accounts
+                with Parental Controls.</b></font></p>
+              <p align="center"><a href = "aol.html"  onClick = "javascript:LaunchIE('http://www.disneyblast.go.com/index.html')"><font color="#000000" face="Verdana" size="2"><img src="http://www.disneyblast.go.com/images/logo_blast.gif" border="0" width="216" height="184"></font></a></p>
+                <p>&nbsp;</p>
+
+              <p align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">If
+                you are using an AOL account with restricted settings, please
+                click the link below to launch Disney's Blast within the AOL embedded
+                browser. Note: Certain key features of Disney's Blast will be
+                disabled inside of the AOL browser, including the full-screen
+                environment.</font></b></p>
+
+              <p align="center"><a href="http://www.disneyblast.go.com/index3aol.html">Launch
+                Disney's Blast</a></p>
+              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Why
+                are certain features of Disney's Blast disabled inside the AOL
+                embedded browser? </b> </font></p>
+                <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Two
+                  reasons:</font></p>
+                <blockquote>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">1.
+                    The highest restriction levels within AOL block access to
+                    the Internet outside of AOL.&nbsp;</font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">As
+                    you know, Disney&#146;s Blast is a parent-trusted, ad-free
+                    environment, but you do need to connect to the Internet to
+                    access Disney&#146;s Blast. </font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">2.
+                    Disney&#146;s Blast uses standard features of Microsoft Internet
+                    Explorer that AOL does not support when that version of Internet
+                    Explorer is launched inside of AOL. </font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">When
+                    using Disney&#146;s Blast, the standard navigation bar on
+                    Microsoft Internet Explorer is eliminated.&nbsp; This allows
+                    Disney&#146;s Blast to be a full-screen CD-like environment
+                    that is also secure.&nbsp; To gain access to this feature
+                    of Microsoft Internet Explorer, you must connect to the Internet
+                    outside of the AOL window. </font></p>
+                </blockquote>
+                <p></p>
+                <p></p>
+
+              <p><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">For
+                more information, please visit the Parental Controls section within
+                AOL. </font></b></p>
+              <blockquote>&nbsp;</blockquote>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <font face="Verdana" size="2"> <br>
+        <br>
+        </font>
+<Script Language = "JavaScript">
+writeFooter("#ffffff","2")
+</Script>
+      </td>
+    </tr>
+  </table>
+<!-- BEGIN WEBSIDESTORY CODE v7.2-->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<Script Language = "JavaScript" id="_hbc">
+//*****************
+//start perl script(2)
+var my_mlc = "/registered/navigation/aol";	 //multi-level content category
+var my_pn  = "instructions";	 //page name(s)
+
+//end perl script
+//*****************
+</Script>
+<script src="http://www.disneyblast.go.com/wrapper/javascript/blastHitbox.js"></script>
+<!-- END WEBSIDESTORY CODE  -->
+</Body>

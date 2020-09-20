@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>Disney's Blast Help</title>
+<meta name="Description" content="null">
+<meta name="url" content="http://www.disneyblast.go.com/v2/help/index.html">
+<meta name="ContentTitle" content="Disney's Blast Help">
+<meta name="ContentType" content="environment">
+<script src="http://disney.go.com/detect/scripts/master_flash_writer.js"></script>
+<!-- START Hitbox / Breadcrumb Variables -->
+<script language="javascript" type="text/javascript">
+var bCrumbLevel_1 = "Disney Blast";
+var bCrumbLevel_2 = "V2";
+</script>
+<!-- END Hitbox / Breadcrumb Variables -->
+
+<script language=JavaScript>
+  <!--
+var flashVer = 0;
+var shockVer = 0;
+var javaVer = 1;
+
+// Read Cookie
+function cookieVal(cookieName) {
+	thisCookie = document.cookie.split("; ")
+    	for (i=0; i<thisCookie.length; i++) {
+        	if (cookieName == thisCookie[i].split("=")[0]) {
+        		return thisCookie[i].split("=")[1]
+        	}
+    	}
+	return "Direct" //default value
+}
+
+function chkPlugs(cookiename){
+var result = null;
+var myCookie = " " + document.cookie + ";";
+var searchName = " " + cookiename + "=";
+var startOfCookie = myCookie.indexOf(searchName);
+var endOfCookie;
+if (startOfCookie != -1){
+startOfCookie += searchName.length;
+var endOfCookie = myCookie.indexOf(";", startOfCookie);
+var result = unescape(myCookie.substring(startOfCookie, endOfCookie));
+flashVer = result.substring(result.indexOf("flash")+5, result.indexOf("flash")+8);
+shockVer = result.substring(result.indexOf("shock")+5, result.indexOf("shock")+8);
+}
+}
+chkPlugs("blast_plugins");
+
+// main navigational function
+
+function navToApp(appReq, appTyp, appUrl){
+	if (appTyp == "flash"){
+	  	if (flashVer>=appReq) {
+  			window.location = appUrl;
+ 		} else {
+			if (cookieVal("blast_platform") == "PC,IE"){
+			window.location = "http://www.disneyblast.go.com/v2/setup/needflash.html"
+			}else{
+			window.location = "http://www.disneyblast.go.com/v2/setup/getflash.html"
+			}
+		}
+
+	} else if (appTyp == "shockwave"){
+	shockNum = new Number(shockVer)
+	  	if (shockNum>=appReq) {
+  			window.location = appUrl;
+ 		} else {
+			window.location = "http://www.disneyblast.go.com/v2/setup/getshockwave.html"
+		}
+	} else if (appTyp == "japplet"){
+		if (cookieVal("blast_platform").toLowerCase()!="mac,ie") {
+  			window.location = appUrl;
+ 		} else {
+			window.location = "http://www.disneyblast.go.com/v2/setup/maciejava.html"
+		}
+	}
+}
+
+function changeUser(){
+	if (typeof(window.opener) == "object") {
+		window.opener.reLogin();
+	}
+	window.close();
+}
+
+function setBlastOptions(optionString){
+document.cookie = "blast_options=" + optionString + ";path=/;domain=.disneyblast.go.com; expires=Tuesday, 01-Dec-2020 08:00:00 GMT;"
+}
+////// specific to parents' corner///////////////////////
+function openVin(name)
+{
+launch = window.open(name,'launch','height=460,width=640,scrollbars=yes,resizable=no,toolbars=no')
+if (parseInt(navigator.appVersion) >= 4) { launch.window.focus(); }
+}
+//////////////////////////////////////////////////////////
+
+  // -->
+</SCRIPT>
+</head>
+<body bgcolor="#000066" scroll=no>->
+		<!-- START FLASH MOVIE -->
+		<script language="javascript" type="text/javascript">
+			flashObj = new FlashObj("help.swf", "100%", "98%", "#000066", "6", "movie", "jumpTo=funfinder");
+			flashObj.render(true,"opaque");
+		</script>
+		<!-- END FLASH MOVIE -->
+<!--WEBSIDESTORY CODE HBX(Global)(Universal)-->
+<!--COPYRIGHT 1997-2004 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+<script language="javascript" type="text/javascript">
+//*****************
+//start perl script(2)
+	teststring = cookieVal("hbx_isp").toLowerCase();
+tempa = teststring.substring(0,1).toUpperCase();
+tempb = teststring.substring(1, teststring.length);
+ispstring = tempa + tempb;
+	if(cookieVal("blast_connection") == "bb") {
+		var my_mlc = "/registered/v2/"+ispstring+"/navigation/broadband/funfinder";	 //multi-level content category
+	}else{
+		var my_mlc = "/registered/v2/"+ispstring+"/navigation/narrowband/funfinder";	 //multi-level content category
+	}
+	var my_pn  = "funfinder";	 //page name(s)
+//end perl script
+//*****************
+</script>
+<!--WEBSIDESTORY CODE HBX(Global)(Universal)-->
+<!--COPYRIGHT 1997-2004 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+<script SRC = "http://hb.disney.go.com/stat/hitboxcode.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+hitbox = new HB_CreateObject(my_mlc);
+hitbox.HB_PlaceAccount("DM510717H8BB38EN3","DM510612FMNS38EN3","DM51030813MR38EN3","DM5103083LCA38EN3");
+hitbox.HB_PlaceName(my_pn);
+hitbox.HB_render();
+</script>
+<!--END WEBSIDESTORY CODE-->
+
+</body>
+</html>

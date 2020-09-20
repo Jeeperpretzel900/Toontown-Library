@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>Disney's Blast: Update Product List</title>
+<script language="JavaScript" src="http://www.disneyblast.go.com/v3/global/javascript/cdn.js"></script>  
+<META NAME="ROBOTS" CONTENT="NOINDEX">
+<META NAME="ROBOTS" CONTENT="NOFOLLOW">
+<script language="javascript">
+// Read Cookie
+function cookieVal(cookieName) {
+	thisCookie = document.cookie.split("; ")
+    	for (i=0; i<thisCookie.length; i++) {
+        	if (cookieName == thisCookie[i].split("=")[0]) {
+        		return thisCookie[i].split("=")[1]
+        	}
+    	}
+	return "PpDdgDefDfDfDD0" //default value
+}
+function getStringVal(stringProp){
+	var winString = window.location.toString();
+	var fullString = winString.substring(winString.indexOf("?")+1, winString.length)
+	var stringArray = fullString.split("&")
+    for (i=0; i<stringArray.length; i++) {
+        if (stringProp == stringArray[i].split("=")[0]) {
+        	return stringArray[i].split("=")[1]
+        }
+    }
+	return null //default value
+}
+function backToDownload(){
+	if(getStringVal("retURL") != null){
+		window.location = unescape(getStringVal("retURL"));
+	}else{
+//		alert("there is no url recorded here");
+	}
+}
+function gmUnInstallGame(id){
+document.manager.UnInstallGame(id, true)
+}
+function manager_OnError(errorCode) {
+
+	if(errorCode == 3){
+//		alert("error on updateproductlist");
+window.location = "http://disneyblast.go.com/v3/setup/gamemanagertest.html?retURL="+getStringVal("retURL") + "&gAppName=" + getStringVal("gAppName") + "&gTarget=" + getStringVal("gTarget") + "&gCoins=" + getStringVal("gCoins");
+	}
+
+}
+
+function manager_OnDownloadComplete(gameID) {
+//	Set_hbPageView("Successful+Download","/Kids+Island/Disney+Downloads/Blazing+Lasers")
+}
+function manager_OnInstallEnd(gameID) {
+//	alert("downloaded the reg path");
+	window.location = "http://disneyblast.go.com/v3/setup/gamemanagertest.html?retURL="+getStringVal("retURL") + "&gAppName=" + getStringVal("gAppName") + "&gTarget=" + getStringVal("gTarget") + "&gCoins=" + getStringVal("gCoins");
+}
+function manager_OnDownloadUpdate(gameID, bytesDownload, bytesTotal) {
+   percentage = Math.floor(bytesDownload / bytesTotal * 100);
+//   document.movie.TGotoFrame("/bar", percentage);
+}
+function gameLinkTrack(lid,lpos){
+	try{
+		hitbox.Set_hbSet('lid',lid);
+		hitbox.Set_hbSet('lpos',lpos);
+		hitbox.Set_hbSend();
+	}catch(e){}
+}
+function updateProductList(){
+	if(document.manager == "[object]"){
+		document.manager.InstallGame("reg_patch", true);
+		
+	}else{
+		//window.location = "http://disney.go.com/games/downloads/setup/gamemanagererror.html"
+//		alert("game manager error");
+	}
+}
+</script>
+<SCRIPT LANGUAGE="javascript" FOR="manager" EVENT="OnError(errorCode)">
+//
+manager_OnError(errorCode);
+</SCRIPT>
+<SCRIPT LANGUAGE="javascript" FOR="manager" EVENT="OnInstallEnd(gameID)">
+//
+manager_OnInstallEnd(gameID);
+</SCRIPT>
+<SCRIPT LANGUAGE="javascript" FOR="manager" EVENT="OnDownloadComplete(gameID)">
+manager_OnDownloadComplete(gameID);
+</SCRIPT>
+<SCRIPT LANGUAGE="javascript" FOR="manager" EVENT="OnDownloadUpdate(gameID, bytesDownload, bytesTotal)">
+manager_OnDownloadUpdate(gameID, bytesDownload, bytesTotal);
+</SCRIPT>
+<!-- End Game Manager Scripts -->
+<!-- Game Manager Object Tag -->
+<script language="javascript">
+
+document.write('<OBJECT ID="manager"');
+document.write('CLASSID="CLSID:CC32D4D8-2A0B-4CEB-B105-C9B968379105"');
+document.write('height="0"');
+document.write('width="0"');
+document.write('codebase="http:\/\/www.disneyblast.go.com\/v3\/global\/gamemanager\/DIGGameManager.cab#Version=0,9,9,9999">');
+document.write('<PARAM name="ProductID" value="dgddirect">');
+document.write('<\/OBJECT>');
+/*
+// set flash frame
+if(document.manager == "[object]"){
+	document.manager.InstallGame("reg_patch", true);
+	
+}else{
+	window.location = "http://disney.go.com/games/downloads/setup/badgamemanager.html"
+}
+*/
+</script>
+<!-- START COOKIE CHECK -->
+<script language="javascript" type="text/javascript">
+teststring = cookieVal("hbx_isp").toLowerCase();
+tempa = teststring.substring(0,1).toUpperCase();
+tempb = teststring.substring(1, teststring.length);
+ispstring = tempa + tempb;
+//alert("blast_connection = "+cookieVal("blast_connection"))
+    if(cookieVal("blast_connection") == "bb") {
+      // alert("setting Broadband")
+	    var my_mlc = "/registered/v3/"+ispstring+"/content/broadband/setup/gamemanager"; //multi-level content category
+    }else{
+        var my_mlc = "/registered/v3/"+ispstring+"/content/narrowband/setup/gamemanager"; //multi-level content category
+    }
+	//alert("my_mlc = "+my_mlc)
+    var my_pn  = "Update+Product+List";    //page name(s)
+</script>
+<!-- END COOKIE CHECK -->
+
+<!--WEBSIDESTORY CODE HBX(Global)(Universal)-->
+<!--COPYRIGHT 1997-2004 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+<script SRC = "http://hb.disney.go.com/stat/hitboxcode.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+hitbox = new HB_CreateObject(my_mlc);
+hitbox.HB_PlaceAccount("DM510717H8BB38EN3","DM510612FMNS38EN3","DM51030813MR38EN3","DM5103083LCA38EN3");
+hitbox.HB_PlaceName(my_pn);
+hitbox.HB_render();
+</script>
+<!--END WEBSIDESTORY CODE-->
+</head>
+<body onload="javascript:updateProductList()" text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" bgcolor="#003366" leftmargin="100" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" scroll=no>
+<div align="center">
+<font face="arial, helvetica, tahoma" size="2" color=#FFFFFF>
+<br><br><br><br>
+<b>Please wait.<b>
+Your software is being updated. . .</b>
+</font>
+</div>
+</body>
+</body>
+</html>

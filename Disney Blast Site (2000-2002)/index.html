@@ -1,0 +1,39 @@
+<html>
+<head>
+</head>
+<body bgcolor="#330099" text="FFFFFF" link="FFFFFF" vlink="FFFFFF" alink="FFFFFF">
+<script Language = "JavaScript">
+
+// Pass any Gazette params to v2
+var queryStr = "";
+var loc = window.location.toString();
+var startLoc = loc.indexOf("?");
+if (startLoc != -1) queryStr = loc.substring(startLoc + 1, loc.length);
+function cookieVal(cookieName) {
+	thisCookie = document.cookie.split("; ")
+    	for (i=0; i<thisCookie.length; i++) {
+        	if (cookieName == thisCookie[i].split("=")[0]) {
+        		return thisCookie[i].split("=")[1]
+        	}
+    	}
+	return "Direct" //default value
+}
+if(cookieVal("blast_platform").toLowerCase() == "mac,ie"){
+	document.location.replace("http://www.disneyblast.go.com/error_mac_ie.html?" + queryStr);
+}else{
+	if(cookieVal("blast_connection").toLowerCase() == "bb"){
+		// Hard code the '?' to defeat the AOL cache.
+		document.location.replace("http://www.disneyblast.go.com/v3/index.html?" + queryStr);
+	}else{
+		// Hard code the '?' to defeat the AOL cache.
+		document.location.replace("http://www.disneyblast.go.com/v2/index.html?" + queryStr);
+	}
+}
+</script>
+
+<noscript>
+<center><h4>Sorry, but you must use a JavaScript enabled browser to enjoy Disney's Blast.</h4></center>
+</noscript>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+
+<script src = "javascript/games.js"></script>
+<script src = "javascript/detect.js"></script>
+<script src="javascript/global_warpper.js"></script>
+<Script Language = "JavaScript">
+myWindow = window.location
+myWindow = myWindow.toString()
+myRedirect = myWindow.substr(myWindow.indexOf("?") + 1)
+</Script>
+
+</HEAD>
+</body>
+<Script Language = "JavaScript">
+window.location = myRedirect
+
+</Script>
+</BODY>
+</HTML>

@@ -1,0 +1,233 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>Disney's Blast Checkin</title>
+<script language="JavaScript">
+    <!--
+    function bookMark () {
+    //**************************************
+    // get user app and browser information
+    //**************************************
+    osType      = navigator.appVersion.toLowerCase();
+    browserType = navigator.appName.toLowerCase();
+    //**************************************
+    //if browser type is ie and user is not
+    //using a mac then  book mark
+    //**************************************
+            if(browserType.indexOf("micro") != -1 && osType.indexOf("mac")==-1){
+                window.external.AddFavorite("http://www.disneyblast.go.com","Disney's Blast")
+            } else {
+                alert ("Sorry, your browser does not support this feature");
+            }
+    }//end bookMark function
+     function winNavBar(url){
+        navBarWin = window.open(url,'newWin','directories=yes,location=yes,menubar=yes,scrollbars=yes,status=yes,toolbar=yes,resizable=yes');
+    //       window.close();
+        }
+    // Open provacy policy links in same popups
+    function openWin(name){
+        launch = window.open(name,'launch','scrollbars=yes,resizable=yes,toolbars=yes')
+    }
+    // stop browsers from crashing on errors
+    function stopError() {
+            return true;
+    }
+    window.onerror = stopError;
+
+    function returnBack(){
+        historylength=history.length
+        if(window.navigator.appName != "Microsoft Internet Explorer")
+            historylength--;
+        if(historylength<0)
+            historylength=0;
+        if(historylength<2)
+            history.go(-historylength);
+        else
+            history.go(-2);
+    }
+    //-->
+</script>
+<script language="javascript">
+<!--
+
+// BACK BUTTON
+function backButton () {
+    historylength=history.length
+    if(window.navigator.appName != "Microsoft Internet Explorer")
+        historylength--;
+    if(historylength<0)
+        historylength=0;
+    if (historylength >= 4) {
+        history.go (-4);
+    } else {
+        history.go(-historylength);
+    }
+}
+
+
+//-->
+</script>
+<script language="JavaScript1.2">
+<!--
+function nsKeyPress(e) {
+     if (e.which == 13)
+         document.loginform.submit();
+}
+
+function ieKeyPress() {
+    if (window.event.keyCode == 13)
+         document.loginform.submit();
+}
+
+if (navigator.appName == 'Netscape') {
+    window.captureEvents(Event.KEYPRESS);
+    window.onKeyPress = nsKeyPress;
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#330099" text="white" vlink="white" alink="White" link="White" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" onKeyPress="ieKeyPress()">
+<!-- START CHROME -->
+<!-- START CHROME BREADCRUMB -->
+<script language="javascript">
+var chromeColor = "#000066";
+var chromeWidth = "770";
+var bCrumbLevel_1 = "Blast";
+var bCrumbLevel_2_text = "Log-in";
+var bCrumbLevel_2_url = "http://register.go.com/blast/signIn";
+var bCrumbLevel_3_text = null;
+var bCrumbLevel_3_url = null;
+var legalFooterColor = null;
+</script>
+<!-- END CHROME BREADCRUMB -->
+<table align="center">
+    <tr>
+        <td width="770" align="center"><SCRIPT language="JavaScript" src="https://disney.go.com/globalmedia/chrome/chrome_secure.js"></SCRIPT></td>
+    </tr>
+</table>
+<!-- END CHROME -->
+<table width="100%">
+    <tr>
+        <td align="center">
+        
+
+                <!--WEBSIDESTORY CODE HBX(Global)(Universal)-->
+                <!--COPYRIGHT 1997-2004 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+                <script src ="https://disney.go.com/stat/hitboxcode.js" type="text/javascript"></script>
+                <script language="javascript" type="text/javascript">
+                hitbox=new HB_CreateObject("/nonregistered/login");
+                hitbox.HB_PlaceAccount("DM510717H8BB38EN3");
+                hitbox.HB_PlaceName("blast+login");
+                hitbox.HB_render();
+                </script>
+                <!--END WEBSIDESTORY CODE-->
+        
+        <div align="center">
+        
+
+         <!-- FORM -->
+        <FORM name=loginform METHOD=POST ACTION=signIn TARGET=_top>
+        <INPUT type=hidden name=count value="1">
+        
+            <INPUT type=hidden name="appRedirect" value="https://register.go.com/blast/connection/speedDetectV3?urlRedirect=http%3A%2F%2Fwww.disneyblast.go.com%2Fimages%2Fblast%2Fsignin%2FLOGINCOMP_RIGHT.jpg&appRedirect=https%3A%2F%2Fregister.go.com%2Fblast%2FsignIn&dstamp=1115758870727">
+        
+        <INPUT type="hidden" name="urlRedirect" value="http%3A%2F%2Fwww.disneyblast.go.com%2Fimages%2Fblast%2Fsignin%2FLOGINCOMP_RIGHT.jpg">
+        <INPUT type="hidden" name="logHistDisabled" value="null">
+        <INPUT type="hidden" name="aff_code" value="D_BLAST">
+        <input type="hidden" name="msg" value="null">
+        <INPUT type="hidden" name="cookieDomain" value=".go.com">
+        <INPUT TYPE="hidden" name="SUBMIT" value="1">
+
+          <!-- START TOP NAV -->
+        <script language="javascript">
+         function winNavBar(url){
+             navBarWin = window.open(url,"newWin","toolbar=yes,location=yes,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,copyhistory=yes");
+        //   window.close();
+        }
+        </script>
+
+<TABLE WIDTH=744 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+    <TR>
+        <TD COLSPAN=3>
+            <IMG SRC="/images/blast/signin/LOGINCOMP_BUTTONS.gif" WIDTH=744 HEIGHT=41 border=0 USEMAP="#LOGINCOMP_BUTTONS_Map"></TD>
+    </TR>
+    <TR>
+        <TD COLSPAN=3>
+            <IMG SRC="/images/blast/signin/LOGINCOMP_TOP.jpg" WIDTH=744 HEIGHT=114 ALT="" border=0></TD>
+    </TR>
+    <TR>
+        <TD>
+            <IMG SRC="/images/blast/signin/LOGINCOMP_LEFT.jpg" WIDTH=259 HEIGHT=105 ALT="" border=0></TD>
+        <TD bgcolor="#F5E3DD" WIDTH=229 HEIGHT=105 align=center>
+            <img src="/images/blast/signin/txt_memberName.gif" width=169 height=15 border=0><br>
+            <INPUT type=text name=memberName value="" size=15 tabindex="1"><br>
+            <img src="/images/blast/reg/clear.gif" height=8 width=1 border=0><br>
+            <img src="/images/blast/signin/txt_password.gif" width=110 height=12 border=0><br>
+            <INPUT type=password name=password value="" size="15" maxLength="25" tabindex="2">
+            </TD>
+        <TD>
+            <IMG SRC="/images/blast/signin/LOGINCOMP_RIGHT.jpg" WIDTH=256 HEIGHT=105 ALT="" border=0></TD>
+    </TR>
+    <TR>
+        <TD COLSPAN=3>
+            <IMG SRC="/images/blast/signin/LOGINCOMP_BOTTOM.jpg" WIDTH=744 HEIGHT=182 border=0 USEMAP="#LOGINCOMP_BOTTOM_Map"></TD>
+    </TR>
+</TABLE>
+
+<MAP NAME="LOGINCOMP_BUTTONS_Map">
+<AREA SHAPE="rect" ALT="" COORDS="7,0,122,36" HREF="https://register.go.com/blast/sendPassword">
+<AREA SHAPE="rect" ALT="" COORDS="161,0,275,35" HREF="https://register.go.com/blast/sendMemberNames">
+<AREA SHAPE="rect" ALT="" COORDS="315,0,429,35" HREF="https://register.go.com/blast/buyProduct/register_blast?plan=CB_0_49">
+<AREA SHAPE="rect" ALT="" COORDS="469,0,581,36" HREF="https://disneyblast.go.com/v3/setup/desktop_icon/index.html">
+<AREA SHAPE="rect" ALT="" COORDS="622,0,736,35" HREF="javascript:backButton();">
+</MAP>
+
+<MAP NAME="LOGINCOMP_BOTTOM_Map">
+<AREA SHAPE="rect" ALT="" COORDS="343,18,404,45" HREF="javascript:document.forms[0].submit();">
+</MAP>
+<br><a href="http://disney.go.com/blast/info/faq.html"><IMG SRC="/images/blast/signin/v3HelpButton.gif" WIDTH=149 HEIGHT=48 border=0></a>
+<!--
+///////////////////////////////////////////////////////
+ GET GLOBAL FOOTER
+ ///////////////////////////////////////////////////////
+-->
+
+<!-- Start Insert Legal Footer -->
+
+<script language="javascript">
+
+   function launchCCPopUP() {
+      win = window.open("/blast/buyProduct/popup?showThis=CreditCard", "globalFooterWin", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=yes,width=500,height=530");
+      win.focus();
+   }
+
+   // Define legal footer elements
+
+   var legalFooterColor = "white";
+   var legalFtrOpts = ["Guest Services","http://register.go.com/blast/preferencecenter/lists" , "Disney's Blast Help" , "http://disney.go.com/blast/info/faq.html"];
+</script>   
+<script language="javascript" src="https://disney.go.com/globalmedia/legal_footer/legalfooter.js"></script>
+ 
+   
+<!-- End Insert Legal Footer -->
+        </form>
+        <!-- END Form -->
+        <script language="JavaScript">
+        <!--
+        document.loginform.memberName.focus();
+          // -->
+        </script>
+        </div>
+        </td>
+    </tr>
+</table>

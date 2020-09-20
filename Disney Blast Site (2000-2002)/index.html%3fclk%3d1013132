@@ -1,0 +1,351 @@
+<HEAD>
+<Script Language = "JavaScript">
+<!--
+
+//ie function
+function drcDown(){
+
+drcWin = window.open("","blast","width=150,height=200")
+drcWin.document.writeln('<HEAD><Script Language = "JavaScript">')
+drcWin.document.writeln('function moveIt(){')
+drcWin.document.writeln('')
+drcWin.document.writeln('opener.window.location = opener.window.location')
+drcWin.document.writeln('window.close()')
+drcWin.document.writeln('}')
+drcWin.document.writeln('')
+drcWin.document.write("</Scr")
+drcWin.document.write("ipt>")
+drcWin.document.writeln("</HEAD>")
+drcWin.document.writeln('<BODY bgcolor="#990000" text="FFFF00" link="FFFFFF" vlink="FFFFFF" alink="FFFFFF"><CENTER><B>Once the Movie is loaded Click the Button to Enter Blast</b>')
+drcWin.document.writeln('<BR><OBJECT classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000"')
+drcWin.document.writeln('codebase="setup/installers/cabs/shock7.cab#version=7,0,0,205"')
+drcWin.document.writeln('width=64 height=59')
+drcWin.document.writeln('BGCOLOR="OOOOOO">')
+drcWin.document.writeln('<param NAME=SRC VALUE=../images/continue.dcr>')
+drcWin.document.writeln('<param NAME=loop VALUE=false>')
+drcWin.document.writeln('</OBJECT>')
+drcWin.document.writeln('</Center>')
+drcWin.document.writeln('<br><a href = javascript:moveIt()>move</a>')
+drcWin.document.writeln("</body>")
+}
+// variables
+// Footer Arrays
+var tags = new Array()
+tags[0]='<br><br><br><br>'
+tags[1]='<table width="640">'
+tags[2]='<tr>'
+tags[3]='<td height="28">'
+
+tags[4]='<div align="CENTER" style="font-family:verdana, arial, helvetica, sans-serif; color:#FFFFFF";>'
+tags[5]='<font face="verdana, arial, helvetica, sans-serif" size="1" color="#FFFFFF">'
+tags[6]='<div align="CENTER" style="margin-top:3px; font-size:10pt;" color="#FFFFFF"><a href="http://disney.go.com/mail/blast" target="_top">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dig.com/legal/wdig_privacy.html" target="_top"><b>Privacy Policy</b></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://disney.go.com/legal/internet_safety.html">Internet Safety</a></div>'
+
+tags[7]='<div align="CENTER" style="margin-top:5px; font-size:8pt;"><font color="#FFFFFF">Use'
+tags[8]='of this site signifies your agreement to the <a href="http://disney.go.com/investors/wdig/legal/terms.html">terms'
+tags[9]='of use</a>.</font></div>'
+tags[10]='<div align="CENTER" style="margin-top:3px; font-size:8pt;"><font color="#FFFFFF">&copy;'
+tags[11]='Disney. All rights reserved.</font></div>'
+tags[12]='</font> </div>'
+tags[13]='</td>'
+tags[14]='</tr>'
+tags[15]='</table>'
+
+dDll = "http://www.disneyblast.go.com/setup/browser.html"
+
+
+// App Detect
+var appName = navigator.appName
+var appVer = navigator.appVersion
+if(appName.indexOf("Microsoft") != -1){
+navCheck = 1
+}
+else if(appName.indexOf("Netscape") != -1){
+navCheck = 0
+}
+else
+{
+navCheck = 2
+}
+// Platform
+appPlat = navigator.platform
+if(appPlat.indexOf("Mac") != -1){
+platCheck = 0
+}
+else if(appPlat.indexOf("Win") != -1){
+
+platCheck = 1
+}
+else
+{
+platCheck = 2
+}
+// Version Detect
+if(navCheck == 1){
+var inBlock = appVer.indexOf("(")
+tempBlock = appVer.substr(inBlock)
+
+for(i=0;i<tempBlock.length;i++){
+tempPars = parseFloat(tempBlock.substr(i))
+if(tempPars >= 0)
+{
+tempI = i
+i = tempBlock.length
+}
+
+}
+}
+else if (navCheck == 0){
+tempPars = parseFloat(appVer)
+}
+if(tempPars >= 4.2 && navCheck == 0){
+verCheck = 1
+}
+else if(tempPars >= 4 && navCheck == 1 && platCheck == 1){
+verCheck = 1
+}
+else if(tempPars >= 5 && navCheck == 1 && platCheck == 0){
+verCheck = 1
+}
+else{
+verCheck = 0
+}
+if(verCheck == 0){
+window.location = dDll
+}
+else{
+
+}
+//Ie Flash-Shock-DBrowser Detect
+FlashMode = false
+
+if(navCheck == 1 && platCheck == 1){
+			ieAr = new Array()
+			ieAr[0]='<SCRIPT LANGUAGE="VBScript">';
+			ieAr[1]='Dim swControl, hasShockwave7, DBrowser, haveBrCheck, useBrCheck';
+			ieAr[2]='on error resume next';
+			ieAr[3]='set swControl = CreateObject("SWCtl.SWCtl.8")';
+			ieAr[4]='if (IsObject(swControl)) then';
+			ieAr[5]='hasShockwave7 = True';
+			ieAr[6]='else';
+			ieAr[7]='hasShockwave7 = False';
+			ieAr[8]='end if';
+			ieAr[9]='On error resume next'
+			ieAr[10]='FlashMode = NOT IsNull(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))';
+			ieAr[11]='function IsBrowserRunningAndInstalled()'; // Browser Check
+			ieAr[12]='on error resume next';
+			ieAr[13]='running = CBool(foo.IsBBrowserRunning())';
+			ieAr[14]='installed = CBool(foo.IsBlastInstalled())';
+			ieAr[15]='if installed = True then';
+			ieAr[16]='if running = True then';
+			ieAr[17]='DBrowser="Using Blast-Browser"';
+			ieAr[18] = 'haveBrCheck = 1';
+			ieAr[19] = 'useBrCheck = 1';
+			ieAr[20]='else';
+			ieAr[21] = 'haveBrCheck = 1';
+			ieAr[22] = 'useBrCheck = 0';
+			ieAr[23]='DBrowser="Have Browser, chose to ignore it"';
+
+			ieAr[24]='end if';
+			ieAr[25]='else'
+			ieAr[26]='DBrowser="No Browser"';
+			ieAr[27] = 'haveBrCheck=0';
+			ieAr[28] = 'useBrCheck=0';
+			ieAr[29]='end if';
+			ieAr[30]='end function';
+
+			ieAr[31]='function LaunchBrowser()';
+			ieAr[32]='on error resume next';
+			ieAr[33]='foo.debug = false';
+			ieAr[34]='foo.LaunchBBrowser()';
+			ieAr[35]='if err.number <> 0 then';
+			ieAr[36]='MsgBox ("Error # " & CStr(Err.Number) & " " & Err.Description)';
+			ieAr[37]='end if';
+			ieAr[38]='End function';
+
+			ieAr[39]='call IsBrowserRunningAndInstalled';
+
+			ieAr[40]='</SCR';
+			ieAr[41]='IPT>';
+}
+else if(navCheck == 0 || platCheck == 0){
+			//Netscape Hook
+			crumb = 0
+			mT = new Array()
+			mT = navigator.plugins
+			drc = false;
+			swf = false;
+			ch=0
+			for(i=ch;i<mT.length;i++){
+			if(drc == true && swf == true){
+			break;
+			}
+
+			lfor = mT[i].description
+			if(lfor.indexOf("Shockwave Flash") != -1){
+
+			crumb = lfor.substr(15)
+			intMe = parseFloat(crumb)
+			if(intMe >= 5){
+			swf = true;
+			}
+			else{
+			swf = false
+			}
+			}
+
+			else if(lfor.indexOf("Shockwave for Director") != -1){
+			for(t=lfor.indexOf("version");t<lfor.length;t++){
+			suz = lfor.substr(t)
+			intMe = parseFloat(suz)
+			if(suz >= 0){
+			intMe = intMe
+			if(intMe >=8){
+			drc = true
+			}
+			else{
+			drc = false
+			}
+			break;
+
+
+			}
+	   }
+
+	}
+
+  }
+}
+// cookie set for main events
+
+function setCookie(){
+
+}
+
+	bruton = window.location
+	bruton = bruton.toString();
+	bron = bruton.indexOf("?")
+
+	if(bron != -1){
+	wyn = bruton.substr(bron + 1)
+	the_cookie = "reDir=" + wyn
+	}
+	else{
+	the_cookie = "reDir = pass"
+	}
+
+	document.cookie = the_cookie;
+
+
+
+
+//-->
+</Script>
+</Head>
+<body bgcolor="#330099" text="FFFF00" link="FFFFFF" vlink="FFFFFF" alink="FFFFFF">
+<object id="foo"
+classid="clsid:F1DF3337-EC18-40C4-9D07-DD5ED7AA7951" height="1" width="1">
+<param name="DEBUG" value="true">
+</object><center>
+<Script Language  = "JavaScript">
+
+//document.write(appName + " " + navCheck)
+//document.write(br)
+//document.write(appVer)
+//document.write(br + appPlat + " " + platCheck)
+//document.write(br + tempPars + br)
+
+<!--
+//version check
+if(navCheck == 0 && verCheck == 0){
+document.write("Failed to mobalize")
+}
+else{
+//master else
+drcCheck = 0
+swfCheck = 0
+
+if(navCheck == 1 && platCheck == 1){
+
+			// Ie Check  Loop
+for(i=0;i<ieAr.length - 2;i++){
+document.writeln(ieAr[i])
+}
+document.write(ieAr[40]);
+document.writeln(ieAr[41]);
+
+//document.write("Flash Detected: " + FlashMode + "<br>" + "Director 7 Detected: " + hasShockwave7 + "<BR>" + "D-Clasified Browser: " + DBrowser);
+if(FlashMode == true){
+swfCheck =1
+}
+
+if(hasShockwave7 == true){
+drcCheck = 1
+}
+
+
+
+}
+else if(navCheck == 0 || platCheck == 0){
+// Netscape Check
+haveBrCheck = 0
+useBrCheck = 0
+//document.write("Shockwave: " + drc)
+if(drc == true){
+drcCheck = 1
+}
+if(swf == true){
+swfCheck = 1
+}
+//document.write(br + "Flash: " + swf)
+}
+//-->
+//document.write(br)
+//document.write("Check Code: " + navCheck + " : " + platCheck + " : " + verCheck + " : " + drcCheck + " : " + swfCheck + " : " + haveBrCheck + " : " + useBrCheck + br)
+if(drcCheck != 1){
+// Write Violator
+// set array
+<!--
+//Director Dont Have
+
+window.location = "/setup/shockwave.html"
+
+//-->
+}
+else if(swfCheck == 0){
+<!--
+//Netscape Flash download
+
+window.location = "http://www.macromedia.com/shockwave/download/?P1_Prod_Version=ShockwaveFlash&ReturnURL=www.disneyblast.go.com/index.html&ReturnName=Blast"
+//-->
+}
+else if(useBrCheck == 1){
+window.location = "http://www.disneyblast.go.com/index4.html"
+}
+else{
+//document.write("Checking Versions" + br)
+if(navCheck==0 || platCheck==0){
+window.location = "http://www.disneyblast.go.com/index3.html"
+
+}
+else if(useBrCheck == 0 && haveBrCheck == 1){
+ document.bgColor="#990000"
+ document.write('<img src = "images/logo_new.gif">')
+ document.write("<br><br>The Disney's Blast Browser is installed on your computer. <br>This browser provides an accelerated experience while visiting the Disney's Blast web site.<br>We suggest you always visit Disney's Blast through this browser.<br><a href='javascript:LaunchBrowser()'>Click here to launch the Blast Browser</a><br><br><br><br>")
+ document.write("I do not wish to have a better experience using the Disney's Blast browser.<br><a href='http://apps.disneyblast.go.com/cgi-bin/detect/detect.cgi'>Please take me to Blast in my current browser.</a>")
+for(i=0;i<tags.length;i++){
+document.write(tags[i])
+}
+}
+else if(navCheck == 1 && platCheck == 1){
+window.location = "http://apps.disneyblast.go.com/cgi-bin/detect/detect.cgi"
+}
+}
+// end master else
+
+}
+</Script>
+
+
+
+</center>
+</body>

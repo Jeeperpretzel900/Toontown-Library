@@ -1,0 +1,114 @@
+<HTML>
+<HEAD>
+<title>Get Flash</title>
+
+<META name="Description" content="">
+<META name="Character" content="">
+<META name="ContentTitle" content="">
+<META name="ContentType" content="y">
+<META name="Skillset" content="">
+<META name="Age" content="">
+<META name="url" content="">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var appRedirect;
+gazzURL = "";
+loc = window.location.toString();
+if (loc.indexOf("?retURL=")!=-1){
+	startLoc = loc.indexOf("?retURL=")+8
+	endLoc = loc.length;
+	gazzURL = loc.substring(startLoc, endLoc);
+}
+
+if (gazzURL != -1){
+retURL = "http://www.disneyblast.go.com/v3/?" + gazzURL;
+} else {
+retURL = "http://www.disneyblast.go.com/v3/";
+}
+
+
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  var result = "";
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == variable && pair[1]!="") {
+      result = pair[1];
+    }
+  }
+  return result;
+}
+
+function EndFlashInstallation(){
+	appRedirect = getQueryVariable("retURL");
+	if(appRedirect==""){
+	  document.location.replace("http://register.go.com/blast/autoLogin/dispatcher?appRedirect=http://www.disneyblast.go.com/v3/index.html&disableAccountCheck=true");
+	}else{
+      document.location.replace("http://register.go.com/blast/autoLogin/dispatcher?appRedirect="+unescape(appRedirect)+"&disableAccountCheck=true&returnpluggins=true");
+    }
+}
+
+function poprequirements()
+{
+launch = window.open("http://www.disneyblast.go.com/v3/help/softwarecenter.html",'launch','height=460,width=640,scrollbars=yes,resizable=no,toolbars=no')
+if (parseInt(navigator.appVersion) >= 4) { launch.window.focus(); }
+}
+
+function backMe() {
+ 	window.history.back();
+}
+
+// -->
+</SCRIPT>
+
+</head>
+
+
+<!-- START CONTENT -->
+
+<body bgcolor="#3333CC" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 vlink="#FFFFFF" link="#FFFFFF" text="FFFFFF" scroll=no>
+<table width="640" height="560" border=0 cellpadding=0 cellspacing=0 align="center">
+<tr>
+<td>
+<Center>
+<img src="downloading_top.gif"  width=640 height=123>
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="300" HEIGHT="120" id="movie" ALIGN="">
+ <PARAM NAME="movie" VALUE="mickeydance.swf">
+ <PARAM NAME="menu" VALUE="false">
+ <PARAM NAME="quality" VALUE="high">
+ <PARAM NAME="bgcolor" VALUE="#3333CC">
+ </OBJECT>
+ <img src="downloading_bottom.gif"  width=640 height=40><br>
+ <b><font face="Verdana, Arial, Helvetica, sans-serif"><font size=-1>
+Flash 6 is now required to enjoy everything that is waiting for you in Disney's Blast,<br>
+and it will greatly improve your experience.  Want to start again?  <a href="javascript:backMe()">Click here!</a><br>
+Need more help?  <a href="javascript:poprequirements()">Click here!</a><br>
+</font></b>
+</Center>
+</td>
+</tr>
+</table>
+
+
+<!-- END CONTENT -->
+
+<!-- END CONTENT -->
+<!-- BEGIN WEBSIDESTORY CODE v7.2-->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<Script Language = "JavaScript" id="_hbc">
+//*****************
+//start perl script(2)
+
+	var my_mlc = "/registered/v2/setup/getflash";	 //multi-level content category
+	var my_pn  = "getflash";	 //page name(s)
+
+//end perl script
+//*****************
+</Script>
+<!--Script language="javascript" src="http://www.disneyblast.go.com/v3/global/javascript/blastHitbox.js"></Script-->
+<!-- END WEBSIDESTORY CODE  -->
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+<title>Get Flash</title>
+
+<META name="Description" content="">
+<META name="Character" content="">
+<META name="ContentTitle" content="">
+<META name="ContentType" content="y">
+<META name="Skillset" content="">
+<META name="Age" content="">
+<META name="url" content="">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+gazzURL = "";
+loc = window.location.toString();
+if (loc.indexOf("?retURL=")!=-1){
+	startLoc = loc.indexOf("?retURL=")+8
+	endLoc = loc.length;
+	gazzURL = loc.substring(startLoc, endLoc);
+}
+
+if (gazzURL != -1){
+retURL = "http://www.disneyblast.go.com/v3/?" + gazzURL;
+} else {
+retURL = "http://www.disneyblast.go.com/v3/";
+}
+
+function backMe() {
+	if (window.history.length > 1){
+ 		if(cookMe("insideBlast") == "true"){
+ 			window.history.back();
+ 		}else{
+	 		window.location = "http://www.disneyblast.go.com/v3/homepage/index.html";
+ 		}
+	}else{
+		window.location = "http://www.disneyblast.go.com/v3/homepage/index.html";
+	}
+}
+
+function cookMe(cookiename){
+var result = null;
+var myCookie = " " + document.cookie + ";";
+var searchName = " " + cookiename + "=";
+var startOfCookie = myCookie.indexOf(searchName);
+var endOfCookie;
+if (startOfCookie != -1){
+startOfCookie += searchName.length;
+endOfCookie = myCookie.indexOf(";", startOfCookie);
+var result = myCookie.substring(startOfCookie, endOfCookie);
+return result;
+}
+}
+
+function backToBlast(){
+document.location.replace("http://register.go.com/blast/autoLogin/dispatcher?appRedirect=http://www.disneyblast.go.com/v3/index.html&disableAccountCheck=true"); 
+}
+// -->
+</SCRIPT>
+
+</head>
+
+
+<!-- START CONTENT -->
+
+<body bgcolor="#000066" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 vlink="#FFFF00" text="FFFFFF" scroll=no>
+<table width="100%" height="100%" border=0 cellpadding=0 cellspacing=0 align="center">
+<tr>
+<td width="100%" height="510" align="center">
+<table width="780" height="510" border=0 cellpadding=0 cellspacing=0 align="center">
+<tr>
+<td width="780" height="62" colspan='3'><img src="http://www.disneyblast.go.com/v3/global/wrappers/wrap_mick_top.gif" width=780 height=62 border=0 ></td>
+</tr>
+<tr>
+<td  width="130" height="345" valign="top"><img src="http://www.disneyblast.go.com/v3/global/wrappers/wrap_mick_left.gif" width=130 height=345></td>
+<td width="530" height"345">
+<table width="530" height="345" border=0 cellpadding=0 cellspacing=0 align="center">
+<tr>
+    <td><p>&nbsp;<center><font size="-1" face="Arial, Helvetica, sans-serif"><b><font size="3">DOWNLOADING THE FLASH PLAYER</font></b><p><p>
+    Give us just a minute, and we'll auto-install the Flash Player on your computer.<p>
+    When installation is done, an animation will appear to guide you.</font></center><br>
+    </td>
+</tr>
+<tr>
+<td>
+<Center>
+        <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="300" HEIGHT="120" id="movie" ALIGN="">
+ <PARAM NAME="movie" VALUE="needflash.swf">
+ <PARAM NAME="menu" VALUE="false">
+ <PARAM NAME="quality" VALUE="high">
+ <PARAM NAME="bgcolor" VALUE="#003399"></OBJECT>
+</Center>
+</td>
+</tr>
+</table>
+</td>
+<td width=120 height=height=345 valign="top"><img src="http://www.disneyblast.go.com/v3/global/wrappers/wrap_mick_right.gif" width=120 height=345></td>
+</tr>
+<tr>
+<td width=780 height=103 colspan=3 valign="top"><img src="http://www.disneyblast.go.com/v3/global/wrappers/wrap_mick_bottom.gif" width=780 height=103 valign="top" usemap="#wrap_bottom_Map" border=0></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<map name="wrap_bottom_Map"><area shape="rect" coords="314,37,449,91" href="javascript:backMe()"></map>
+
+<!-- END CONTENT -->
+
+<!-- END CONTENT -->
+<!-- BEGIN WEBSIDESTORY CODE v7.2-->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<Script Language = "JavaScript" id="_hbc">
+//*****************
+//start perl script(2)
+
+	var my_mlc = "/registered/v2/setup/getflash";	 //multi-level content category
+	var my_pn  = "getflash";	 //page name(s)
+
+//end perl script
+//*****************
+</Script>
+<script src="http://www.disneyblast.go.com/v2/global/javascript/blastHitbox.js"></script>
+<!-- END WEBSIDESTORY CODE  -->
+
+</BODY>
+
+</HTML>

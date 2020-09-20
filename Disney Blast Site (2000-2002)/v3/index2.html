@@ -1,0 +1,309 @@
+<html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<title>Disney's Blast</title>
+<!-- START Hitbox / Breadcrumb Variables -->
+<script language="javascript" type="text/javascript">
+// Read Cookie
+function cookieVal(cookieName) {
+	thisCookie = document.cookie.split("; ")
+    	for (i=0; i<thisCookie.length; i++) {
+        	if (cookieName == thisCookie[i].split("=")[0]) {
+        		return thisCookie[i].split("=")[1]
+        	}
+    	}
+	return "Direct" //default value
+}
+var bCrumbLevel_1 = "Disney Blast";
+var bCrumbLevel_2 = "V3";
+</script>
+<!-- END Hitbox / Breadcrumb Variables -->  
+
+<!-- START COOKIE CHECK -->
+<script language="javascript" type="text/javascript">
+teststring = cookieVal("hbx_isp").toLowerCase();
+tempa = teststring.substring(0,1).toUpperCase();
+tempb = teststring.substring(1, teststring.length);
+ispstring = tempa + tempb;
+//alert("blast_connection = "+cookieVal("blast_connection"))
+    if(cookieVal("blast_connection") == "bb") {
+	//alert("setting broadband")
+        var my_mlc = "/registered/v3/"+ispstring+"/content/broadband/homepage/homepage"; //multi-level content category
+    }else{
+        var my_mlc = "/registered/v3/"+ispstring+"/content/narrowband/homepage/homepage"; //multi-level content category
+    }
+	//alert("my_mlc = "+my_mlc)
+    var my_pn  = "backtoblast";    //page name(s)
+</script>
+<!-- END COOKIE CHECK -->
+
+<!--WEBSIDESTORY CODE HBX(Global)(Universal)-->
+<!--COPYRIGHT 1997-2004 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+<script SRC = "http://hb.disney.go.com/stat/hitboxcode.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+hitbox = new HB_CreateObject(my_mlc);
+hitbox.HB_PlaceAccount("DM510717H8BB38EN3","DM510612FMNS38EN3","DM51030813MR38EN3","DM5103083LCA38EN3");
+hitbox.HB_PlaceName(my_pn);
+hitbox.HB_render();
+</script>
+<!--END WEBSIDESTORY CODE-->
+<script language="Javascript">
+<!--
+
+//###################################################################
+// FUNCTIONS
+//###################################################################
+function getQueryVariable(variable) {
+   var query = window.location.search.substring(1);
+   var vars = query.split("&");
+   var result = "";
+   for (var i=0;i<vars.length;i++) {
+     var pair = vars[i].split("=");
+     if (pair[0] == variable && pair[1]!="") {
+       result = pair[1];
+     }
+   }
+   return result;
+}
+function hidePopUpBlockerMessage(){
+	popupblockercalled = true
+}
+// check for flash plugin
+function chkPlugs(cookiename){
+	var result = null;
+	flashVer = -1;
+	var myCookie = " " + document.cookie + ";";
+	var searchName = " " + cookiename + "=";
+	var startOfCookie = myCookie.indexOf(searchName);
+	var endOfCookie;
+	if (startOfCookie != -1){
+	    startOfCookie += searchName.length;
+	    var endOfCookie = myCookie.indexOf(";", startOfCookie);
+	    var result = unescape(myCookie.substring(startOfCookie, endOfCookie));
+	    flashVer = result.substring(result.indexOf("flash")+5, result.indexOf("flash")+8);
+	}
+	return flashVer;
+}
+function closeBlastAndNavToURL(url){
+	if(win!=null){
+		win.close()
+	}
+	window.location=url;
+	window.focus()
+}
+// Determine browser platform
+if (navigator.appName.indexOf("Micro") != -1) {
+	if (navigator.appVersion.indexOf("MSNbDIS1") != -1) {
+		platform = "msndis";
+	}
+	else if (navigator.appVersion.indexOf("MSNbMSNI") != -1) {
+		platform = "msn";
+	}
+	else if (navigator.platform.toLowerCase().indexOf("mac") != -1) {
+		platform = "macie";
+	}
+	else platform = "ie";
+}
+else {
+	platform = "netscape";
+}
+function launchChecker(){
+	var winstatus = true
+    try {
+       winstatus = oldwin.document.title;
+    }
+    catch (e) {
+		winstatus = false
+    }
+	if(!winstatus){
+		LaunchWindow(launchUrl)
+		clearInterval(launchInterval);
+	}		
+}
+function resetWindow(blastUrl, wincaller){
+	launchUrl = blastUrl
+	oldwin = wincaller
+	wincaller.close()
+	launchInterval = setInterval('launchChecker()', 100);
+}
+function relocWindow(dmcUrl, wincaller){
+	wincaller.close()
+	window.location = dmcUrl
+}
+// Launch Window
+function LaunchWindow(blastUrl) {
+//+ "wincaller: " + wincaller
+//wincaller.close()
+//alert("LaunchWindow: " + blastUrl )
+	var params;
+	var win;
+if (chkPlugs("blast_plugins")!=-1){
+
+	if (chkPlugs("blast_plugins")>=7){
+		if (platform == "netscape" || platform == "macie")
+			params= "width=" + screen.width + ",height=" + screen.height + ",top=0,left=0,scrollbars=no";
+		else if (platform == "ie")
+			if (cookieVal("blast_isp") == "aol"){
+			params = "fullscreen=yes, scrollbars=yes";
+			}else{
+			params = "fullscreen=yes, scrollbars=no, resizable=1";
+			}
+		else if (platform == "msndis" || platform == "msn") {
+			// start msn screen values
+			msnw=screen.availWidth+40;
+			msnh=screen.availHeight+40; // -40
+			params = "width=" + msnw + ",height=" + msnh + ",left=0,top=0,channelmode=0,dependent=0,directories=0,fullscreen=0,location=0,menubar=0,resizable=0,scrollbars=no,status=0,toolbar=0";
+		}
+		else
+			params = "width=" + screen.width + ",height=" + screen.height + ",top=0,left=0,scrollbars=no";
+
+		win = window.open(unescape(blastUrl)+"?popblocker=true", "BlastHP", params);
+
+	}else{
+		if (cookieVal("blast_platform") == "PC,IE"){
+			window.location = "http://www.disneyblast.go.com/v3/setup/noflash_ie.html?retURL=" + gazzURL;
+		}else{
+			window.location = "http://www.disneyblast.go.com/v3/setup/noflash_ns.html";
+		}
+	}
+
+}else{
+	if (gazzURL != ""){
+		window.location = "http://register.go.com/blast/signIn?appRedirect=http%3A//www.disneyblast.go.com/v3?" + gazzURL;
+	}else{
+		window.location = "http://register.go.com/blast/signIn?appRedirect=http%3A//www.disneyblast.go.com/v3"
+	}
+}
+
+}
+// Launch Blast Lite Survey
+function LaunchSurvey() {
+	window.location = "http://register.go.com/blast/survey/blastlite/survey";
+}
+
+function reLogin(reloc){
+	document.write("<body bgcolor='330099' text='FFFFFF' vlink='FFFFFF'  link='FFFFFF' alink='FFFFFF'>")
+	//alert(escape(reloc))
+	window.location = "http://register.go.com/blast/signIn" //?appRedirect=http://www.disneyblast.go.com?" + escape(reloc)
+}
+
+// -->
+</script>
+</head>
+<body bgcolor="330099" text="FFFFFF" vlink="FFFFFF"  link="FFFFFF" alink="FFFFFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<!-- START CHROME -->
+<!-- START CHROME BREADCRUMB -->
+<script language="javascript" src="http://www.disneyblast.go.com/v3/global/javascript/breadcrumb.js"></script>
+<!-- END CHROME BREADCRUMB -->
+
+<table align="center">
+<tr>
+<td width="770" align="center"><SCRIPT language="JavaScript" src="http://disney.go.com/globalmedia/chrome/chrome.js"></SCRIPT></td>
+</tr>
+</table>
+<!-- END CHROME -->
+
+<script language="Javascript">
+<!--
+
+// Determine ISP
+var map_n = "";
+var map_1 = "";
+var map_2 = "";
+var blast_isp_cookie = cookieVal("blast_isp").toLowerCase();
+
+// Apply query string rules to overide cookie value
+var giftCardActive = getQueryVariable("upsellGiftCard");
+if ((getQueryVariable("upsellGiftCard") == "") && (blast_isp_cookie == "giftcard")) blast_isp_cookie = "direct";
+else if (getQueryVariable("pc") == "directtrialer") blast_isp_cookie = "directtrialer";
+
+//###################################################################
+// Handle ISP Cases
+//###################################################################
+//alert("blast_isp_cookie="+blast_isp_cookie)
+switch (blast_isp_cookie) {
+	case "direct" :
+	    map_n = "exit_image_map";//map name
+		map_1 = "http://register.go.com/blast/signIn?appRedirect=http://www.disneyblast.go.com/"//top image link
+		map_2 = "http://disney.go.com"//bottom image link
+	break;
+	case "verizon" :
+	    map_n = "exit_image_map";//map name
+		map_1 = "http://register.go.com/blast/signIn?appRedirect=http://www.disneyblast.go.com/"//top image link
+		map_2 = "http://disney.go.com"//bottom image link
+	break;
+	// Direct Trialers should not see the SignIn page since they don't have accounts.  Just
+	// re-launch Blast again.
+	case "directtrialer" :
+	    map_n = "exit_image_map";//map name
+		map_1 = "https://register.go.com/blast/buyProduct/register?plan=CB_0_49"//top image link
+		map_2 = "http://disney.go.com";//bottom image link
+	break;
+	case "rogers" :
+	    map_n = "exit_image_map";//map name
+		map_1 = "http://hi-speed.rogers.com/";//top image link
+		map_2 = "http://disney.go.com";//bottom image link
+	break;
+	case "synacor" :
+	    map_n = "exit_image_map";//map name
+		map_1 = "http://redir.synacor.com/?from=blast";//top image link
+		map_2 = "http://disney.go.com"; //bottom image link
+	break;
+	case "bellsouth" :
+	    map_n = "exit_image_map";//map name
+		map_1 = "http://register.go.com/blast/signIn?appRedirect=http://www.disneyblast.go.com/"
+		map_2 = "http://disney.go.com"
+		//map_2 = "http://home.bellsouth.net/s/s.dll?ep=16281&only=y&ck=&ch=ki";//bottom image link
+	break;
+	case "giftcard" :
+	    map_n = "exit_image_map";//map name
+		map_1 = "http://register.go.com/blast/giftCard/index?action=exitUpsell"
+		map_2 = "http://register.go.com/blast/signIn?appRedirect=http://www.disneyblast.go.com/";//bottom image link
+	break;
+//###################################################################
+	default:
+	    map_n = "exit_image_map";//map name
+		map_1 = "http://register.go.com/blast/signIn?appRedirect=http://www.disneyblast.go.com/"//top image link
+		map_2 = "http://disney.go.com"//bottom image link
+	break;
+}
+
+//###################################################################
+// CREATE IMAGE
+//###################################################################
+//append image name to cookie value
+var blast_isp_img = "http://www.disneyblast.go.com/v3/global/wrappers/envimages/exit/exitpage_"+blast_isp_cookie+".jpg";
+var image_start   = "<center><img usemap='#"+ map_n + "' src='";//start of image tag
+var image_end     = "' width=770 height=480 border=0></center>";//end if image tag
+//-->
+</script>
+
+<table width="100%"><tr><td><br><br>
+<div align="center">
+<script language="Javascript">
+<!--
+//###################################################################
+// IMAGE MAP
+//###################################################################
+ document.write(image_start+blast_isp_img+image_end);								//call image
+ document.write("<map name='exit_image_map'>");										//start map tag
+ document.write("<area shape='rect' coords='228,205,530,286' href='"+map_1+"'>");	//link one
+ document.write("<area shape='rect' coords='228,298,530,379' href='"+map_2+"'>");	//link two
+ document.write("</map>");	//end map tag
+// -->
+</script>
+
+<p><!-- START FOOTER -->
+<table width="770" cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr>
+		<td>
+		<script src="http://disney.go.com/globalmedia/legal_footer/legalfooter.js"></script>
+		</td>
+	</tr>
+</table>
+<!-- END FOOTER -->	</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

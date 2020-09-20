@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Disney's Blast - Technical Difficulties</title>
+
+	<!-- START CHROME BREADCRUMB -->
+	<script language="javascript" src="http://www.disneyblast.go.com/v2/global/javascript/breadcrumb.js"></script>
+	<!-- END CHROME BREADCRUMB -->
+	<meta HTTP-EQUIV="REFRESH" CONTENT="15; URL=http://disneyblast.go.com/">
+</head>
+<body bgcolor ="#330099" text="#FFFFFF" vlink="#FFFFFF" link="#FFFFFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" bgcolor="#31009C">
+<!-- START CHROME -->
+<table width="770" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td width="770" align="center" valign="top"><SCRIPT language="JavaScript" src="http://disney.go.com/globalmedia/chrome/chrome.js"></SCRIPT></td>
+	</tr>
+</table>
+<!-- END CHROME -->
+<!-- START MAIN CONTENT -->
+<table width="770" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+    <td align="center" valign="top"><a href="http://disneyblast.go.com/"><img src="/globalmedia/pardonourdust/images/blast_404_main.gif" width="500" height="400" alt="" border="0"></a></td>
+</tr>
+</table>
+<!-- END MAIN CONTENT -->
+<!-- START FOOTER -->
+<table width="770" cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr>
+		<td>
+		<!-- START LEGAL FOOTER -->
+<SCRIPT language="javascript">var legalFooterColor = "#FFFFFF";</SCRIPT>
+<SCRIPT language="javascript" src="http://disney.go.com/globalmedia/legal_footer/legalfooter.js"></SCRIPT>
+<!-- END LEGAL FOOTER -->
+
+		</td>
+	</tr>
+</table>
+<!-- END FOOTER -->
+<!-- BEGIN WEBSIDESTORY CODE v7.2-->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<Script Language = "JavaScript" id="_hbc">
+//*****************
+//start perl script(2)
+var my_mlc = "/nonregistered/preview/outage";	 //multi-level content category
+var my_pn  = "technical_difficulties";	 //page name(s)
+
+//end perl script
+//*****************
+</Script>
+<script src="http://disney.go.com/preview/blast/js/previewHitbox.js"></script>
+<!-- END WEBSIDESTORY CODE  -->
+</body>
+</html>

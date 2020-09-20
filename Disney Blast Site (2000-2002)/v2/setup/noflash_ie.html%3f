@@ -1,0 +1,83 @@
+<HTML>
+<HEAD>
+<title>Requires Flash</title>
+
+<META name="Description" content="">
+<META name="Character" content="">
+<META name="ContentTitle" content="">
+<META name="ContentType" content="y">
+<META name="Skillset" content="">
+<META name="Age" content="">
+<META name="url" content="">
+
+<script language=JavaScript>
+  <!--
+
+function poprequirements()
+{
+launch = window.open("http://www.disneyblast.go.com/v2/help/softwarecenter.html",'launch','height=460,width=640,scrollbars=yes,resizable=no,toolbars=no')
+if (parseInt(navigator.appVersion) >= 4) { launch.window.focus(); }
+}
+
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == variable && pair[1]!="") {
+      return pair[1];
+    }
+  }
+  return "";
+}
+
+function goInstallFlash(url){
+
+   var appRedirect = getQueryVariable("retURL");
+   //document.write(url+"?retURL="+appRedirect);
+   document.location.replace(url+"?retURL="+appRedirect);
+
+}
+  // -->
+</script>
+
+</head>
+
+
+
+<!-- START CONTENT -->
+
+<body bgcolor="#3333CC" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 text="#FFFFFF" vlink="#FFFFFF" link="#FFFFFF" scroll=no>
+<table width="640" height="560" border=0 cellpadding=0 cellspacing=0 align="center">
+<tr>
+<td>
+<Center>
+        <img src="upgrade_ie.gif" width="640" height="560" usemap="#Map" border="0">
+        <map name="Map">
+          <area shape="rect" coords="273,125,615,370" href="javascript:goInstallFlash('downloadingflash.html')" alt="Click Here" title="Click Here">
+  <area shape="rect" coords="499,507,568,535" href="javascript:poprequirements()">
+</map>
+</Center>
+</td>
+</tr>
+</table>
+
+<!-- END CONTENT -->
+
+<!-- BEGIN DOL Web Analytics 1.0 DO NOT EDIT OR REMOVE THIS LINE-->
+<script language="javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+<script language="javascript">
+cto=new CTO();
+cto.account="gamekingdom";
+cto.category="dgame";
+cto.site="dgk";
+cto.siteSection="disney_blast";
+cto.pageName="setup_special_offers";
+cto.contentType="regular";
+cto.property="dgk";
+cto.track();//Required. Do not remove.
+</script>
+<!-- END DOL Web Analytics 1.0 -->
+</BODY>
+
+</HTML>

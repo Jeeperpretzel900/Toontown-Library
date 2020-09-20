@@ -1,0 +1,136 @@
+<HEAD>
+<TITLE>Disney's Blast</TITLE>
+<Script Src= "http://www.disneyblast.go.com/wrapper/javascript/default.js"></Script>
+<Script Language = "JavaScript">
+<!--
+infoPlat = navigator.platform
+platCheck = 1
+navCheck = 1
+if(infoPlat.toLowerCase().indexOf("win32") != -1){
+infoPlat = "Windows"
+vers = "5.0"
+platCheck = 1
+}
+else if (infoPlat.indexOf("mac") != -1)
+{
+platCheck = 0
+infoPlat = "Macintosh"
+vers = "5.0"
+}
+infoNav = navigator.appName
+if(infoNav.indexOf("Microsoft") != -1){
+infoNav = "Internet Explorer"
+navCheck = 1
+}
+else if(infoNav.indexOf("Netscape") != -1) {
+infoNav = "Netscape Communicator"
+navCheck = 0
+vers = "4.71"
+}
+
+
+infoVer = navigator.appVersion
+if(infoNav == "Internet Explorer"){
+infoVer = parseFloat(infoVer.substr(infoVer.indexOf("MSIE") + 4))
+}
+else if(infoNav.indexOf("Netscape") != -1){
+infoVer = parseFloat(infoVer)
+vers = "4.71"
+}
+
+
+  function aunch(url)
+    			{
+    				launcher.Launch(url);
+			}
+//-->
+</Script>
+</HEAD>
+
+<!-- CHROME NONE -->
+<body bgcolor="#990000" Text="#FFFFFF" vlink="#FFFFFF" link="#FFFFFF" alink="#FFFFFF" LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 TOPMARGIN="0">
+  <table width="646" border="0" align="left">
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <div align="center">
+          <table border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+            <tr>
+              <td height="334">
+                <p align="center"> <font color="#000000" face="Arial"><img src="http://www.disneyblast.go.com/images/logo_new.gif" border="0" width="230" height="196"></font></p>
+
+<CENTER><B><FONT SIZE="+2" FACE="Arial,Helvetica">You need to upgrade Your Browser</FONT></B>
+<font face="Arial, Helvetica, sans-serif"><br>
+<Script Language  = "JavaScript">
+<!--
+
+// displays browser info
+document.write("<b><font size = '3'> You are currently running " + infoPlat + " " + infoNav + " version " + infoVer + "</b></font>")
+//-->
+document.write("<br>")
+if(platCheck == 1 && navCheck == 1){
+document.write("<font size = '3'> Blast supports Internet Explorer " + vers + " or higher.")
+}
+else if(platCheck == 0 && navCheck == 1){
+document.write("<font size = '3'> Blast supports Internet Explorer " + vers + " or higher for the Macintosh.")
+}
+else if(navCheck == 0)
+document.write("<font size = '3'> Blast supports Netscape Communicator " +vers + " or higher. ")
+</Script></font></center><font face="Arial, Helvetica, sans-serif">
+<p>
+<Script Language  = "JavaScript">
+if(platCheck == 1 && navCheck == 1){
+document.write("To download or upgrade Microsoft Internet Explorer, visit their Web site at:</font><font face='Arial, Helvetica, sans-serif'> <a href=http://www.microsoft.com/windows/ie/default.htm target=_top>http://www.microsoft.com/windows/ie/</a></font><p>")
+}
+else if(navCheck == 0){
+document.write('<font face="Arial, Helvetica, sans-serif"> To download or upgrade Netscape Navigator, visit their Web site at: <a href=http://home.netscape.com/download/ target=_top>http://home.netscape.com/download/</a> </font> </font><p>')
+}
+else if(navCheck == 1 && platCeck == 0){
+document.write('<font face="Arial, Helvetica, sans-serif">To download or upgrade Microsoft Internet Explorer for the MAC, visit their Web site at: <a href=http://www.microsoft.com/mac/download/ie/ie50.asp target=_top>http://www.microsoft.com/mac/download/ie/ie50.asp</a></font>')
+}
+else{
+document.write("To download or upgrade Microsoft Internet Explorer, visit their Web site at:</font><font face='Arial, Helvetica, sans-serif'> <a href=http://www.microsoft.com/windows/ie/default.htm target=_top>http://www.microsoft.com/windows/ie/</a></font><p>")
+}
+</Script>
+</p>
+
+                <script>
+			function Launch(url)
+			{
+				launcher.Launch(url);
+			}
+		</script>
+
+
+              </font></td>
+            </tr>
+          </table>
+        </div>
+<br>
+<br>
+      <p>
+        <script language="JavaScript" src="bottom.js"></script>
+      </p>
+  </table>
+  
+
+
+<!-- BEGIN WEBSIDESTORY CODE v7.2-->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<Script Language = "JavaScript" id="_hbc">
+//*****************
+//start perl script(2)
+var my_mlc = "/nonregistered/misc";	 //multi-level content category
+var my_pn  = "browser+update";	 //page name(s)
+
+//end perl script
+//*****************
+</Script>
+<script src="http://www.disneyblast.go.com/wrapper/javascript/blastHitbox.js"></script>
+<!-- END WEBSIDESTORY CODE  -->
+
+
+
+  </Body>

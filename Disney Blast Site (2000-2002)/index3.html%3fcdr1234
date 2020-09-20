@@ -1,0 +1,281 @@
+<HTML>
+<HEAD>
+
+<TITLE>Disney's Blast</TITLE>
+<Script Language = "JavaScript">
+<!--
+// start msn screen values
+msnw=screen.availWidth+40;
+msnh=screen.availHeight+40; // -40
+msnfeatures="width="+msnw+",height="+msnh+",left=0,top=0,channelmode=0,dependent=0,directories=0,fullscreen=0,location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0";
+
+// end msn screen values
+//VTC added MSN HOOKS 9/23/2002
+//Decleration of Variables for MSN
+var whois // reffers to isp brand
+function MSNLoad(){
+hookMSN = navigator.appVersion
+if(hookMSN.indexOf("MSNbDIS1") != -1){
+whois = "1"
+}
+else{
+whois = "0"
+}
+return whois
+}
+function GoMSN(){
+window.location = "http://disney.msn.com"
+}
+
+
+vis = window.location
+vis = vis.toString()
+locked = false
+vinNew = "homepage/index"
+var appVersion = navigator.appVersion
+var appName = navigator.appName
+var checkAol = navigator.appVersion.indexOf("AOL")
+var myScreen = screen.width
+var myOther = screen.height
+
+
+leavePath = "http://register.go.com/blast/exitBlast/exit?goto=exitblast&step=2"
+
+if(appName.indexOf("Micro") != -1){
+
+	if(navigator.appVersion.indexOf("MSNbDIS1") != -1){
+		appThis = "msn"
+
+		}
+	else{
+	appThis = "ie"
+
+	}
+}
+else{
+appThis = "netscape"
+}
+vanGogu = ".html"
+
+
+if (parseFloat(navigator.appVersion) >= 4.05 && navigator.appName == "Netscape")
+{
+//var appThis = "netscape";
+vanGogu = "2.html"
+}
+else if (navigator.userAgent.indexOf("MSIE")!=-1)
+{
+//var appThis = "ie";
+vanGogu = ".html"
+}
+else
+{
+//appThis = "netscape"
+vanGogu = "2.html"
+}
+
+/////////////////////////////////////////
+// start block for msn
+function getIspCookie(cookiename){
+var result = null;
+var myCookie = " " + document.cookie + ";";
+var searchName = " " + cookiename + "=";
+var startOfCookie = myCookie.indexOf(searchName);
+var endOfCookie;
+if (startOfCookie != -1){
+startOfCookie += searchName.length;
+endOfCookie = myCookie.indexOf(";", startOfCookie);
+var result = myCookie.substring(startOfCookie, endOfCookie);
+}
+if (result == "DisMsn"){
+appThis = "msn";
+}
+}
+
+//getIspCookie("blast_isp");
+// Commented out ISP lookup, function not deleted. VTC 9-24-02
+// end block for msn
+/////////////////////////////////////////////
+	//if(vis.indexOf(".html") != -1){
+		//if(vis.substring(0,3) == "puc"){
+		//vis = vis.substr(3)
+		//vinNew = vinNew + vanGogu + "?pop=" + vis
+		//}
+		//else if(vis.indexOf("activities") == -1){ vinNew = vis }
+		//else{ vinNew = vinNew + vanGogu + "?pop=" + vis	}
+	//}
+
+//code word vinNew
+
+//detect for ?
+
+if(vis.indexOf("?") != -1){
+vis = vis.substr(vis.indexOf("?") + 1)
+
+
+
+		if(vis.indexOf(".html") != -1){
+			if(vis.indexOf("features") != -1){ vinNew = vis }
+			else{ vinNew = vinNew + vanGogu + "?pop=" + vis	}
+	}
+	else if(vis.indexOf("navDir=pclock") != -1){ vinNew = vinNew + vanGogu + "?" + vis }
+	else if(vis.indexOf("navDir=pc") != -1){ vinNew = vinNew + vanGogu + "?" + vis }
+	else if(vis.indexOf("lockEnable") != -1){ vinNew = vinNew + vanGogu + "?" + vis }
+}
+else{
+
+vinNew = vinNew + vanGogu
+}
+//Pocket Blast Insert Begins
+function FWS(app){
+	switch (app) {
+		case "netscape" :
+		var win = window.open("http://www.disneyblast.go.com/" + vinNew , 'Blast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+		break;
+		case "ie" :
+		var win = window.open(vinNew, "Blast", "fullscreen=yes, scrollbars=yes");
+		break;
+		case "msn" :
+		var win = window.open(vinNew, "Blast", msnfeatures);
+		break;
+		default:
+		var win = window.open("http://www.disneyblast.go.com/" + vinNew , 'Blast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+
+	}
+}
+
+// First Full Screen window.
+FWS(appThis)
+
+
+// new code
+// for lockDown
+
+
+function fullWin()
+{
+	if(locked == true){
+	appEnd = "?lockEnable"
+	}
+	else{
+	appEnd = ""
+	}
+if (appThis == "netscape")
+{
+var win = window.open('http://www.disneyblast.go.com/homepage/index2.html' + appEnd, 'Blast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+}
+else if (appThis == "ie")
+{
+var win = window.open("http://www.disneyblast.go.com/homepage/index.html" + appEnd, "Blast", "fullscreen=yes, scrollbars=yes");
+}
+
+else
+{
+var win = window.open('http://www.disneyblast.go.com/homepage/index2.html' + appEnd, 'Clubblast', 'width='+screen.width+',height='+screen.height+',top=0,left=0,scrollbars=yes');
+}
+win.focus()
+  }
+
+// unlock Function
+
+//function setGuest()
+function JSExit(){
+	var left = (screen.width - 552) / 2;
+	var top = (screen.height - 450) / 2;
+    var wint = (screen.height - 552) / 2;
+    var winl = (screen.width - 450) / 2;
+all = "width=562,height=458,top="+wint+",left="+winl+""
+win = window.open(leavePath,'LogOut',all)
+
+}
+function UnLockBlastAndExit(){
+unLock(0)
+}
+
+
+function checkOut(){
+if(locked == true){
+	if(window.location){
+	window.location = "http://www.disneyblast.go.com/index3.html?cdr1234"
+
+
+	}
+}
+}
+
+
+function unLock(val){
+if(val == 0){
+locked = false
+}
+else{
+locked = true
+}
+
+}
+
+//-->
+
+</Script>
+
+</HEAD>
+<!-- CHROME NONE -->
+<!--June 25,2002 118-->
+
+
+<body bgcolor="#330099" Text="#FFFFFF" vlink="#FFFFFF"  link="#FFFFFF" alink="#FFFFFF">
+<Script Language  = "JavaScript">
+<!--
+//document.write(vinNew)
+//-->
+</Script>
+<BR>
+<P align="center">
+<Script Language = "Javascript">
+if(appThis != "netscape"){
+document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="100%" height="100%" ID=goodbye>')
+document.write('<param name=movie value="http://www.disneyblast.go.com/images/goodbye.swf?MSN=' + MSNLoad() + '"')
+document.write('<param name=quality value=high>')
+document.write('<PARAM NAME=menu VALUE=false>')
+document.write('</object>')
+}
+else{
+document.write('<embed src="http://www.disneyblast.go.com/images/goodbye.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="100%" height="100%" name=goodbye MENU=false></embed>')
+}
+</Script>
+<div align="center">
+<TABLE WIDTH=500 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR>
+  	<TD ALIGN="center" VALIGN="middle">
+  		<div align="CENTER" style="font-family:verdana, arial, helvetica, sans-serif;";>
+  		 <font face="verdana, arial, helvetica, sans-serif" size="1">
+  			<div align="CENTER" style="margin-top:3px; font-size:10pt;"><a href="http://disney.go.com/guestservices/disney_blast.html" target="_top">Guest Services</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dig.com/legal/wdig_privacy.html" target="_top"><b>Privacy Policy</b></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://disney.go.com/legal/privacy_policy.html">Internet Safety</a></div>
+
+  			<div align="CENTER" style="margin-top:5px; font-size:8pt;">Use of this site signifies your agreement to the <a href="http://disney.go.com/legal/conditions_of_use.html">terms of use</a>.</div>
+  			<div align="CENTER" style="margin-top:3px; font-size:8pt;">&copy; Disney. All rights reserved.</div>
+  		 </font>
+  		</div>
+  	</TD>
+  </TR>
+  </TABLE></div>
+
+
+
+<!-- BEGIN WEBSIDESTORY CODE v7.2-->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<Script Language = "JavaScript" id="_hbc">
+//*****************
+//start perl script(2)
+var my_mlc = "/nonregistered/startup";	 //multi-level content category
+var my_pn  = "startup";	 //page name(s)
+
+//end perl script
+//*****************
+</Script>
+<script src="http://www.disneyblast.go.com/wrapper/javascript/blastHitbox.js"></script>
+<!-- END WEBSIDESTORY CODE  -->
+
+
+
+</Body>
+</HTML>

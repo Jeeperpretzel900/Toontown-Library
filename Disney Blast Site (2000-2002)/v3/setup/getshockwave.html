@@ -1,0 +1,81 @@
+<HTML>
+<HEAD>
+<title>Get Shockwave</title>
+
+<META name="Description" content="">
+<META name="Character" content="">
+<META name="ContentTitle" content="">
+<META name="ContentType" content="y">
+<META name="Skillset" content="">
+<META name="Age" content="">
+<META name="url" content="">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function backMe() {
+	if (window.history.length > 1){
+ 		if(cookMe("insideBlast") == "true"){
+ 			window.history.back();
+ 		}else{
+	 		window.location = "http://www.disneyblast.go.com/v3/homepage/index.html";
+ 		}
+	}else{
+		window.location = "http://www.disneyblast.go.com/v3/homepage/index.html";
+	}
+}
+
+function cookMe(cookiename){
+var result = null;
+var myCookie = " " + document.cookie + ";";
+var searchName = " " + cookiename + "=";
+var startOfCookie = myCookie.indexOf(searchName);
+var endOfCookie;
+if (startOfCookie != -1){
+startOfCookie += searchName.length;
+endOfCookie = myCookie.indexOf(";", startOfCookie);
+var result = myCookie.substring(startOfCookie, endOfCookie);
+return result;
+}
+}
+
+function navToMacromedia() {
+window.opener.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=Disney&UI=plain&ReturnURL=www.disneyblast.go.com/v3/index.html&ReturnName=Blast";
+window.close();
+}
+// -->
+</SCRIPT>
+
+</head>
+
+
+
+<!-- START CONTENT -->
+
+<body bgcolor="#000066" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 vlink="#FFFF00" scroll=no>
+
+	<table width="100%" height="100%" border=0 cellpadding=0 cellspacing=0 align="center">
+	<tr>
+	<td width="100%" height="486" align="center">
+	<table width="744" height="486" border=0 cellpadding=0 cellspacing=0 align="center">
+	<tr>
+	<td width="744" height="84" colspan='3'><img src="images/gamemanagerinstaller_01.jpg" width=744 height=84 border=0 ></td>
+	</tr>
+	<tr>
+	<td  width="100" height="210"><img src="images/gamemanagerinstaller_02.jpg" width="100" height="210"></td>
+	<td width="544" height="210"><a href="javascript:navToMacromedia()"><img src="images/getshockwave.gif" border=0 width=544 height=210></a></td>
+	<td width="100" height=210><img src="images/gamemanagerinstaller_04.jpg" width="100" height=210></td>
+	</tr>
+	<tr>
+	<td width=744 height="192" colspan=3><img src="images/gamemanagerinstaller_05.jpg" width=744 height="192" usemap="#gamemanagerinstaller_05_Map" border=0></td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+	</table>
+
+<MAP NAME="gamemanagerinstaller_05_Map">
+<AREA SHAPE="rect" ALT="" COORDS="323,20,419,59" HREF="javascript:backMe();">
+</MAP>
+
+</BODY>
+
+</HTML>
