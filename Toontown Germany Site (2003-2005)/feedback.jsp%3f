@@ -1,0 +1,549 @@
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<html>
+<head>
+<title>Disney.de Toontown - Ein Angebot von T-Online</title>
+<META NAME="keywords" HTTP-EQUIV="keywords" CONTENT="disney, Spass, Spiele, Kids, Unterhaltung, Kinder, Spieler, unzÃ¤hlig, viele, Kooperativspiel,  mmorpg, morpg, Actionspiel, Action Game, Aktionsspiel, online, Kampf, Minigames, Mini-Games, Strategiespiel, Abenteuer, kooperativ, Toon, Toontown, Gag, Bot, Action, Spass, Fun Games, deutsche Online-Games, deutsche Games fÃ¼r Kinder, Kids-Games auf Deutsch">
+<META NAME="description" HTTP-EQUIV="description" CONTENT="Toontown ist das Internet-Game fÃ¼r unzÃ¤hlig viele Spieler, in dem man das Leben eines Toon fÃ¼hren kann! GÃ¶nn dir ein Abenteuer und lÃ¶se Hunderte von Aufgaben, um dir Gags und Lach-Punkte zu verdienen, nimm gemeinsam mit deinen Freunden an speziellen Veranstaltungen und WettkÃ¤mpfen teil, personalisiere deinen Toon mit coolen Klamotten und richte das Heim deines Toons schÃ¶n ein.">
+<META NAME="robots" HTTP-EQUIV="robots" CONTENT="index,nofollow">
+<META NAME="author" HTTP-EQUIV="author" CONTENT="Toontown">
+</head>
+ 
+<script language="JavaScript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- edited by NickH on 2005/10/11 -->
+ 
+
+
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+var popUpWindow = null;
+function openWindow(windowURL, windowName, windowFeatures) { //controls pop-up window for T-Online pages; called by all banner ads
+	if ((navigator.appName == "Netscape") || (navigator.platform == "MacPPC")) {
+		popUpWindow = window.open(windowURL, windowName, windowFeatures);
+		if (popUpWindow.opener == null) popUpWindow.opener = window
+		else popUpWindow.focus();
+	} else {
+		if (popUpWindow) {
+			popUpWindow.close();
+			popUpWindow = null;
+		}
+		popUpWindow = window.open(windowURL, windowName, windowFeatures);
+	}
+}
+
+
+
+
+
+
+
+<!-- this link is built in /buyNow.jsp -->
+function buyNow() { //controls hardware redirect from 'Offers' page
+	window.location='/hardwareredirect.jsp?HARDWARE_TEST_LIB=http://ukplay.german.toontown.com/shared/include/js/ttLauncherLibv2.php&SITE_URL=http://www.toontown-online.de&ACTIVE_X_INIT_FAIL=ProblemDownloadingToontownInstaller.jsp&HARDWARE_CHECK_FAIL=reportaproblem.jsp&HARDWARE_CHECK_OK=http://www.toontown-online.de/hardwaresuccess.jsp?DESTINATION_URL=http://god.t-online.de/toontown/src/action_pages/tt_buy.aspx&GRAPHICS_CHECK_FAIL=gamefail.jsp';
+}
+// -->
+</script>
+<!--flash sides -->
+<DIV id=toon_left_flashBanner>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="395">
+        <param name=movie value="/cms_res/skyscraper_Default.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/skyscraper_Default.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="395">
+        </embed> 
+      
+</object>
+  </div>
+<DIV id=toon_right_flashBanner>
+
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="102" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="90">
+        <param name=movie value="/cms_res/banner_1_spielen.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/banner_1_spielen.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="90">
+        </embed> 
+      
+      </object></td>
+  </tr>
+  <tr>
+    <td height="102" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="90">
+        <param name=movie value="/cms_res/banner_2_testen.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/banner_2_testen.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="90">
+        </embed> 
+      
+      </object></td>
+  </tr>
+  <tr>
+    <td height="101" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="90">
+        <param name=movie value="/cms_res/banner_3_kaufen.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/banner_3_kaufen.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="90">
+        </embed> 
+      
+      </object></td>
+  </tr>
+  <tr>
+    <td height="102" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="90">
+        <param name=movie value="/cms_res/banner_toptoons.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/banner_toptoons.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="90">
+        </embed> 
+      
+      </object></td>
+  </tr>
+</table>
+
+  </div>
+<!--flash sides -->
+
+
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="795891" background="images/bgslice.gif">
+<link rel="stylesheet" href="toontown.css" type="text/css">
+
+
+
+<TABLE WIDTH=1000 BORDER=0 CELLPADDING=0 CELLSPACING=0 background="images/bgslice.gif" bgcolor="795891">
+  <TR> 
+    <TD COLSPAN=3 align="center"> 
+      <table border="0" height="3" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="3"> </td>
+        </tr>
+      </table>
+     <table border="0" height="60" cellspacing="0" cellpadding="0">
+<tr> 
+   <td valign="top"> 
+   
+
+
+
+
+
+
+
+
+  </td>
+</tr>
+</table> <table border="0" height="3" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="3"> </td>
+        </tr>
+      </table>
+      <script language="JavaScript"> 
+		barwidth = "760"; 
+		pagecolour = "483455"; 
+	</script>
+      <script language="JavaScript" src="http://navbar.disneyinternational.com/de/toontown/navbar.js"></script>
+    </TD>
+  </TR>
+  <tr> 
+    <td height="3"> </td>
+  </tr>
+  <TR> 
+    <TD COLSPAN=3 align="center" class="navigation"> 
+     <table width="760" border="0">
+  <tr>
+          <td class="navigation" align="right">
+            
+
+| <A class="navigation" href="index.jsp">Home</A> | 
+
+
+
+
+
+
+
+<A class="navigation" href="/hardwareredirect.jsp?HARDWARE_TEST_LIB=http://ukplay.german.toontown.com/shared/include/js/ttLauncherLibv2.php&SITE_URL=http://www.toontown-online.de&ACTIVE_X_INIT_FAIL=ProblemDownloadingToontownInstaller.jsp&HARDWARE_CHECK_FAIL=reportaproblem.jsp&HARDWARE_CHECK_OK=http://www.toontown-online.de/hardwaresuccess.jsp?DESTINATION_URL=http://god.t-online.de/toontown/src/action_pages/tt_edit.aspx&GRAPHICS_CHECK_FAIL=gamefail.jsp">
+Mein Account</A> |
+<A class="navigation" href="index.jsp?page=faq">Häufig gestellte Fragen</A> |
+<A class="navigation" href="index.jsp?page=help">Hilfe/Kontakt</A> |
+
+
+
+          </td>
+  </tr>
+</table>
+    </TD>
+  </TR>
+  <TR> 
+    <TD ROWSPAN=2 width="132"> 
+      
+<table width="138" border="0" HEIGHT=440 cellpadding="0" cellspacing="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+    </TD>
+    <TD width="730" height="440"> </TD>
+    <TD ROWSPAN=2 width="138"> 
+      
+<table width="138" border="0" HEIGHT=440 cellpadding="0" cellspacing="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+   
+    </TD>
+  </TR>
+  <TR> 
+    <TD WIDTH="730" HEIGHT="35"> </TD>
+  </TR>
+  <TR> 
+    <TD  COLSPAN=3 height="27"> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td class="footerNavigation" background="images/bgslice_footer.gif" height="20" width="72%"> 
+            &nbsp;&nbsp;&nbsp; 
+            | <A class="footerNavigation" href="http://www.t-online.de/impressum" target="_blank">Impressum</A> |
+<A class="footerNavigation" href="http://www.t-online.de/verbraucherinfos" target="_blank">Verbraucherinfos</A> |
+<A class="footerNavigation" href="http://www.t-online.de/datenschutz" target="_blank">Datenschutzhinweise</A> |
+<A class="footerNavigation" href="houserules.jsp">Hausregeln</A> |
+
+           </td>
+          <td background="images/bgslice_footer.gif" height="20" width="28%" class="footerNavigation">(C)Disney. Alle Rechte vorbehalten</td>
+        </tr>
+      </table>
+    </TD>
+</TR>
+  <TR> 
+    <TD COLSPAN=3 height="27" align="center" ><a class="footerNavigation" href="http://download.t-online.de" target="_blank">Wenn du die Seite nicht korrekt angezeigt bekommst, dann lade dir hier bitte die aktuelle Version des Shockwave und Flashplayers herunter.</a> 
+    </TD>
+ </TR>
+  
+</TABLE>
+<DIV id=toon_cardborder><br><BR><BR></div>
+<div id=toon_dropshadow></div>    
+  <DIV id=LayerLogo>
+
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="200" height="88" id="HTML_flashLogo" align="middle">
+          <param name="allowScriptAccess" value="sameDomain" />
+          <param name="movie" value="images/logo.swf?affiliate=null" />
+          <param name="quality" value="high" />
+          <PARAM NAME=wmode VALUE=transparent>
+          <param name="bgcolor" value="#ffffff" />
+          <embed src="images/logo.swf" wmode=transparent quality="high" bgcolor="#CCCCCC" width="200" height="88" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+          </embed> 
+        </object> </div>
+      
+      <div id=LayerPin> 
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="64" height="62" id="HTML_flashLogo" align="middle">
+          <param name="allowScriptAccess" value="sameDomain" />
+          <param name="movie" value="images/pin.swf" />
+          <param name="quality" value="high" />
+          <PARAM NAME=wmode VALUE=transparent>
+          <param name="bgcolor" value="#ffffff" />
+          <embed src="images/pin.swf" wmode=transparent quality="high" bgcolor="#CCCCCC" width="64" height="62" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+          </embed> 
+        </object></div>
+        <!--div id=LayerPlayNow> 
+      
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="133" height="48" id="HTML_flashLogo" align="middle">
+          <param name="allowScriptAccess" value="sameDomain" />
+          <param name="movie" value="images/Playnow.swf?affiliate=null" />
+          <param name="quality" value="high" />
+          <PARAM NAME=wmode VALUE=transparent>
+          <param name="bgcolor" value="#ffffff" />
+          <embed src="images/Playnow.swf" wmode=transparent quality="high" bgcolor="#CCCCCC" width="133" height="48" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+          </embed> 
+        </object></div-->
+<div id=flash_skyscraper_bg>
+  <table width="132" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+    <td><img src="images/skyscraper_box.gif"></td>
+  </tr>
+</table>
+</div>
+<div id=flash_rightbanners_bg>
+  <table width="133" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td height="102" valign="top"><img src="images/banner_box.gif"></td>
+  </tr>
+  <tr>
+    <td height="102" valign="top"><img src="images/banner_box.gif"></td>
+  </tr>
+  <tr>
+      <td height="101" valign="top"><img src="images/banner_box.gif"></td>
+  </tr>
+  <tr>
+    <td height="102" valign="top"><img src="images/banner_box.gif"></td>
+  </tr>
+ </table>
+</div>
+
+
+<DIV id=toon_content>
+<META 
+content=Category,Name,LastName,Member_Name,E-Mail,DayPhone,EveningPhone,WeekendPhone,OS,Browser,ProcessorType,Internet_Connection,RAM,comments 
+name=fields><!-- This tag defines the location a template file that contains the error text that is inserted at the top of the original email template. -->
+<META content=toontown/error.tpl name=error_copy>
+<SCRIPT language=javascript>
+
+
+function isReady(f) {
+
+	var isAlphaNumeric = /^[\+*\w+\s*\d*]+$/;
+	var isNotNull =/.+/;
+	var isNumeric =/^\d+$/;
+	var isEmail =/^[\d\w\-\.]+\@[\d\w\-]+\.[\d\w]+[\.{1}[\d\w]+]*$/;
+	var isValid=1;	
+	var alertString='Folgende Probleme müssen behoben werden, damit wir Ihre Anmerkungen bearbeiten können:\n\n';
+	if(f.subject.selectedIndex==0){
+		alertString+='- Bitte die Kategorie für diese Nachricht auswählen\n';
+		isValid=0;
+	}	
+	if (!isAlphaNumeric.test(f.Name.value)){
+		alertString+='- Bitte einen Vornamen eingeben\n';
+		isValid=0;
+	}		
+	if(!isAlphaNumeric.test(f.LastName.value)){
+		alertString+='- Bitte einen Nachnamen eingeben\n';
+		isValid=0;
+	}
+	if(!isEmail.test(f.email.value)){ 
+		alertString+='- Bitte eine gültige E-Mail-Adresse eingeben\n';
+		isValid=0;
+	}
+ 	if(!isNotNull.test(f.comments.value)){
+		alertString+='- Bitte Ihr Anliegen beschreiben\n';
+		isValid=0;
+	}
+	if(isValid==1){
+		return true;
+	} else {
+		alert(alertString);
+	}
+	return false;
+}
+
+
+<!--
+function swapImage (name) {
+	if (name=="Billing Problem") {
+		// document.phone.src = "images/phonenumber_show.gif";
+	} else {
+		// document.phone.src = "images/phonenumber_hide.gif";
+	}
+	//document.forms[0].subject.value=name
+	
+}
+//-->
+</SCRIPT>
+<table width="100%" border="0">
+  <tr> 
+    <td align="right" class="secureText" valign="middle" width="96%" height="35">&nbsp; 
+    </td>
+    <td align="right" class="secureText" valign="top" width="4%" height="35"><a href="index.jsp?page=help"><img src="images/closeSubscribe.gif" width="30" height="30" border="0"></a></td>
+  </tr>
+</table>
+<TABLE cellSpacing=1 cellPadding=1 width=90% align=center border=0>
+  <TBODY> 
+  <TR> 
+    <TD></TD>
+  </TR>
+  <TR> 
+    <DIV align=left></DIV>
+    <TD align=left width="60%"> 
+    <FORM name="enterBug"  action="http://www.toontown-online.de/cgi-bin/mail.pl"  method="POST">
+ 
+        <INPUT type=hidden value="ToonTown" name="site">
+        <INPUT type=hidden value="Toontown Contact Us" name="Category_Message">
+        <INPUT type=hidden value=http://www.toontown-online.de/thankyou.jsp name="redirect">
+        <INPUT type=hidden value="subject,Name,LastName,Member_Name,email,DayPhone,OS,Browser,ProcessorType,Internet_Connection,RAM,comments" name="required">
+        <INPUT type=hidden value="toontown/toonhelp.tpl" name="template">
+        <INPUT type=hidden value=1 name="pass">
+        <INPUT type=hidden name=referrer>
+        <INPUT type=hidden name=debug>
+        <INPUT type=hidden value="Information to be passed to the E-mail message." name=Info>
+        <INPUT type=hidden value="toontown/emailtt" name="mail_format_template">
+        <INPUT type=hidden value="support@toontown-online.de" name=recipient>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+          <TR> 
+            <TD colSpan=2 class="secureSubHead">Kontakt</TD>
+          </TR>
+          <TBODY> 
+          <TR> 
+            <TD colSpan=2 class="secureText"><BR>
+			  Wenn Probleme beim Starten oder Ausführen des Spiels, Spielabst&uuml;rze, 
+			  andere Probleme w&auml;hrend des Spiels oder auch technische Probleme auftreten, 
+			  teilen Sie uns dies bitte auf unserer Seite <A href="reportaproblem.jsp?affiliate=null" class="navigation">Toontown Fehlerbericht</a> mit. Dort 
+			  werden Informationen zu Protokollen gesammelt, die unseren Technikern helfen, 
+			  das jeweilige Problem zu identifizieren. 
+              <BR>
+              <BR>
+              Das nachfolgende Formular ist nur f&uuml;r Fragen zu Ihrem Benutzerkonto, 
+			  zu Rechnungen oder f&uuml;r andere Kundenserviceanfragen vorgesehen.  
+			  <BR>&nbsp;
+              <BR>
+            </TD>
+          </TR>
+		  <TR> 
+            <TD colSpan=2 class="secureSubHead">
+			Bei Fragen oder Problemen zu Ihrer Abrechnung wenden Sie sich bitte direkt an T-Online.
+			<BR>
+			<A href="http://www.t-online.de/service/redir/kontakt-toon-billing.htm" class="navigation">Bitte hier klicken</a>
+			<BR>&nbsp;
+            <BR>
+			</TD>
+		  </TR>
+		  <TR> 
+            <TD colSpan=2 class="secureText">
+			<P align=left>
+			Wenn Sie ein Problem haben, möchten wir Sie bitten, zunächst einmal unsere <A href="index.jsp?page=faq" class="navigation">Häufig <HTTP: faq.php 
+            play.toontown.com>gestellten Fragen</A> zu studieren. <BR>
+                <BR>
+                <A href="index.jsp?affiliate=null" class="navigation">Klicken Sie hier</A>, um zur Startseite von Toontown zurückzukehren.<BR>
+                <BR>
+              </P>
+			</TD>
+		  </TR>
+          <TR></TR>
+          <TR vAlign=top> 
+            <TD colSpan=2> 
+              <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <TBODY> 
+			
+                <TR> 
+                  <TD width="61%" height="229"> 
+                    <TABLE cellSpacing=1 cellPadding=1 width="97%" border=0>
+                      <TBODY> 
+				<TR> 
+                  <TD vAlign=top class="secureSubHead">Kategorien*<b></td><td>
+                    <select onChange="javascript:swapImage (this[this.selectedIndex].value);" 
+                  name=subject class="dropWide">
+                      <option value="" selected><b>Bitte w&auml;hlen...</b></option>
+
+                      <option value="Toontown - Allgemeine Fragen"><b>Allgemeine Fragen, Kommentare oder Vorschl&auml;ge</b></option>
+					  <option value="Toontown - Schlechtes Benehmen"><b>Schlechtes Benehmen eines Spielers melden</b></option>
+					  <option value="Toontown - Technische Probleme"><b>Technische Probleme/Fragen zu Spielproblemen</b></option>
+                      <option value="Toontown - Fehler/Bugs"><b>Fehler/Bugs in der Spielsoftware melden</b></option>
+                    </select>
+                    <BR>
+                    <BR>
+                    </b></TD>
+
+                </TR>
+                      <TR align="left" valign="top"> 
+                        <TD width="66%" class="secureSubHead">Vorname*</TD>
+                        <TD width="34%"> 
+                          <INPUT name=Name class="box">
+                        </TD>
+                      </TR>
+                      <TR align="left" valign="top"> 
+                        <TD width="66%" class="secureSubHead">Nachname*</TD>
+                        <TD width="34%"> 
+                          <INPUT name=LastName class="box">
+                        </TD>
+                      </TR>
+                      <TR align="left" valign="top"> 
+                        <TD width="66%"  class="secureSubHead">E-Mail Adresse*</TD>
+                        <TD width="34%"> 
+                          <INPUT name=email class="box">
+                        </TD>
+                      </TR>
+                      <TR align="left" valign="top"> 
+                        <TD width="66%"  class="secureSubHead">Mitgliedsname</TD>
+                        <TD width="34%"> <b> 
+                          <INPUT name=Member_Name class="box">
+                          </b></TD>
+                      </TR>
+                      </TBODY> 
+                    </TABLE>
+                  </TD>
+                  <TD vAlign=top width="39%" height="229">&nbsp;</TD>
+                </TR>
+                </TBODY> 
+              </TABLE>
+            </TD>
+          </TR>
+          <TR> 
+            <TD width="58%" height=152  class="secureSubHead">Bemerkungen* <b><BR>
+              <BR>
+              <TEXTAREA name=comments rows=6 cols=50></TEXTAREA>
+              </b></TD>
+          </TR>
+          </TBODY> 
+        </TABLE>
+        <DIV align=left> 
+          <P><FONT face="Verdana, Arial, Helvetica, sans-serif" size=2>
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><img src="secure/images/btn/btn_blue_left.gif" width="4" height="24"></td>
+						<td class="btn-blue">
+							<a href="#" class="subscribeButton" name="submit" value ="SEND FORM" onClick="if(isReady(document.enterBug)){  document.enterBug.submit() } ">Abschicken</a> 
+						</td>
+						<td><img src="secure/images/btn/btn_blue_right.gif" width="8" height="24"></td>
+					</tr>
+			</table>
+
+            <BR>
+            </FONT></P>
+        </DIV>
+      </FORM>
+    </TD>
+  </TR>
+  <TR> 
+    <TD height="51"  class="secureSubHead"> 
+      <DIV align=center><BR>
+        Vielen Dank f&uuml;r Ihre Nachricht. Wir wissen Ihr Feedback zu sch&auml;tzen!<BR>
+      </DIV>
+    </TD>
+  </TR>
+  <TR> 
+    <TD height="2"> </TD>
+  </TR>
+  </TBODY>
+</TABLE>
+<!-- updated 091104 -->
+
+</div>
+<!-- updated 091104 -->

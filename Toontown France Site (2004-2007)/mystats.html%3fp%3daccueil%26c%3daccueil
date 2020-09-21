@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Toontown.fr - Gardez l'esprit Toon</title>
+  </head>
+  <body bgcolor="#135ca3">
+    <script language="javascript">
+    <!--
+    var _PJS=0;
+    //-->
+    </script>
+    <script language="javascript" src="http://e.goa.com/js/m.js"></script>
+    <script language="javascript"> 
+    <!--
+    var sURL = window.document.URL.toString();
+  
+    if (sURL.indexOf("?") > 0) {
+      var arrParams = sURL.split("?");
+      var mypage  = "";
+      var myclass = "";
+      if (arrParams[1] != '') {
+        var arrParam = arrParams[1].split("&");
+        if (arrParam[0] != '') {
+          var arrPage = arrParam[0].split("=");
+          if (arrPage[0] == 'p') {
+            mypage = arrPage[1].split("=");
+          }
+        }
+        if (arrParam[1] != '') {
+          var arrClass = arrParam[1].split("=");
+          if (arrClass[0] == 'c') {
+            myclass = arrClass[1].split("=");
+          }
+        }
+      }
+      document.write('myStat.html?p='+mypage+'&c='+myclass);
+      if ( mypage != "" && myclass != "" ) {
+        if (_PJS) _estatl('219019167840', '', mypage, myclass);
+      }      
+    }  
+    //-->
+    </script>    
+  </body>
+</html>

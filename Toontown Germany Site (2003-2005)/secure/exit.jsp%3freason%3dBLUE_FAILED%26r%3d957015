@@ -1,0 +1,160 @@
+ 
+ 
+
+
+<html>
+<head>
+<title>Disney.de Toontown - Ein Angebot von T-Online</title>
+<META NAME="keywords" HTTP-EQUIV="keywords" CONTENT="disney, Spass, Spiele, Kids, Unterhaltung, Kinder, Spieler, unzählig, viele, Kooperativspiel,  mmorpg, morpg, Actionspiel, Action Game, Aktionsspiel, online, Kampf, Minigames, Mini-Games, Strategiespiel, Abenteuer, kooperativ, Toon, Toontown, Gag, Bot, Action, Spass, Fun Games, deutsche Online-Games, deutsche Games für Kinder, Kids-Games auf Deutsch">
+<META NAME="description" HTTP-EQUIV="description" CONTENT="Toontown ist das Internet-Game für unzählig viele Spieler, in dem man das Leben eines Toon führen kann! Gönn dir ein Abenteuer und löse Hunderte von Aufgaben, um dir Gags und Lach-Punkte zu verdienen, nimm gemeinsam mit deinen Freunden an speziellen Veranstaltungen und Wettkämpfen teil, personalisiere deinen Toon mit coolen Klamotten und richte das Heim deines Toons schön ein.">
+<META NAME="robots" HTTP-EQUIV="robots" CONTENT="index,nofollow">
+<META NAME="author" HTTP-EQUIV="author" CONTENT="Toontown">
+</head>
+ 
+<script language="JavaScript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+var popUpWindow = null;
+function openWindow(windowURL, windowName, windowFeatures) { //controls pop-up window for T-Online pages; called by all banner ads
+	if ((navigator.appName == "Netscape") || (navigator.platform == "MacPPC")) {
+		popUpWindow = window.open(windowURL, windowName, windowFeatures);
+		if (popUpWindow.opener == null) popUpWindow.opener = window
+		else popUpWindow.focus();
+	} else {
+		if (popUpWindow) {
+			popUpWindow.close();
+			popUpWindow = null;
+		}
+		popUpWindow = window.open(windowURL, windowName, windowFeatures);
+	}
+}
+function buyNow() { //controls hardware redirect from 'Offers' page
+	window.location = "hardwareredirect.jsp?HARDWARE_TEST_LIB=http://ukplay.qa.german.toontown.com/shared/include/js/ttLauncherLibv2.php&ACTIVE_X_INIT_FAIL=ProblemDownloadingToontownInstaller.jsp&HARDWARE_CHECK_FAIL=reportaproblem.jsp&HARDWARE_CHECK_OK=hardwaresuccess.jsp?DESTINATION_URL=http://god.t-online.de/toontown/src/action_pages/tt_play.aspx&GRAPHICS_CHECK_FAIL=gamefail.jsp";
+}
+// -->
+</script>
+<!--flash sides -->
+<DIV id=toon_left_flashBanner>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="120" height="395">
+        <param name=movie value="securebanners/skyscraper_Default.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="securebanners/skyscraper_Default.swf wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="395">
+        </embed> 
+      
+</object>
+  </div>
+<DIV id=toon_right_flashBanner>
+
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="102" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="90">
+        <param name=movie value="/cms_res/banner_1_spielen.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/banner_1_spielen.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="90">
+        </embed> 
+      
+      </object></td>
+  </tr>
+  <tr>
+    <td height="102" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="90">
+        <param name=movie value="/cms_res/banner_2_testen.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/banner_2_testen.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="90">
+        </embed> 
+      
+      </object></td>
+  </tr>
+  <tr>
+    <td height="101" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="90">
+        <param name=movie value="/cms_res/banner_3_kaufen_buy_promo_link.swf?affiliate=null">
+        <param name=quality value=high>
+        <PARAM NAME=wmode VALUE=transparent>
+        <embed src="/cms_res/banner_3_kaufen_buy_promo_link.swf?affiliate=null"  wmode=transparent quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="90">
+        </embed> 
+      
+      </object></td>
+  </tr>
+  <tr>
+    <td height="102" valign="top">
+	
+
+	  <a href="javascript:openWindow('http://toontown.fsphp.t-online.de/news.php', 'tonline', 'width=640,height=480,menubar=no,toolbar=no,location=no,scrollbars=no')"><img src="images/newsletter_off.jpg" width=120 height=90 alt="Newsletter - hier klicken zur Anmeldung!" border=0 /></a>
+	  
+	  
+	  </td>
+  </tr>
+</table>
+
+  </div>
+<!--flash sides -->
+
+
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="795891" background="images/bgslice.gif">
+<link rel="stylesheet" href="toontown.css" type="text/css">
+
+
+
+<TABLE WIDTH=1000 BORDER=0 CELLPADDING=0 CELLSPACING=0 background="images/bgslice.gif" bgcolor="795891">
+  <TR> 
+    <TD COLSPAN=3 align="center"> 
+      <table border="0" height="3" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="3"> </td>
+        </tr>
+      </table>
+     <table border="0" height="60" cellspacing="0" cellpadding="0">
+<tr> 
+   <td valign="top"> 
+   

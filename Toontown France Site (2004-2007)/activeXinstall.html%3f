@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Toontown.fr - Gardez l'esprit Toon</title>
+    <script id="clientEventHandlersJS" language="javascript" src="http://iplay.french.toontown.com/shared/include/js/ttLauncherLibv2.php"></script>
+    <script language="javascript" src="/js/ttFunctionLibv1.js"></script>
+  </head>
+  <body bgcolor="#135ca3">
+    <script language="javascript">
+function getURLParameters() {
+
+  var sURL = window.document.URL.toString();
+
+  if (sURL.indexOf("?") > 0) {
+    var arrParams = sURL.split("?");
+    return arrParams[1];
+  } else {
+    return '';
+  }
+}
+var sParameters = getURLParameters();
+
+
+
+  // Write out the ActiveX so we have something to init
+embedInstaller();
+
+  // Configure the Active X
+setDeployment('WanadooFR');
+//  setDefaultFRTargetURLs();
+setTargetURL('ACTIVEXINITFAIL',    'http://'+domain[2]+'/activeXinstall.html?'+sParameters);
+setTargetURL('HARDWARECHECKFAIL',  'http://'+domain[2]+'/homeAlt.html?action=error&id=5');
+setTargetURL('HARDWARECHECKOK',    'http://'+domain[2]+'/homeAlt.html?action=play');
+setTargetURL('GRAPHICSCHECKFAIL',  'http://'+domain[2]+'/homeAlt.html?action=error&id=4');
+setTargetURL('REPORTPROBLEM',      'http://'+domain[2]+'/homeAlt.html?action=error&id=9');
+setTargetURL('GAMEFAIL',           'http://'+domain[2]+'/homeAlt.html?action=error&id=3');
+setTargetURL('GAMEOK',             'http://'+domain[2]+'/homeAlt.html?action=play');
+setTargetURL('ENABLECHAT',         'http://'+domain[2]+'/homeAlt.html?action=account&id=1');
+setTargetURL('SETPARENTPASSWORD',  'http://'+domain[2]+'/homeAlt.html?action=account&id=2');
+setTargetURL('PURCHASE',           'http://'+domain[2]+'/homeAlt.html?action=subscription');  
+
+    </script>
+    <center>
+    <img src="img/Erreur_haut.jpg"><script language="javascript">
+document.write('<a href="http://'+domain[2]+'/hardwareTest.html?'+sParameters+'"><img src="img/Erreur_bas.jpg" border="0"></a>');
+    </script>
+    </center>
+ </body>
+</html>

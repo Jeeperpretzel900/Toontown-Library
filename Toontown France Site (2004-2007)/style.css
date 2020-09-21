@@ -1,0 +1,470 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.titre {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: bold;}
+.titre1 {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 18px; color: #000000; font-weight: bold;}
+.titre14 {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 14px; color: #000000; font-weight: bold;}
+.titre2 {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: bold;}
+.texte12 {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #000000; text-align:justify;}
+.texte_15_comic {font-family: Comic Sans MS; font-size: 14px; color: #0F3868; font-weight: bold;}
+.texte12_d {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #000000; text-align:right;}
+.texte10 {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10px; color: #000000; text-align:justify;}
+
+.titreeffetblanc{position: absolute; font-family: Comic sans MS, sans-serif; font-size: 15px; font-weight: bold; font-style: italic;}
+.lumiere4 {top: -1px; left: -1px; color: #FFFFFF; position: absolute; font-weight: bold;}
+.ombre4 {top: +1px; left: +1px; color: #FFFFFF; position: absolute; font-weight: bold;}
+.ombre42 {top: +1px; left: -1px; color: #FFFFFF; position: absolute; font-weight: bold;}
+.ombre43 {top: -1px; left: +1px; color: #FFFFFF; position: absolute; font-weight: bold;}
+.original4 {top: 0px; left: 0px; color: #000000; position: absolute; font-weight: bold;} 
+
+
+.texte10b {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration:underline;}
+a.texte10b:Hover {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration:none;}
+
+.texte19 {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; color: #000000; text-align:center;}
+.texte9b {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 9px; color: #ffffff;}
+.footer {font-family: Arial, Verdana, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:underline;}
+a.footer:Hover {font-family: Arial, Verdana, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:none;}
+
+a.lienPop {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #135CA3;
+text-decoration: underline;
+}
+a.lienPop:Hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #135CA3;
+text-decoration: none;
+}
+a.menuManuel {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/*color:#637F98;*/
+color: #C0E0FF;
+text-decoration: underline;
+display: block;
+padding: 6px 6px 6px 13px;
+text-align: left;
+width: 170px;
+}
+a.menuManuel:Hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+/*border: solid 1px #003366;*/
+border: solid 1px #637F98;
+text-decoration: none;
+padding: 5px 5px 5px 12px;
+background-color: #FFFFFF;
+background-image: url('http://toontown.goa.com/img/fr/userguide/puce_menu.gif');
+background-position: 1px 8px;
+background-repeat: no-repeat;
+text-align: left;
+width: 170px;
+/*height: 12px;*/
+}
+a.menuManuel_hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+background-color: #FFFFFF;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+background-image: url('http://toontown.goa.com/img/fr/userguide/puce_menu.gif');
+background-position: 1px 8px;
+background-repeat: no-repeat;
+border: solid 1px #637F98;
+/*border: solid 1px #003366;*/
+text-decoration: none;
+padding: 5px 5px 5px 12px;
+text-align: left;
+width: 170px;
+}
+a.menuManuelNew {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 128px 10px;
+background-repeat: no-repeat;
+/*color:#637F98;*/
+color: #C0E0FF;
+text-decoration: underline;
+display: block;
+padding: 6px 6px 6px 13px;
+text-align: left;
+width: 170px;
+}
+a.menuManuelNew:Hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+background-color: #FFFFFF;
+background-repeat: no-repeat;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 127px 10px;
+border: solid 1px #637F98;
+/*border: solid 1px #003366;*/
+text-decoration: none;
+padding: 5px 5px 5px 12px;
+text-align: left;
+width: 170px;
+/*height: 12px;*/
+}
+a.menuManuelNew_hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+background-color: #FFFFFF;
+background-repeat: no-repeat;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 127px 10px;
+border: solid 1px #637F98;
+/*border: solid 1px #003366;*/
+text-decoration: none;
+padding: 6px 6px 6px 13px;
+text-align: left;
+width: 170px;
+}
+a.menuManuelNewD {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 78px 10px;
+background-repeat: no-repeat;
+/*color:#637F98;*/
+color: #C0E0FF;
+text-decoration: underline;
+display: block;
+padding: 7px 7px 7px 14px;
+text-align: left;
+width: 170px;
+}
+a.menuManuelNewD:Hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+background-repeat: no-repeat;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 77px 10px;
+border: solid 1px #637F98;
+/*border: solid 1px #003366;*/
+text-decoration: none;
+padding: 6px 6px 6px 13px;
+text-align: left;
+width: 170px;
+}
+a.menuManuelNewD_hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+background-repeat: no-repeat;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 77px 10px;
+border: solid 1px #637F98;
+/*border: solid 1px #003366;*/
+text-decoration: none;
+padding: 6px 6px 6px 13px;
+text-align: left;
+width: 170px;
+}
+a.menuManuelNewB {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 58px 8px;
+background-repeat: no-repeat;
+/*color:#637F98;*/
+color: #C0E0FF;
+height: 28px;
+text-decoration: underline;
+display: block;
+padding: 6px 6px 6px 13px;
+text-align: left;
+width: 170px;
+height: 15px;
+}
+a.menuManuelNewB:Hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+background-color: #FFFFFF;
+background-repeat: no-repeat;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 57px 8px;
+border: solid 1px #637F98;
+/*border: solid 1px #003366;*/
+text-decoration: none;
+padding: 5px 5px 5px 12px;
+text-align: left;
+width: 170px;
+height: 15px;
+}
+a.menuManuelNewB_hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #7596B4;
+/*color: #003366;*/
+display: block;
+background-color: #FFFFFF;
+background-repeat: no-repeat;
+background-image: url('http://toontown.goa.com/img/fr/icone_blinkStar.gif');
+background-position: 57px 8px;
+border: solid 1px #637F98;
+/*border: solid 1px #003366;*/
+text-decoration: none;
+padding: 5px 5px 5px 12px;
+text-align: left;
+width: 170px;
+height: 15px;
+}
+a.footerManuel {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+color: #000000;
+text-decoration: underline;
+}
+
+a.footerManuel:Hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+color: #6F6F6F;
+text-decoration: none;
+}
+
+a.footerLien {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 11px;
+/*color: #7596B4;*/
+color: #C0E0FF;
+text-decoration: underline;
+}
+
+a.footerLien:Hover {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 11px;
+/*color: #7596B4;*/
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.footerTxt {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+/*color: #637F98;*/
+color: #FFFFFF;
+text-decoration: none;
+}
+
+ul, li {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+height: 28px;
+width: 168px;
+list-style-type: none;
+color: #FFFFFF;
+list-style-position: outside;
+}
+
+/*.ulMenu {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+list-style-type: none;
+color: #FFFFFF;
+list-style-position: outside;
+}
+
+.liMenu {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+height: 28px;
+list-style-type: none;
+color: #1875D0;
+list-style-position: outside;
+}
+
+.liMenu:Hover {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+height: 28px;
+background-color: #FFFFFF;
+background-image: url('http://toontown.goa.com/img/fr/userguide/puce_menu.gif');
+background-position: 2px 9px;
+background-repeat: no-repeat;
+list-style-type: none;
+color: #FFFFFF;
+list-style-position: outside;
+}
+
+.liMenuNew {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+height: 28px;
+list-style-type: none;
+color: #FFFFFF;
+list-style-position: outside;
+}
+
+.liMenuNew:Hover {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+height: 28px;
+background-color: #FFFFFF;
+background-image: url('http://toontown.goa.com/img/fr/userguide/puce_menu.gif');
+background-position: 2px 9px;
+background-repeat: no-repeat;
+list-style-type: none;
+color: #FFFFFF;
+list-style-position: outside;
+}*/
+
+.puceCarre {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 28px;
+list-style-type: square;
+/*list-style-position: inside;*/
+}
+
+.noPuce {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 28px;
+list-style-type: none;
+/*list-style-position: inside;*/
+}
+
+.table_manuel {
+border: solid 3px #7596B4;
+background-color: #FFFFFF;
+padding: 2px 2px 2px 2px;
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+empty-cells: show;
+}
+
+.tt_manuel {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+/*color: #637F98;*/
+color: #FFFFFF;
+background-color: #1875D0;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+height: 30px;
+vertical-align: middle;
+text-align: center;
+text-decoration: none;
+}
+
+.footer_manuel {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 9px;
+font-weight: bold;
+color: #000000;
+background-color: #FFFFFF;
+margin: 0px 0px 0px 0px;
+vertical-align: middle;
+text-decoration: none;
+}
+
+.tt_tbl_manuel {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: #FFDC68;
+text-decoration: none;
+text-align: center;
+}
+
+.titre_tab {
+border: solid 1px #FFFFFF;
+background-color: #637F98;
+padding: 4px 4px 4px 4px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+}
+
+.td_content {
+border: solid 1px #FFFFFF;
+background-color: #D6DDE5;
+padding: 3px 3px 3px 3px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #637F98;
+}
+
+.astuce {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #FF9900;
+text-align: justify;
+}
+
+.attention {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #FF0000;
+text-align: justify;
+}
+
+.warning {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #FF0000;
+text-align: justify;
+}
+
+.menu_manuel {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+color: #637F98;
+height: 450px;
+background-color: #D6DDE5;
+margin: 0px 0px 0px 0px;
+text-decoration: none;
+}
+
+.bgtxt {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; color: #ffffff; background-color: #000000;}
+.quote {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #4E4EA2; text-align:justify;}

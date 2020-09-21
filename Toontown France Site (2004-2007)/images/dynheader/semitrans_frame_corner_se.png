@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="expires" content="0"/><meta http-equiv="pragma" content="no-cache"/><meta http-equiv="cache-control" content="no-cache"/>
+<title>Disney's Toontown - Play a free trial of Toontown, the multiplayer game for kids and families</title>
+<meta name="description" http.equiv="description" content="Play a free trial of Toontown - the multiplayer game for kids and families. Live the life of a Toon and explore an amazing Toon world! Make new friends, go kart racing, customise your own Toon house and join forces with thousands of other players to battle the evil robot Cogs. Play now" />
+<meta name="keywords" http-equiv="keywords" content="disney, fun, games, kids, entertainment, children, multiplayer, multiplayer game, multi player, cooperative game, massive, mmorpg, morpg, action game, strategy game, online, battle, mini games, mini-games, adventure, cooperative, toon, toontown, toon-town, disney town, gag, cog, fun game, online game, kids game, games for kids, safe game" />
+<link rel="stylesheet" type="text/css" href="skins/default.css" />
+<!--link rel="stylesheet" type="text/css" href="skins/xxxx.css" /-->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="pngfix.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="AC_OETags.js"></script>
+</head>
+
+
+<body>
+<script type="text/javascript" src="/toontown/assets/557f2081d45a7528f898e7e384717596/org/apache/tapestry/form/Form.js;jsessionid=4F4A184165A44816A9BEEA06F7D9BDB8"></script>
+<script type="text/javascript"><!--
+
+
+	
+		<!--
+		// -----------------------------------------------------------------------------
+		// Globals
+		// Major version of Flash required
+		var requiredMajorVersion = 8;
+		// Minor version of Flash required
+		var requiredMinorVersion = 0;
+		// Minor version of Flash required
+		var requiredRevision = 0;
+		// -----------------------------------------------------------------------------
+		// -->
+		
+		<!--
+		// Version check based upon the values entered above in "Globals"
+		var hasReqestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+		
+		// Check to see if the version meets the requirements for playback
+		if (!hasReqestedVersion) { // flash is too old or we can't detect the plugin
+			document.location.replace("erreursysteme.html?r=flash");
+		}
+		// -->
+	
+	
+		var aMsg = [];
+
+		aMsg["formErrorAlert"] = "You missed some registration fields! Please check the red error messages and try again.";
+		
+		aMsg["datatype-day"] = "Please enter only numbers in the day field";
+		aMsg["ifchecked-membername"] = "Choose your Disney Member Name";
+		aMsg["ifchecked-address_line1"] = "Enter your postal address";
+		aMsg["ifchecked-age"] = "Select how old you are from the list";
+		aMsg["ifchecked-card_country"] = "Select card address / country";
+		aMsg["ifchecked-nameoncard"] = "Enter the card holder's name - as shown on the card";
+		aMsg["ifchecked-cardnumber"] = "Enter your card number";
+		aMsg["ifchecked-card_postcode"] = "Enter card address / postcode";
+		aMsg["ifchecked-card_address1"] = "Enter card address / street";
+		aMsg["ifchecked-card_town"] = "Enter card address / town / city";
+		aMsg["ifchecked-country"] = "Select your country from the list";
+		aMsg["ifchecked-day"] = "Select the day of your birth";
+		aMsg["ifchecked-email"] = "Enter your e-mail address";
+		aMsg["ifchecked-expirymonth"] = "Select card expiry month";
+		aMsg["ifchecked-expiryyear"] = "Enter card expiry year";
+		aMsg["ifchecked-firstname"] = "Enter your first name";
+		aMsg["ifchecked-gender"] = "Select your gender";
+		aMsg["ifchecked-parentemail"] = "Enter your parent's / guardian's e-mail address";
+		aMsg["ifchecked-ihavepermission"] = "You need to have your parent's / guardian's permission to proceed";
+		aMsg["ifchecked-surname"] = "Enter your last name";
+		aMsg["ifchecked-month"] = "Select the month of your birth";
+		aMsg["ifchecked-pwd2"] = "Re-enter your password in the Confirm password field";
+		aMsg["ifchecked-pwd1"] = "Choose a password";
+		aMsg["ifchecked-hint"] = "Enter a password hint";
+		aMsg["ifchecked-postcode"] = "Enter your postcode";
+		aMsg["ifchecked-securitycode"] = "Enter the card security number";
+		aMsg["ifchecked-iaccepttc"] = "You must agree to the Toontown Terms to proceed";
+		aMsg["ifchecked-town"] = "Enter your town / city";
+		aMsg["ifchecked-birthyear"] = "Enter the year of your birth";
+		aMsg["ifselected-membername"] = "Choose your Disney Member Name";
+		aMsg["ifselected-address_line1"] = "Enter your postal address";
+		aMsg["ifselected-age"] = "Select how old you are from the list";
+		aMsg["ifselected-card_country"] = "Select card address / country";
+		aMsg["ifselected-nameoncard"] = "Enter the card holder's name - as shown on the card";
+		aMsg["ifselected-cardnumber"] = "Enter your card number";
+		aMsg["ifselected-card_postcode"] = "Enter card address / postcode";
+		aMsg["ifselected-card_address1"] = "Enter card address / street";
+		aMsg["ifselected-card_town"] = "Enter card address / town / city";
+		aMsg["ifselected-country"] = "Select your country from the list";
+		aMsg["ifselected-day"] = "Select the day of your birth";
+		aMsg["ifselected-email"] = "Enter your e-mail address";
+		aMsg["ifselected-expirymonth"] = "Select card expiry month";
+		aMsg["ifselected-expiryyear"] = "Enter card expiry year";
+		aMsg["ifselected-firstname"] = "Enter your first name";
+		aMsg["ifselected-gender"] = "Select your gender";
+		aMsg["ifselected-parentemail"] = "Enter your parent's / guardian's e-mail address";
+		aMsg["ifselected-ihavepermission"] = "You need to have your parent's / guardian's permission to proceed";
+		aMsg["ifselected-surname"] = "Enter your last name";
+		aMsg["ifselected-month"] = "Select the month of your birth";
+		aMsg["ifselected-pwd2"] = "Re-enter your password in the Confirm password field";
+		aMsg["ifselected-pwd1"] = "Choose a password";
+		aMsg["ifselected-hint"] = "Enter a password hint";
+		aMsg["ifselected-postcode"] = "Enter your postcode";
+		aMsg["ifselected-securitycode"] = "Enter the card security number";
+		aMsg["ifselected-iaccepttc"] = "You must agree to the Toontown Terms to proceed";
+		aMsg["ifselected-town"] = "Enter your town / city";
+		aMsg["ifselected-birthyear"] = "Enter the year of your birth";
+		aMsg["mandatory-membername"] = "Choose your Disney Member Name";
+		aMsg["pattern-membername"] = "Invalid Disney Member Name. Please use only standard English letters and numbers, no spaces or special characters.";
+		aMsg["minlength-membername"] = "Your chosen Disney Member Name is too short. Please use a minimum of 4 characters.";
+		aMsg["mandatory-address_line1"] = "Enter your postal address";
+		aMsg["mandatory-age"] = "Select how old you are from the list";
+		aMsg["mandatory-card_country"] = "Select card address / country";
+		aMsg["mandatory-nameoncard"] = "Enter the card holder's name - as shown on the card";
+		aMsg["mandatory-cardnumber"] = "Enter your card number";
+		aMsg["minlength-cardnumber"] = "Invalid card number format. Please use numbers only, no spaces or dashes.";
+		aMsg["pattern-cardnumber"] = "Invalid card number format. Please use numbers only, no spaces or dashes.";
+		aMsg["mandatory-card_postcode"] = "Enter card address / postcode";
+		aMsg["mandatory-card_address1"] = "Enter card address / street";
+		aMsg["mandatory-card_town"] = "Enter card address / town / city";
+		aMsg["mandatory-country"] = "Select your country from the list";
+		aMsg["mandatory-day"] = "Select the day of your birth";
+		aMsg["mandatory-email"] = "Enter your e-mail address";
+		aMsg["datatype-email"] = "Enter a valid e-mail address";
+		aMsg["datatype-expiryyear"] = "Enter card expiry year as a four digit number";
+		aMsg["mandatory-expirymonth"] = "Select card expiry month";
+		aMsg["mandatory-expiryyear"] = "Enter card expiry year";
+		aMsg["mandatory-firstname"] = "Enter your first name";
+		aMsg["minlength-firstname"] = "Enter a real first name";
+		aMsg["pattern-firstname"] = "Enter a real first name";
+		aMsg["mandatory-gender"] = "Select your gender";
+		aMsg["mandatory-parentemail"] = "Enter your parent's / guardian's e-mail address";
+		aMsg["datatype-parentemail"] = "Enter a valid e-mail address";
+		aMsg["mandatory-ihavepermission"] = "You need to have your parent's / guardian's permission to proceed";
+		aMsg["mandatory-surname"] = "Enter your last name";
+		aMsg["minlength-surname"] = "Enter a real last name";
+		aMsg["pattern-surname"] = "Enter a real last name";
+		aMsg["mandatory-month"] = "Select the month of your birth";
+		aMsg["mandatory-pwd2"] = "Re-enter your password in the Confirm password field";
+		aMsg["equalsto-pwd2"] = "Password mismatch. Enter the same password twice.";
+		aMsg["mandatory-pwd1"] = "Choose a password";
+		aMsg["mandatory-hint"] = "Enter a password hint";
+		aMsg["minlength-hint"] = "The password hint is too short. Please use a minimum of 4 characters.";
+		aMsg["pattern-pwd1"] = "Invalid password. Please use only standard English letters and numbers, no spaces or special characters.";
+		aMsg["minlength-pwd1"] = "The password is too short. Please use a minimum of 4 characters.";
+		aMsg["mandatory-postcode"] = "Enter your postcode";
+		aMsg["mandatory-securitycode"] = "Enter the card security number";
+		aMsg["mandatory-iaccepttc"] = "You must agree to the Toontown Terms to proceed";
+		aMsg["mandatory-town"] = "Enter your town / city";
+		aMsg["mandatory-birthyear"] = "Enter the year of your birth";
+		aMsg["pleaseselectanoffer"] = "Please select an offer";
+		aMsg["ifselected-description"] = "Please fill in the <strong>Message</strong> box";
+		aMsg["ifselected-member_name"] = "Enter your Disney Member Name";
+		aMsg["ifselected-name"] = "Enter your last name";
+		aMsg["ifselected-lastname"] = "Enter your first name";
+		aMsg["selectthereason"] = "[SELECTTHEREASON]";
+		aMsg["ifchecked-otherreason"] = "[IFCHECKED-OTHERREASON]";
+		
+		var i18nUnsavedFormMessage = "You've made changes to your account that have not been saved yet.<br />If you navigate away from this page now, these changes will be lost.<br /><br />Do you want to continue?";
+	
+
+// --></script>
+
+
+<table width="918" cellpadding="0" cellspacing="0" border="0" align="center" style="margin: 0 auto;">
+<tbody>
+<tr>
+	<td colspan="3"><img src="images/body_n.png" alt="" width="918" height="23" /></td>
+</tr>
+<tr>
+	<td class="png_repbg_w"><img src="images/_blank.gif" alt="" width="18" height="1" /></td>
+	<td class="main_body">
+
+	<div class="synergyBar"><div style="position: absolute; left: -5px"><script type="text/javascript" src="syn.js"></script></div></div>
+	<div class="layered_header2">
+	<div id="logoclick" onclick="location='index.html'"></div>
+	
+	<table class="frame" border="0" cellpadding="0" cellspacing="0"><tbody>
+	<tr>
+		<td class="framecorner"><img src="images/dynheader/semitrans_frame_corner_nw.png" alt="" width="4" height="4" /></td>
+		<td class="frame_side_1"><img src="images/_blank.gif" alt="" width="4" height="4" /></td>
+		<td class="framecorner"><img src="images/dynheader/semitrans_frame_corner_ne.png" alt="" width="4" height="4" /></td>
+	</tr>
+	<tr>
+		<td class="frame_side_2"><img src="images/_blank.gif" alt="" width="4" height="4" /></td>
+		<td><img src="images/_blank.gif" alt="" width="4" height="4" /></td>
+		<td class="frame_side_2"><img src="images/_blank.gif" alt="" width="4" height="4" /></td>
+	</tr>
+	<tr>
+		<td class="framecorner"><img src="images/dynheader/semitrans_frame_corner_sw.png" alt="" width="4" height="4" /></td>
+		<td class="frame_side_1"><img src="images/_blank.gif" alt="" width="4" height="4" /></td>
+		<td class="framecorner"><img src="images/dynheader/semitrans_frame_corner_se.png" alt="" width="4" height="4" /></td>
+	</tr>
+	</tbody></table>
+	<div class="toontown_logo" onclick="location='#'"></div>
+	<div class="partner"></div>
+	<div class="header_bg"></div>
+</div>
+	
+<table id="outagebar" width="882" cellpadding="0" cellspacing="0" style="position: relative; top: -18px">
+<tbody>
+<tr>
+	<td colspan="3"><img src="images/outagebar2_top.png" alt="" width="882" height="9" /></td>
+</tr>
+<tr>
+	<td class="bl" width="13"><img src="images/_blank.gif" alt="" width="13" height="14" /></td>
+	<td class="msg" width="856">
+		
+		<div><img src="images/warning_icon.gif" width="11" height="10" alt="" />You will not be able to play Toontown on the system or through the browser you are using. <a href="requirements.html">Get help on playing the game</a></div>
+		
+		
+		</td>
+	<td class="br" width="13"><img src="images/_blank.gif" alt="" width="13" height="14" /></td>
+</tr>
+<tr>
+	<td colspan="3"><img src="images/outagebar2_bottom.png" alt="" width="882" height="13" /></td>
+</tr>
+</tbody>
+</table>
+
+
+	
+
+<div style="margin-top: -1em; _margin-top: 0"><img src="images/orangeWelcome_bg_top.jpg" alt="" /></div>
+<div style="background: url(images/orangeWelcome_bg_repeat-y.jpg) repeat-y">
+	
+	<div class="floatleft" style="width: 280px; margin: 0 25px 0 25px; _margin-left: 12px">
+		<h2 style="margin-top: .5em">Bienvenue aux joueurs Toontown de chez Orange !</h2>
+		<p style="line-height: 1.2em; margin-bottom: 0">Toontown France est offert en partenariat avec Orange France. A partir du 1er décembre 2006, Toontown sera offert directement par Disney.<br /><br />Le jeu reste le même, mais le site Web est désormais géré par Disney.<br /><br />Nous aimerions souhaiter la bienvenue à Toontown aux anciens abonnés Orange en leur offrant 30 jours de jeu gratuit s'ils s'abonnent à Toontown de Disney avant le 31 décembre 2006.</div>
+	<img src="images/contentimg/orangeWelcome.jpg" alt="" class="floatleft" />
+	<div class="floatleft smartbox" style="width: 180px; margin-left: 7px; background: url(images/orangeWelcome_titlebg.jpg) repeat-x;">
+		<div class="welcome" style="margin-bottom: 1em">Bienvenue, invité Orange !</div>
+		<div class="text" style="height: 4em; line-height: 1.2em">Vos Toons peuvent venir avec vous ! Profitez de cette offre en vous connectant avec vos identifiants Toontown actuels :</div>
+		
+		
+		<form method="post" action="https://www.disney.fr:443/toontown/bienvenue-orangeLogin.sdo" name="orangeLogin" id="orangeLogin">
+<div style="display:none;"><input type="hidden" name="formids" value="disney_id,password"/>
+<input type="hidden" name="submitmode" value=""/>
+<input type="hidden" name="submitname" value=""/>
+</div>
+		<div style="display: none;"><input name="formids" value="disney_id,password" type="hidden">
+		<input name="submitmode" value="" type="hidden">
+		<input name="submitname" value="" type="hidden">
+		</div>
+			<div class="row">
+				<label for="disney_id">Utilisateur :</label>
+				<input type="text" name="disney_id" value="" id="disney_id" mandatory="true" class="text"/>
+				<div class="clearfloat"></div>
+			</div>
+			<div class="row">
+				<label for="password">Mot de passe :</label>
+				<input type="password" name="password" value="" id="password" mandatory="true" class="text"/>
+				<div class="clearfloat"></div>
+			</div>
+			
+			<div id="btn_signInDIV"></div>
+			<script type="text/javascript">
+			//<![CDATA[
+			var so = new SWFObject("loginbutton.swf", "btn_signIn", "180", "60", "8", "#ffffff");
+			so.addParam("wmode", "transparent");
+			so.addParam("menu", "false");
+			so.addVariable("userType", "9");
+			so.write("btn_signInDIV");
+			//]]>
+			</script>
+		</form>
+		
+		<div class="text posbottom">Besoin d'aide ? <a href="nouscontacter.html">Contacte-nous.</a></div>
+	</div>
+	
+	<div class="clearfloat"></div>
+</div>
+<div style="margin-bottom: .5em"><img src="images/orangeWelcome_bg_bottom.jpg" alt="" /></div>
+
+
+	<div class=""><img src="images/contentimg/orangeMembershipBenefits.jpg" alt="" /></div>
+
+	</td>
+	<td class="png_repbg_e"><img src="images/_blank.gif" alt="" width="18" height="1" /></td>
+</tr>
+<tr>
+	<td colspan="3"><img src="images/body_s.png" alt="" width="918" height="17" /></td>
+</tr>
+<tr>
+	<td colspan="3" id="footer">
+<div class="f1">
+	<a href="terms.html">Toontown Terms</a> | <a href="releasenotes.html">Release notes</a> | <a href="requirements.html">System requirements</a>
+</div>
+
+<div style="height: 57px;">
+<a href="http://www.pegi.info" onclick="window.open(this.href); return false"><img src="images/pegilogo.png" alt="" width="44" height="57" /></a>
+<img src="images/pclogo.png" alt="" width="44" height="57" />
+</div>
+
+<div class="f2">
+	<div class="links"><a href="http://registration.disney.co.uk/uk_bu_1files/terms.html">Disney Terms of Use</a> <a href="http://registration.disney.co.uk/uk_bu_1files/privacy_policy.html">Privacy Policy</a> <a href="http://www.disney.co.uk/DisneyOnline/Safesurfing/">Safe Surfing</a> <a href="http://www.disney.co.uk/DisneyOnline/plugin/">Dr. Plugin</a> <a href="http://www.disneyinternational.com/">Disney Online International</a> <a href="http://www.disney.co.uk/DisneyOnline/legalinfo/">Legal Info</a>
+	</div>
+	
+	<div class="copyright">&copy; DISNEY. ALL RIGHTS RESERVED.</div>
+</div>
+	</td>
+</tr>
+</tbody>
+</table>
+<!-- BEGIN WEBSIDESTORY CODE v9.0.0 (11up) -->
+<!-- COPYRIGHT 1997-2003 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479 B1. Privacy notice at: http://websidestory.com/privacy -->
+<script language="javascript" type="text/javascript">
+var _acct="DM5403153FDR38EN3;DM510528MBFC38FR3;DM5103154GMW38EN3;DM5103083LCA38EN3"; var _pn="bienvenue.html?tt_orangeWelcome";
+var _mlc="/FR;/TOONTOWN;/FR/TOONTOWN;/EMEA/FR/TOONTOWN/"; var _seg="";
+var _cmp=""; var _gp=""; 
+var _cmpn="hb_cmp_id"; var _gpn="hb_goal"; var _fnl="";
+var _pec=""; var _fv=""; var _dcmp=""; var _dcmpn="";
+var _hra=""; var _hcn=""; var _hcv=""; var _hlt="";
+var _hla=""; var _hqsr=""; var _hqsp=""; var _hc1="";
+var _hc2=""; var _hc3=""; var _hc4=""; var _ci=""; 
+var _cp="null"; var _cpd=""; var _pndef="index.html"; var _ctdef="full";
+var _dlf="n"; var _elf="n"; var _dft="n"; var _epg="n";
+var _vpc="090000r";
+var _gn="ehg-dig.hitbox.com",_mn="we20";
+</script><script language="javascript1.1" type="text/javascript" defer="defer" src="http://a1668.g.akamai.net/7/1668/1573/506f009538cc83/hitbox.disneyinternational.com/hbe-11up.js">
+</script><script language="javascript" type="text/javascript">if(navigator.appName!='Netscape' & parseInt(navigator.appVersion)==4)document.write("<\!"+"--")</script><noscript>
+<img src="http://ehg-dig.hitbox.com/HG?hc=we20&amp;cd=1&amp;hv=6&amp;ce=u&amp;hb=DM5403153FDR38EN3;DM510528MBFC38FR3;DM5103154GMW38EN3;DM5103083LCA38EN3&amp;n=bienvenue.html?tt_orangeWelcome&amp;vcon=/FR;/TOONTOWN;/FR/TOONTOWN;/EMEA/FR/TOONTOWN/&amp;seg=&amp;cmp=&amp;gp=&amp;fnl=&amp;pec=&amp;dcmp=&amp;ra=&amp;gn=&amp;cv=&amp;ld=&amp;la=&amp;c1=&amp;c2=&amp;c3=&amp;c4=&amp;vpc=090000rn" border="0" width="1" height="1" alt="hitbox image" />
+</noscript><!--//-->
+<!-- END WEBSIDESTORY CODE  -->
+<script language="JavaScript" type="text/javascript"><!--
+Tapestry.register_form('orangeLogin');
+Tapestry.set_focus('disney_id');
+
+// --></script></body>
+</html>

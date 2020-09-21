@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Toontown.fr - Gardez l'esprit Toon</title>
+    <script id="clientEventHandlersJS" language="javascript" src="http://iplay.french.toontown.com/shared/include/js/ttLauncherLibv2.php"></script>
+  </head>
+  <body bgcolor="#135ca3">
+    <script language="javascript">
+function getURLParameters(type) {
+
+  var sURL = window.document.URL.toString();
+
+  if (sURL.indexOf("?") > 0) {
+    var arrParams = sURL.split("?");
+    var nbParameters = arrParams[1].split("&");
+    if ( type == 1 ) {
+      // Return value of the first parameter
+      var arrParams1 = nbParameters[0].split("=");
+      return arrParams1[1];
+    } else if ( type == 2 ) {
+      // Return string of parameters
+      return arrParams[1];
+    } else if ( type == 3 ) {
+      // Return string of the second parameter
+      if ( nbParameters[1] != undefined ) {
+        return '&'+nbParameters[1];
+      } else {
+        return '';
+      }
+    } else {
+      return '';
+    }
+  } else {
+    return '';
+  }
+}
+// Get URL's parameters
+var sParameters = getURLParameters(2);
+
+// Get domain
+var sURL = window.document.URL.toString();
+var domain = sURL.split("/");
+
+// Configure the Active X
+setDeployment('WanadooFR');
+setTargetURL('ACTIVEXINITFAIL',    'http://'+domain[2]+'/activeXinstall.html?'+sParameters);
+setTargetURL('HARDWARECHECKFAIL',  'http://'+domain[2]+'/homeAlt.html?action=error&id=5');
+setTargetURL('GRAPHICSCHECKFAIL',  'http://'+domain[2]+'/homeAlt.html?action=error&id=4');
+setTargetURL('REPORTPROBLEM',      'http://'+domain[2]+'/homeAlt.html?action=error&id=9');
+setTargetURL('GAMEFAIL',           'http://'+domain[2]+'/homeAlt.html?action=error&id=3');
+setTargetURL('GAMEOK',             'http://'+domain[2]+'/homeAlt.html?action=play');
+setTargetURL('ENABLECHAT',         'http://'+domain[2]+'/homeAlt.html?action=account&id=1');
+setTargetURL('SETPARENTPASSWORD',  'http://'+domain[2]+'/homeAlt.html?action=account&id=2');
+setTargetURL('PURCHASE',           'http://'+domain[2]+'/homeAlt.html?action=subscription');
+
+sParameters = getURLParameters(1);
+var sURLToGo = 'http://'+domain[2]+'/';
+if (sParameters == 'play') {
+  sURLToGo = sURLToGo + 'home.html?action=playgame&id=OK';
+} else if (sParameters == 'trial') {
+  sURLToGo = sURLToGo + 'home.html?action=trial&id=OK';
+} else if (sParameters == 'subscription') {
+  sURLToGo = sURLToGo + 'home.html?action=subscription&id=OK';
+} else if (sParameters == 'cs') {
+  sURLToGo = sURLToGo + 'home.html?action=cs&id=OK';
+}
+setTargetURL('HARDWARECHECKOK', (sURLToGo+getURLParameters(3)));
+
+// Write out the ActiveX so we have something to init
+embedInstaller();
+
+performHardwareCheck();
+    </script>
+    <p>Veuillez patienter pendant que nous testons les capacit&eacute;s de votre syst&egrave;me.</p>
+  </body>
+</html>

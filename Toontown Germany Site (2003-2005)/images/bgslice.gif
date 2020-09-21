@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+<head>
+	<title>Disney - Disney Online International</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="DESCRIPTION" content="Disney.co.uk" />
+	<meta name="KEYWORDS" content="Disney, Walt, Walt Disney, DOL, Disney Online, Buena Vista, Buena Vista International, Mickey Mouse, Mickey, Minnie, Pluto, Donald Duck, Donald, Daisy, Goofy, Winnie the Pooh, Winnie, Pooh, Pooh Bear, Tigger, Eeyore, Piglet, Hercules, Hades, Zeus, Peagus, Aladdin, Jafar, Jasmin, Sultan, Genie, Simba, Lion King, lion, Timon, Pumbaa, Dumbo, Toy Story, Woody, Buzz, Buzz Lightyear, Sid, Andy, Mr Potato Head, Toys, Bugs, Bugs Life, Flik, Dot, Tarzan, Jane, Little Mermaid, mermaid, Ariel, Penguin, Penguin Bounce, Games, Bowl, Magic, CyberNetiquette, colouring book, Disney Classics, Disney Characters, Disney Villains, Disney Archives" />
+	<meta name="SBU" content="disney.co.uk" />
+	<meta name="AUTHOR" content="Disney" />
+	<meta http-equiv="Expires" content="#Expires#" />
+
+	<meta http-equiv="Pragma" content="no-cache" />
+
+<link href="includes/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header"></div>
+
+<div id="pagewrapper" style="clear:both;">
+<div id="top"></div>
+
+<div id="contentframe">
+
+<div id="content">
+	<div style="text-align:center">
+
+		<img src="images/title.jpg" alt="Title" />
+	</div>
+
+	<div style="text-align:right; float:left; margin-top:30px">
+		<font size=3><B>Americas</B></font><br />
+		<a href="http://www.disney.com.br">Brazil</a><br />
+		<a href="http://disneylatino.com">Disney Latino</a><br />
+		<a href="http://www.disney.com">U.S.A</a><br />
+
+		<a href="http://www.disney.ca">Canada</a><br />
+		<br />
+
+		<font size=3><B>Asia Pacific<br />Countries &amp; Regions</B></font><br />
+		<a href="http://www.disney.com.au">Australia</a><br />
+		<a href="http://www.disney.com.cn">China</a><br />
+
+		<a href="http://www.disney.com.tw">Taiwan</a><br />
+		<a href="http://www.disneyme.com">Middle East</a><br />
+		<a href="http://www.disney.co.jp">Japan</a><br />
+		<a href="http://www.korea.disney.com">Korea</a><br />
+		<a href="http://www.disneychannel-asia.com">Disney Channel Asia</a><br />
+		<a href="http://www.disney.com.hk">Hong Kong</a><br />
+
+		<a href="http://www.disney.in">India</a><br />
+	</div>
+
+	<div style="float:left; padding-top:10px;">
+		<img src="images/img1.jpg" class="image" alt="Globe" />
+	</div>
+
+	<div style="text-align:left; float:left; margin-top:30px">
+		<font size=3><B>European Countries</B></font><br />
+
+		<a href="http://www.disney.be">Belgique</a><br />
+		<a href="http://www.disney.dk">Danmark</a><br />
+		<a href="http://www.disney.fi">Finland</a><br />
+		<a href="http://www.disney.fr">France</a><br />
+		<a href="http://www.disney.de">Deutschland</a><br />
+		<a href="http://www.disney.it">Italia</a><br />
+
+		<a href="http://www.disney.nl">Nederland</a><br />
+		<a href="http://www.disney.no">Norge</a><br />
+		<a href="http://www.disney.es">Espa&#241;a</a><br />
+		<a href="http://www.disney.se">Sverige</a><br />
+		<a href="http://www.disney.pl">Polska</a><br />
+		<a href="http://www.disney.pt">Portugal</a><br />
+
+		<a href="http://www.disney.co.uk">UK</a><br />
+		<br />
+		<font size=3><B>Africa</B></font><br />
+		<a href="http://www.disney.co.za/DisneyChannel/">Disney Channel South Africa</a><br />
+	</div>
+
+    <div class="clear"></div><br />
+    <div class="clear"></div>
+
+  </div>
+</div>
+	<div id="bottom"></div>
+</div>
+<div id="footer">
+<div style='font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center;'>&copy; DISNEY. ALL RIGHTS RESERVED.</div>
+</div>
+</body>
+</html>

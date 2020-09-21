@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Toontown.fr - Gardez l'esprit Toon</title>
+    <script id="clientEventHandlersJS" language="javascript" src="http://iplay.french.toontown.com/shared/include/js/ttLauncherLibv2.php"></script>
+    <script language="javascript" src="/js/ttscripts.js"></script>
+    <script language="javascript" src="/js/ttFunctionLibv1.js"></script>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body bgcolor="#135ca3">
+    <script language="javascript">    
+// Write out the ActiveX so we have something to init
+embedInstaller();
+
+function generateFeedForBug() {
+
+  var isInternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+  // Get instance of the Flash ActiveX
+  var flashObj = isInternetExplorer ? document.all.background : document.background;
+
+  // Configure the Active X
+  setDeployment('WanadooFR');
+  setTargetURL('ACTIVEXINITFAIL',    'http://'+domain[2]+'/activeXinstall.html?'+sParameters);
+  setTargetURL('HARDWARECHECKFAIL',  'http://'+domain[2]+'/home.html?action=error&id=5');
+  setTargetURL('HARDWARECHECKOK',    'http://'+domain[2]+'/home.html?action=play');
+  setTargetURL('GRAPHICSCHECKFAIL',  'http://'+domain[2]+'/home.html?action=error&id=4');
+  setTargetURL('REPORTPROBLEM',      'http://'+domain[2]+'/home.html?action=error&id=9');
+  setTargetURL('GAMEFAIL',           'http://'+domain[2]+'/home.html?action=error&id=3');
+  setTargetURL('GAMEOK',             'http://'+domain[2]+'/home.html?action=play');
+  setTargetURL('ENABLECHAT',         'http://'+domain[2]+'/home.html?action=account&id=1');
+  setTargetURL('SETPARENTPASSWORD',  'http://'+domain[2]+'/home.html?action=account&id=2');
+  setTargetURL('PURCHASE',           'http://'+domain[2]+'/home.html?action=subscription');  
+
+  // Generate the log that will be included 
+  performBugReportPageGeneration();
+  flashObj.SetVariable('jsLog', getToontownNotes()); // Send it to the Flash.
+}    
+    </script>
+    <table border="0" align="center" cellspacing="0">
+      <tr>
+        <td width="835">
+          <!--url's used in the movie-->
+          <!--text used in the movie-->
+          <script language="javascript">
+window.document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="835" height="560" id="background" align="middle">');
+window.document.write('  <param name="allowScriptAccess" value="sameDomain" />');
+window.document.write('  <param name="quality" value="high" />');
+window.document.write('  <param name="bgcolor" value="#ffffff" />');
+window.document.write('  <param name="movie" value="background.swf" />');
+window.document.write('  <param name="menu" value="false" />');
+window.document.write('  <param name="FlashVars" value="'+sParameters+'" />');
+window.document.write('  <embed src="background.swf" FlashVars="'+sParameters+'"  quality="high" bgcolor="#ffffff" width="835" height="560" swLiveConnect="true" id="background" name="background" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');            
+window.document.write('</object>');
+          </script>
+        </td>
+        <td width="160" height="600" rowspan="2">
+          <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="160" height="600" id="banner_DTV" align="top">
+            <param name="quality" value="high" />
+            <param name="bgcolor" value="#FFFFFF" />
+            <param name="movie" value="banner_DTV.swf" />
+            <param name="menu" value="false" />
+            <embed src="banner_DTV.swf" quality="high" bgcolor="#FFFFFF" width="160" height="600" id="banner_DTV" name="banner_DTV" align="top" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+          </object>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="80" align="center"><img src="/img/Logo_FT.jpg" width="45" height="41" /></td>
+              <td width="755" align="center" class="texte9b">&copy; DISNEY. TOUS DROITS RESERVES&nbsp;&nbsp;&nbsp;<a href="javascript:openwindow('/conditions_generales.html','cg','625','620','scrollbars=no,resizable=no');" class="footer">Conditions g&eacute;n&eacute;rales d'utilisation</a>&nbsp;&nbsp;&nbsp;<a href="javascript:openwindow('/charte_comportement.html','cg','625','620','scrollbars=no,resizable=no');" class="footer">Charte de comportement</a>
+              </td>
+            </tr>
+          </table>	    
+        </td>
+      </tr>
+    </table>
+    <iframe id="stat" name="stat" src="mystats.html?p=accueil&c=accueil" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" width="0" height="0"></iframe>
+  </body>
+</html>
