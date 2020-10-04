@@ -13,6 +13,10 @@ PATCHER_BASE_URL_HEAVY_LIFTING=http://cdn.download.toontown.com/english/currentV
 
 WEB_PAGE_LOGIN_RPC=https://toontown.go.com/launcher/login
 
+InstallFilename = Filename(self.installDir, Filename('InstallLauncher.exe'))
+
+DEFAULT_INSTALL_LAUNCHER_FILENAME "InstallLauncher.exe"
+
 
 
 # use this format to push a errorcode to a special page..
