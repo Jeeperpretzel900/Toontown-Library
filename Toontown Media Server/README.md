@@ -1,1 +1,2 @@
-Files here were used by the website early on, as well as hosting the ActiveX controls/trailers.
+The original media server from the game.
+All files taken from the Wayback Machine
